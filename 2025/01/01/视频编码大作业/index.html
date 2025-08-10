@@ -30,7 +30,7 @@
 <meta property="og:description" content="好的，这是一个《视频编码标准及其算法原理》的大作业。我会针对你提出的每一项任务要求，提供详细的步骤、原理、公式，并指出在MATLAB中可能用到的函数或方法。 请注意： 由于我无法直接访问你的图像帧F1和F2，也无法执行MATLAB代码，因此我将提供的是一个框架和原理性的指导。你需要准备好你的图像数据，并根据这些指导在MATLAB中实现具体的代码。  1. 任务要求：使用matlab完成所有流程 这">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-01-01T10:00:00.000Z">
-<meta property="article:modified_time" content="2025-05-31T05:16:07.765Z">
+<meta property="article:modified_time" content="2025-08-10T14:36:12.820Z">
 <meta property="article:author" content="St_w">
 <meta property="article:tag" content="视频编码">
 <meta property="article:tag" content="MATLAB">
@@ -121,6 +121,11 @@
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
+        <li class="menu-item menu-item-notes">
+
+    <a href="/notes/" rel="section"><i class="fa fa-book fa-fw"></i>notes</a>
+
+  </li>
         <li class="menu-item menu-item-tags">
 
     <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
@@ -199,7 +204,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2025-05-31 13:16:07" itemprop="dateModified" datetime="2025-05-31T13:16:07+08:00">2025-05-31</time>
+                <time title="修改时间：2025-08-10 22:36:12" itemprop="dateModified" datetime="2025-08-10T22:36:12+08:00">2025-08-10</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -236,6 +241,8 @@
 <p>这表示所有后续步骤的计算、变换、编码等都需要你通过编写MATLAB脚本来实现。</p>
 <hr>
 <p><strong>2. 对帧F1进行JPEG编码（帧内编码）</strong> 利用matlab实现JPEG的编码和解码重建第一帧F1’，并计算重建图像帧和原始帧F1之间的峰值信噪比PSNR。</p>
+<span id="more"></span>
+
 <p><strong>JPEG编码流程概述：</strong></p>
 <ol>
 <li><strong>颜色空间转换（可选）：</strong> 如果是彩色图像，通常从RGB转换到YCbCr。对亮度(Y)和色度(Cb, Cr)分量分别处理。为了简化，我们假设F1是灰度图，或者我们只处理亮度分量。</li>
@@ -492,7 +499,7 @@
   <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Cf = [ 1  1  1  1;</span><br><span class="line">       2  1 -1 -2;</span><br><span class="line">       1 -1 -1  1;</span><br><span class="line">       1 -2  2 -1 ];</span><br><span class="line"></span><br><span class="line">Y_B2 = Cf * E_B2 * Cf&#x27;; % 核心变换</span><br><span class="line">disp(&#x27;4.3.1 H.264 Integer Transformed Coefficients (before scaling/quant):&#x27;);</span><br><span class="line">disp(Y_B2);</span><br></pre></td></tr></table></figure>
 </li>
 <li><p><strong>H.264 量化:</strong> 量化公式 (简化形式，实际更复杂，涉及QP和预计算的乘法因子和移位): Zij​&#x3D;round(Yij​&#x2F;Qstep​) 或者更接近H.264标准的形式（对于帧内预测的亮度残差系数，这里是帧间）： Levelij​&#x3D;(Wij​⋅MFij​+f)&gt;&gt;(qbits+shift) 其中 Wij​ 是变换系数，MFij​ 是量化参数QP相关的乘法因子，f 是加性偏移（用于近似round），<code>&gt;&gt;</code> 是右移。 qbits&#x3D;15+⌊QP&#x2F;6⌋ MF 依赖于 QP(mod6) 和系数位置 (i,j)。</p>
-<p>  <strong>为简化演示，我们使用一个非常简化的量化，假设一个 Qstep​:</strong> 你需要选择一个量化参数QP。QP决定了 Qstep​。 例如，对于一个给定的QP，可以有一个对应的 Qstep​。 H.264的量化表和QP到 Qstep​ 的映射比JPEG复杂。 Qstep​ 大约每增加6个QP值就翻倍。</p>
+<p>  <strong>为简化演示，我们使用一个非常简化的量化，假设一个 Qstep:</strong> 你需要选择一个量化参数QP。QP决定了 Qstep​。 例如，对于一个给定的QP，可以有一个对应的 Qstep​。 H.264的量化表和QP到 Qstep​ 的映射比JPEG复杂。 Qstep​ 大约每增加6个QP值就翻倍。</p>
 <p>  <strong>一个非常非常简化的例子（不完全符合H.264标准，仅为演示步骤）：</strong> 假设我们选择一个QP，它对应一个 Qstep​。 例如，如果QP&#x3D;26, Qstep​ 可能近似为 10 (这只是一个示意值)。</p>
 <p>  Matlab</p>
   <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">QP = 26; % Example Quantization Parameter</span><br><span class="line">% In H.264, Qstep is derived from QP and coefficient position.</span><br><span class="line">% For this example, let&#x27;s use a placeholder Qstep.</span><br><span class="line">% A rough Qstep might be derived, e.g. Qstep_base * 2^(QP/6).</span><br><span class="line">% Or use pre-defined scaling factors based on QP % 6 and QP / 6.</span><br><span class="line"></span><br><span class="line">% H.264 has 6 quantization scaling factors for each QP/6 level (V[][])</span><br><span class="line">% and a scaling factor based on QP%6 (PF[][])</span><br><span class="line">% LevelScale( qP, i, j ) = PF[qP%6][(i*4+j)% ( (i==0||i==2)&amp;&amp;(j==0||j==2) ? 3:1 ) ] &lt;&lt; (qP/6)</span><br><span class="line">% QuantizedCoeff = sign(TransformedCoeff) * ( abs(TransformedCoeff) * V[qP%6][(i*4+j)%...] + offset ) &gt;&gt; ( 15 + qP/6 )</span><br><span class="line"></span><br><span class="line">% Simplified Quantization (conceptual for assignment unless deep dive required)</span><br><span class="line">% This does NOT reflect the full H.264 quantization.</span><br><span class="line">% The true H.264 quantization is:</span><br><span class="line">% Z_ij = sign(Y_ij) * (|Y_ij| * MF + f) &gt;&gt; (15 + floor(QP/6))</span><br><span class="line">% where MF depends on QP%6 and coefficient position (i,j) from a table,</span><br><span class="line">% f is an offset (e.g., 2^(14+floor(QP/6)) for intra, smaller for inter)</span><br><span class="line"></span><br><span class="line">% Let&#x27;s create a placeholder quantization matrix based on QP for demonstration</span><br><span class="line">% This is NOT standard but illustrates the step.</span><br><span class="line">% The actual MF values are in tables like Table 7-9 in H.264 spec.</span><br><span class="line">% For simplicity, let&#x27;s use a flat Qstep, which is a gross simplification.</span><br><span class="line">Qstep_example = 10 * (2^(QP/6 - 4)); % Very rough illustrative Qstep</span><br><span class="line"></span><br><span class="line">E_B2_quantized = round(Y_B2 / Qstep_example);</span><br><span class="line"></span><br><span class="line">disp([&#x27;4.3.2 H.264 Quantized Coefficients (using QP=&#x27;, num2str(QP), &#x27; and simplified Qstep=&#x27;, num2str(Qstep_example), &#x27;):&#x27;]);</span><br><span class="line">disp(E_B2_quantized);</span><br><span class="line"></span><br><span class="line">disp(&#x27;NOTE: The H.264 quantization shown above is highly simplified.&#x27;);</span><br><span class="line">disp(&#x27;A proper implementation requires using H.264 standard tables for MF and f based on QP.&#x27;);</span><br><span class="line">disp(&#x27;The core integer transform part Y = Cf * E_B2 * Cf&#x27;&#x27; is correct.&#x27;);</span><br><span class="line">disp(&#x27;For accurate quantization, refer to H.264 standard section 7.4.5.&#x27;);</span><br></pre></td></tr></table></figure>
@@ -601,12 +608,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2025/01/01/RM__PRIME/RM%E7%94%B5%E6%8E%A7/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/STM32/%E5%9F%BA%E6%9C%AC%E8%AE%BE%E7%BD%AE/" rel="prev" title="基本设置">
-      <i class="fa fa-chevron-left"></i> 基本设置
+    <a href="/2025/01/01/%E7%94%B5%E6%9C%BA%E9%A9%B1%E5%8A%A8/" rel="prev" title="电机驱动">
+      <i class="fa fa-chevron-left"></i> 电机驱动
     </a></div>
       <div class="post-nav-item">
-    <a href="/2025/01/01/%E7%94%B5%E6%9C%BA%E9%A9%B1%E5%8A%A8/" rel="next" title="电机驱动">
-      电机驱动 <i class="fa fa-chevron-right"></i>
+    <a href="/2025/01/01/%E5%A4%A7%E8%8B%B1%E8%AF%BE%E6%96%87/" rel="next" title="大英课文">
+      大英课文 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -913,6 +920,19 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
 </script>
 
 
+<script data-pjax>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme    : 'default',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
 
 
     <div id="pjax">

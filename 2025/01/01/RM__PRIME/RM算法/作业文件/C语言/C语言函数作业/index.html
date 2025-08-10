@@ -22,15 +22,15 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="题目一：求和程序如下：1234567float sum(float data[], int N)&#123;    float sum&#x3D;0.0;    for (int i&#x3D;0;i&lt;N;i++)        sum +&#x3D; data[i];    return sum;&#125; 简单的for循环即可实现功能  题目二：求均方差程序如下：12345678910111213141516171">
+  <meta name="description" content="题目一：求和程序如下：1234567float sum(float data[], int N)&#123;    float sum&#x3D;0.0;    for (int i&#x3D;0;i&lt;N;i++)        sum +&#x3D; data[i];    return sum;&#125; 简单的for循环即可实现功能">
 <meta property="og:type" content="article">
 <meta property="og:title" content="C语言函数作业">
 <meta property="og:url" content="http://example.com/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E4%BD%9C%E4%B8%9A/index.html">
 <meta property="og:site_name" content="Stellato的星空">
-<meta property="og:description" content="题目一：求和程序如下：1234567float sum(float data[], int N)&#123;    float sum&#x3D;0.0;    for (int i&#x3D;0;i&lt;N;i++)        sum +&#x3D; data[i];    return sum;&#125; 简单的for循环即可实现功能  题目二：求均方差程序如下：12345678910111213141516171">
+<meta property="og:description" content="题目一：求和程序如下：1234567float sum(float data[], int N)&#123;    float sum&#x3D;0.0;    for (int i&#x3D;0;i&lt;N;i++)        sum +&#x3D; data[i];    return sum;&#125; 简单的for循环即可实现功能">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-01-01T10:00:00.000Z">
-<meta property="article:modified_time" content="2025-05-31T05:25:45.284Z">
+<meta property="article:modified_time" content="2025-08-10T14:37:56.645Z">
 <meta property="article:author" content="St_w">
 <meta property="article:tag" content="基础语法">
 <meta property="article:tag" content="C">
@@ -121,6 +121,11 @@
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
+        <li class="menu-item menu-item-notes">
+
+    <a href="/notes/" rel="section"><i class="fa fa-book fa-fw"></i>notes</a>
+
+  </li>
         <li class="menu-item menu-item-tags">
 
     <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
@@ -199,7 +204,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2025-05-31 13:25:45" itemprop="dateModified" datetime="2025-05-31T13:25:45+08:00">2025-05-31</time>
+                <time title="修改时间：2025-08-10 22:37:56" itemprop="dateModified" datetime="2025-08-10T22:37:56+08:00">2025-08-10</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -244,6 +249,8 @@
         <h1 id="题目一：求和"><a href="#题目一：求和" class="headerlink" title="题目一：求和"></a>题目一：求和</h1><h2 id="程序如下："><a href="#程序如下：" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">float</span> <span class="title function_">sum</span><span class="params">(<span class="type">float</span> data[], <span class="type">int</span> N)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">float</span> sum=<span class="number">0.0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;N;i++)</span><br><span class="line">        sum += data[i];</span><br><span class="line">    <span class="keyword">return</span> sum;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>简单的for循环即可实现功能</p>
 <hr>
+<span id="more"></span>
+
 <h1 id="题目二：求均方差"><a href="#题目二：求均方差" class="headerlink" title="题目二：求均方差"></a>题目二：求均方差</h1><h2 id="程序如下：-1"><a href="#程序如下：-1" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;math.h&gt;</span></span></span><br><span class="line"><span class="type">double</span> <span class="title function_">Avg</span><span class="params">(<span class="type">int</span> N, <span class="type">int</span> data[])</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">double</span> avg=<span class="number">0.0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;N;i++)</span><br><span class="line">        avg += data[i];</span><br><span class="line">    <span class="keyword">return</span> avg/N;</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">double</span> <span class="title function_">StdDev</span><span class="params">(<span class="type">int</span> N, <span class="type">int</span> data[])</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">double</span> dev=<span class="number">0.0</span>,avg=<span class="number">0.0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;N;i++)</span><br><span class="line">        avg += data[i];</span><br><span class="line">    avg /= N;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;N;i++)</span><br><span class="line">        dev += <span class="built_in">pow</span>(data[i]-avg,<span class="number">2</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">pow</span>(dev/N,<span class="number">0.5</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <hr>
 <h1 id="题目三：字符串加密"><a href="#题目三：字符串加密" class="headerlink" title="题目三：字符串加密"></a>题目三：字符串加密</h1><h2 id="程序如下：-2"><a href="#程序如下：-2" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;ctype.h&gt;</span></span></span><br><span class="line"><span class="type">void</span> <span class="title function_">cryptograp</span><span class="params">(<span class="type">char</span> ch[], <span class="type">int</span> n)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (<span class="built_in">islower</span>(ch[i]))</span><br><span class="line">            ch[i] = (ch[i]-<span class="string">&#x27;a&#x27;</span>+<span class="number">5</span>)%<span class="number">26</span>+<span class="string">&#x27;a&#x27;</span>;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span> (<span class="built_in">isupper</span>(ch[i]))</span><br><span class="line">            ch[i] = (ch[i]-<span class="string">&#x27;A&#x27;</span>+<span class="number">5</span>)%<span class="number">26</span>+<span class="string">&#x27;A&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -268,12 +275,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/C/%E6%B3%9B%E5%9E%8B%E6%8C%87%E9%92%88%E4%B8%8E%E9%80%9A%E7%94%A8%E6%80%A7/" rel="prev" title="泛型指针与通用性">
-      <i class="fa fa-chevron-left"></i> 泛型指针与通用性
+    <a href="/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E6%8C%87%E9%92%88%E4%BD%9C%E4%B8%9A/" rel="prev" title="C语言指针作业">
+      <i class="fa fa-chevron-left"></i> C语言指针作业
     </a></div>
       <div class="post-nav-item">
-    <a href="/2025/01/01/RM__PRIME/RM%E7%94%B5%E6%8E%A7/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/STM32/GPIO/" rel="next" title="GPIO">
-      GPIO <i class="fa fa-chevron-right"></i>
+    <a href="/2025/01/01/%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A/" rel="next" title="调研报告">
+      调研报告 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -581,6 +588,19 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
 </script>
 
 
+<script data-pjax>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme    : 'default',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
 
 
     <div id="pjax">

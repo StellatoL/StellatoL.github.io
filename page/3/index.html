@@ -117,6 +117,11 @@
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
+        <li class="menu-item menu-item-notes">
+
+    <a href="/notes/" rel="section"><i class="fa fa-book fa-fw"></i>notes</a>
+
+  </li>
         <li class="menu-item menu-item-tags">
 
     <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
@@ -164,6 +169,362 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/01/01/blog%E6%90%AD%E5%BB%BA/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="St_w">
+      <meta itemprop="description" content="老大，欢迎回来喵~">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Stellato的星空">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2025/01/01/blog%E6%90%AD%E5%BB%BA/" class="post-title-link" itemprop="url">blog搭建</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2025-01-01 18:00:00" itemprop="dateCreated datePublished" datetime="2025-01-01T18:00:00+08:00">2025-01-01</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2025-08-10 22:36:59" itemprop="dateModified" datetime="2025-08-10T22:36:59+08:00">2025-08-10</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%9D%82%E7%89%A9/" itemprop="url" rel="index"><span itemprop="name">杂物</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="构建您的数字第二大脑：基于-Obsidian-的本地化个人博客系统搭建指南"><a href="#构建您的数字第二大脑：基于-Obsidian-的本地化个人博客系统搭建指南" class="headerlink" title="构建您的数字第二大脑：基于 Obsidian 的本地化个人博客系统搭建指南"></a>构建您的数字第二大脑：基于 Obsidian 的本地化个人博客系统搭建指南</h1><h2 id="1-引言：打造您的数字殿堂"><a href="#1-引言：打造您的数字殿堂" class="headerlink" title="1. 引言：打造您的数字殿堂"></a>1. 引言：打造您的数字殿堂</h2><h3 id="1-1-重申目标"><a href="#1-1-重申目标" class="headerlink" title="1.1. 重申目标"></a>1.1. 重申目标</h3><p>本报告旨在提供一份详尽的指南，帮助用户建立一个完全自主部署、在本地运行的个人博客系统。该系统将无缝集成并高效展示来自 Obsidian 的笔记内容，核心目标是创建一个既能作为个人思绪与记录的知识库，又能成为一个公开访问的分享平台，同时确保用户对自身数据和系统架构拥有完全的掌控权。</p>
+<h3 id="1-2-概览：构建之旅"><a href="#1-2-概览：构建之旅" class="headerlink" title="1.2. 概览：构建之旅"></a>1.2. 概览：构建之旅</h3><p>我们将共同探索从技术选型到最终部署的全过程。首先，我们会筛选出能够充分尊重并兼容 Obsidian 特有功能的核心技术；随后，深入剖析这些技术的安装与配置细节；接着，探讨如何将您的博客系统部署至互联网，使其能够被远程访问；最后，也是至关重要的一环，我们将研究如何加固您的博客系统，以抵御常见的网络安全威胁。此番旅程将赋予您将本地知识库转化为一个可分享、安全且高度个性化的在线空间的能力。</p>
+<h3 id="1-3-为何选择自托管与-Obsidian-结合"><a href="#1-3-为何选择自托管与-Obsidian-结合" class="headerlink" title="1.3. 为何选择自托管与 Obsidian 结合"></a>1.3. 为何选择自托管与 Obsidian 结合</h3><p>自托管个人博客并与 Obsidian 笔记系统深度结合，其核心驱动力在于用户对数据所有权、高度自定义能力以及摆脱供应商锁定的追求。用户明确要求系统“完全在本地运行、自己部署”，并能“良好地支持并展示来自 Obsidian 的 Markdown 文件” [用户查询]。这表明用户期望对其数据、软件选择和运营细节拥有最大限度的控制权，避免受制于第三方平台。Obsidian 作为知识管理的核心，其丰富的链接和格式化特性必须在博客系统中得到忠实再现，而非要求用户对内容进行大规模的二次加工。这种对控制权和 Obsidian 内容保真度的双重强调，意味着理想的解决方案必须优先考虑减少从 Obsidian 到公开博客的内容迁移阻力，尽可能保留 Obsidian 的核心功能。这通常需要选择那些专为 Obsidian 设计或具有高度适应性的工具，而非功能宽泛但需大量定制的通用方案。用户愿意为此投入相应的技术精力，以换取这种控制权和内容呈现的精确性。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2025/01/01/blog%E6%90%AD%E5%BB%BA/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/01/01/%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="St_w">
+      <meta itemprop="description" content="老大，欢迎回来喵~">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Stellato的星空">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2025/01/01/%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A/" class="post-title-link" itemprop="url">调研报告</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2025-01-01 18:00:00" itemprop="dateCreated datePublished" datetime="2025-01-01T18:00:00+08:00">2025-01-01</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2025-08-10 22:35:50" itemprop="dateModified" datetime="2025-08-10T22:35:50+08:00">2025-08-10</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%9D%82%E7%89%A9/" itemprop="url" rel="index"><span itemprop="name">杂物</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="光纤技术的发展与应用：从原理到前沿展望"><a href="#光纤技术的发展与应用：从原理到前沿展望" class="headerlink" title="光纤技术的发展与应用：从原理到前沿展望"></a>光纤技术的发展与应用：从原理到前沿展望</h1><h2 id="1-引言"><a href="#1-引言" class="headerlink" title="1. 引言"></a>1. 引言</h2><h3 id="光纤技术的核心地位"><a href="#光纤技术的核心地位" class="headerlink" title="光纤技术的核心地位"></a>光纤技术的核心地位</h3><p>光纤技术是现代信息社会的基石，支撑着全球通信网络、互联网、数据中心以及众多新兴科技的飞速发展。其高带宽、低损耗的特性使其成为无可替代的传输媒介。正如相关研究指出的，我们日常阅读的网络信息，在从网络服务器传送到用户设备的这一过程中的某一段就是通过光纤传输的 1。这凸显了光纤技术无所不在的重要性，它如同信息时代的“神经系统”，将世界各地连接起来，促进了信息的快速流动和知识的广泛传播。尽管光纤基础设施在日常生活中往往“隐形”，但其基础性作用不容忽视，本报告旨在通过详尽的阐述，使这项关键技术及其深远影响更为“可见”。</p>
+<h3 id="报告研究范围与结构"><a href="#报告研究范围与结构" class="headerlink" title="报告研究范围与结构"></a>报告研究范围与结构</h3><p>本报告旨在全面系统地阐述光纤技术的发展历程、核心原理、关键组成、多样化应用、市场动态以及未来趋势。内容将涵盖从光纤的基本物理特性到其在各行各业的实际应用，并展望其在前沿科技领域的潜力。理解光纤技术不仅对于工程师至关重要，对于政策制定者、投资者乃至普通公众同样具有重要意义，因为它深刻影响着各个行业的数字化转型进程。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2025/01/01/%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E4%BD%9C%E4%B8%9A/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="St_w">
+      <meta itemprop="description" content="老大，欢迎回来喵~">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Stellato的星空">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E4%BD%9C%E4%B8%9A/" class="post-title-link" itemprop="url">C语言函数作业</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2025-01-01 18:00:00" itemprop="dateCreated datePublished" datetime="2025-01-01T18:00:00+08:00">2025-01-01</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2025-08-10 22:37:56" itemprop="dateModified" datetime="2025-08-10T22:37:56+08:00">2025-08-10</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/RM-PRIME/" itemprop="url" rel="index"><span itemprop="name">RM_PRIME</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/RM-PRIME/RM%E7%AE%97%E6%B3%95/" itemprop="url" rel="index"><span itemprop="name">RM算法</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/RM-PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/" itemprop="url" rel="index"><span itemprop="name">作业文件</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/RM-PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/" itemprop="url" rel="index"><span itemprop="name">C语言</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="题目一：求和"><a href="#题目一：求和" class="headerlink" title="题目一：求和"></a>题目一：求和</h1><h2 id="程序如下："><a href="#程序如下：" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">float</span> <span class="title function_">sum</span><span class="params">(<span class="type">float</span> data[], <span class="type">int</span> N)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">float</span> sum=<span class="number">0.0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;N;i++)</span><br><span class="line">        sum += data[i];</span><br><span class="line">    <span class="keyword">return</span> sum;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>简单的for循环即可实现功能</p>
+<hr>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E4%BD%9C%E4%B8%9A/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E6%8C%87%E9%92%88%E4%BD%9C%E4%B8%9A/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="St_w">
+      <meta itemprop="description" content="老大，欢迎回来喵~">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Stellato的星空">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E6%8C%87%E9%92%88%E4%BD%9C%E4%B8%9A/" class="post-title-link" itemprop="url">C语言指针作业</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2025-01-01 18:00:00" itemprop="dateCreated datePublished" datetime="2025-01-01T18:00:00+08:00">2025-01-01</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2025-08-10 22:38:27" itemprop="dateModified" datetime="2025-08-10T22:38:27+08:00">2025-08-10</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/RM-PRIME/" itemprop="url" rel="index"><span itemprop="name">RM_PRIME</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/RM-PRIME/RM%E7%AE%97%E6%B3%95/" itemprop="url" rel="index"><span itemprop="name">RM算法</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/RM-PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/" itemprop="url" rel="index"><span itemprop="name">作业文件</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/RM-PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/" itemprop="url" rel="index"><span itemprop="name">C语言</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <hr>
+<h1 id="题目一：输出Hello"><a href="#题目一：输出Hello" class="headerlink" title="题目一：输出Hello"></a>题目一：输出Hello</h1><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">char</span> s[] = <span class="string">&quot;Hello&quot;</span>;</span><br><span class="line">	<span class="type">char</span> * p;</span><br><span class="line">	<span class="keyword">for</span>(p=s;*p!=‘\<span class="number">0</span>’;p++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%c&quot;</span>, *p);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E6%8C%87%E9%92%88%E4%BD%9C%E4%B8%9A/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -195,7 +556,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2025-05-31 13:28:05" itemprop="dateModified" datetime="2025-05-31T13:28:05+08:00">2025-05-31</time>
+                <time title="修改时间：2025-08-10 22:38:37" itemprop="dateModified" datetime="2025-08-10T22:38:37+08:00">2025-08-10</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -234,13 +595,14 @@
 <h1 id="1-目前使用的编译器"><a href="#1-目前使用的编译器" class="headerlink" title="1.目前使用的编译器"></a>1.目前使用的编译器</h1><h2 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python<br></h2><p>用原生的<em>IDLE</em>,主要是方便<del>（懒）</del></p>
 <h2 id="C语言"><a href="#C语言" class="headerlink" title="C语言"></a>C语言<br></h2><p>因为<em>VScode</em>并不内置编译器或集成开发环境，<br>所以使用的是<em><strong>MinGW-w64</strong></em>(也就是<em><strong>GCC</strong></em>的<em>windows</em>版本)<br></p>
 <hr>
-<h1 id="2-之前用的软件"><a href="#2-之前用的软件" class="headerlink" title="2.之前用的软件"></a>2.之前用的软件<br></h1><p><em><strong>Code::Blocks</strong></em>，基本就是C语言入门标配，然后就是VScode了</p>
-<p>至于Python的话，<em><strong>Anaconda</strong></em>转<em><strong>Spyder</strong></em>最后回归<em><strong>IDLE</strong></em></p>
-<hr>
-<h1 id="3编译并测试代码"><a href="#3编译并测试代码" class="headerlink" title="3编译并测试代码"></a>3编译并测试代码</h1><p>编译基本没什么问题，Linux下的环境搭建和编译测试明显优于windows下的VScode<br>两个系统下运行代码都没有问题</p>
-<p>「此处为Linux下运行测试的图片」<br>![[Linux-VScode-test.png]]<br>如果看不见的话就是同一个目录下的那张</p>
-<hr>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -258,7 +620,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
+    <a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/4/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
 
 
@@ -558,6 +920,19 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
 </script>
 
 
+<script data-pjax>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme    : 'default',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
 
 
     <div id="pjax">

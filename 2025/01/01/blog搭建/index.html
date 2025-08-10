@@ -30,7 +30,7 @@
 <meta property="og:description" content="构建您的数字第二大脑：基于 Obsidian 的本地化个人博客系统搭建指南1. 引言：打造您的数字殿堂1.1. 重申目标本报告旨在提供一份详尽的指南，帮助用户建立一个完全自主部署、在本地运行的个人博客系统。该系统将无缝集成并高效展示来自 Obsidian 的笔记内容，核心目标是创建一个既能作为个人思绪与记录的知识库，又能成为一个公开访问的分享平台，同时确保用户对自身数据和系统架构拥有完全的掌控权。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-01-01T10:00:00.000Z">
-<meta property="article:modified_time" content="2025-05-31T04:55:37.558Z">
+<meta property="article:modified_time" content="2025-08-10T14:36:59.356Z">
 <meta property="article:author" content="St_w">
 <meta property="article:tag" content="blog">
 <meta name="twitter:card" content="summary">
@@ -120,6 +120,11 @@
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
+        <li class="menu-item menu-item-notes">
+
+    <a href="/notes/" rel="section"><i class="fa fa-book fa-fw"></i>notes</a>
+
+  </li>
         <li class="menu-item menu-item-tags">
 
     <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
@@ -198,7 +203,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2025-05-31 12:55:37" itemprop="dateModified" datetime="2025-05-31T12:55:37+08:00">2025-05-31</time>
+                <time title="修改时间：2025-08-10 22:36:59" itemprop="dateModified" datetime="2025-08-10T22:36:59+08:00">2025-08-10</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -231,6 +236,8 @@
         <h1 id="构建您的数字第二大脑：基于-Obsidian-的本地化个人博客系统搭建指南"><a href="#构建您的数字第二大脑：基于-Obsidian-的本地化个人博客系统搭建指南" class="headerlink" title="构建您的数字第二大脑：基于 Obsidian 的本地化个人博客系统搭建指南"></a>构建您的数字第二大脑：基于 Obsidian 的本地化个人博客系统搭建指南</h1><h2 id="1-引言：打造您的数字殿堂"><a href="#1-引言：打造您的数字殿堂" class="headerlink" title="1. 引言：打造您的数字殿堂"></a>1. 引言：打造您的数字殿堂</h2><h3 id="1-1-重申目标"><a href="#1-1-重申目标" class="headerlink" title="1.1. 重申目标"></a>1.1. 重申目标</h3><p>本报告旨在提供一份详尽的指南，帮助用户建立一个完全自主部署、在本地运行的个人博客系统。该系统将无缝集成并高效展示来自 Obsidian 的笔记内容，核心目标是创建一个既能作为个人思绪与记录的知识库，又能成为一个公开访问的分享平台，同时确保用户对自身数据和系统架构拥有完全的掌控权。</p>
 <h3 id="1-2-概览：构建之旅"><a href="#1-2-概览：构建之旅" class="headerlink" title="1.2. 概览：构建之旅"></a>1.2. 概览：构建之旅</h3><p>我们将共同探索从技术选型到最终部署的全过程。首先，我们会筛选出能够充分尊重并兼容 Obsidian 特有功能的核心技术；随后，深入剖析这些技术的安装与配置细节；接着，探讨如何将您的博客系统部署至互联网，使其能够被远程访问；最后，也是至关重要的一环，我们将研究如何加固您的博客系统，以抵御常见的网络安全威胁。此番旅程将赋予您将本地知识库转化为一个可分享、安全且高度个性化的在线空间的能力。</p>
 <h3 id="1-3-为何选择自托管与-Obsidian-结合"><a href="#1-3-为何选择自托管与-Obsidian-结合" class="headerlink" title="1.3. 为何选择自托管与 Obsidian 结合"></a>1.3. 为何选择自托管与 Obsidian 结合</h3><p>自托管个人博客并与 Obsidian 笔记系统深度结合，其核心驱动力在于用户对数据所有权、高度自定义能力以及摆脱供应商锁定的追求。用户明确要求系统“完全在本地运行、自己部署”，并能“良好地支持并展示来自 Obsidian 的 Markdown 文件” [用户查询]。这表明用户期望对其数据、软件选择和运营细节拥有最大限度的控制权，避免受制于第三方平台。Obsidian 作为知识管理的核心，其丰富的链接和格式化特性必须在博客系统中得到忠实再现，而非要求用户对内容进行大规模的二次加工。这种对控制权和 Obsidian 内容保真度的双重强调，意味着理想的解决方案必须优先考虑减少从 Obsidian 到公开博客的内容迁移阻力，尽可能保留 Obsidian 的核心功能。这通常需要选择那些专为 Obsidian 设计或具有高度适应性的工具，而非功能宽泛但需大量定制的通用方案。用户愿意为此投入相应的技术精力，以换取这种控制权和内容呈现的精确性。</p>
+<span id="more"></span>
+
 <h2 id="2-基础选择：核心技术栈甄选"><a href="#2-基础选择：核心技术栈甄选" class="headerlink" title="2. 基础选择：核心技术栈甄选"></a>2. 基础选择：核心技术栈甄选</h2><h3 id="2-1-静态站点生成器-SSG-在-Obsidian-工作流中的角色"><a href="#2-1-静态站点生成器-SSG-在-Obsidian-工作流中的角色" class="headerlink" title="2.1. 静态站点生成器 (SSG) 在 Obsidian 工作流中的角色"></a>2.1. 静态站点生成器 (SSG) 在 Obsidian 工作流中的角色</h3><p>静态站点生成器 (Static Site Generator, SSG) 是一种软件工具，它读取源文件（通常是 Markdown 等纯文本格式），结合预设的模板和配置，最终生成一套由 HTML、CSS 和 JavaScript 文件组成的完整静态网站。这些静态文件可以直接部署到任何 Web 服务器上，无需服务器端动态处理。</p>
 <p>对于以 Obsidian 为核心的个人博客系统，SSG 是理想的选择，原因如下：</p>
 <ul>
@@ -1247,12 +1254,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2025/01/01/Markdown%E5%AD%A6%E4%B9%A0/" rel="prev" title="Markdown学习">
-      <i class="fa fa-chevron-left"></i> Markdown学习
+    <a href="/2025/01/01/%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A/" rel="prev" title="调研报告">
+      <i class="fa fa-chevron-left"></i> 调研报告
     </a></div>
       <div class="post-nav-item">
-    <a href="/2025/01/01/YAML%E6%A0%87%E7%AD%BE%E6%A0%BC%E5%BC%8F/" rel="next" title="YAML标签格式">
-      YAML标签格式 <i class="fa fa-chevron-right"></i>
+    <a href="/2025/01/01/%E7%94%B5%E6%9C%BA%E9%A9%B1%E5%8A%A8/" rel="next" title="电机驱动">
+      电机驱动 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -1560,6 +1567,19 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
 </script>
 
 
+<script data-pjax>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme    : 'default',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
 
 
     <div id="pjax">

@@ -120,6 +120,11 @@
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
+        <li class="menu-item menu-item-notes">
+
+    <a href="/notes/" rel="section"><i class="fa fa-book fa-fw"></i>notes</a>
+
+  </li>
         <li class="menu-item menu-item-tags">
 
     <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
@@ -259,12 +264,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2025/01/01/YAML%E6%A0%87%E7%AD%BE%E6%A0%BC%E5%BC%8F/" rel="prev" title="YAML标签格式">
-      <i class="fa fa-chevron-left"></i> YAML标签格式
+    <a href="/2025/01/01/Markdown%E5%AD%A6%E4%B9%A0/" rel="prev" title="Markdown学习">
+      <i class="fa fa-chevron-left"></i> Markdown学习
     </a></div>
       <div class="post-nav-item">
-    <a href="/2025/05/31/%E7%AC%94%E8%AE%B0/%E9%AB%98%E6%95%B0%E7%AC%94%E8%AE%B0/" rel="next" title="高数笔记">
-      高数笔记 <i class="fa fa-chevron-right"></i>
+    <a href="/2025/01/01/YAML%E6%A0%87%E7%AD%BE%E6%A0%BC%E5%BC%8F/" rel="next" title="YAML标签格式">
+      YAML标签格式 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -572,6 +577,19 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
 </script>
 
 
+<script data-pjax>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme    : 'default',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
 
 
     <div id="pjax">
