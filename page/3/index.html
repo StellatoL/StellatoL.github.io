@@ -197,7 +197,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/01/01/%E7%94%B5%E6%9C%BA%E9%A9%B1%E5%8A%A8/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/01/01/%E8%A7%86%E9%A2%91%E7%BC%96%E7%A0%81%E5%A4%A7%E4%BD%9C%E4%B8%9A/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
@@ -211,7 +211,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2025/01/01/%E7%94%B5%E6%9C%BA%E9%A9%B1%E5%8A%A8/" class="post-title-link" itemprop="url">电机驱动</a>
+            <a href="/2025/01/01/%E8%A7%86%E9%A2%91%E7%BC%96%E7%A0%81%E5%A4%A7%E4%BD%9C%E4%B8%9A/" class="post-title-link" itemprop="url">视频编码大作业</a>
         </h2>
 
         <div class="post-meta">
@@ -228,7 +228,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2025-08-10 22:35:33" itemprop="dateModified" datetime="2025-08-10T22:35:33+08:00">2025-08-10</time>
+                <time title="修改时间：2025-08-10 22:36:12" itemprop="dateModified" datetime="2025-08-10T22:36:12+08:00">2025-08-10</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -251,16 +251,98 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="基于STM32F103C8T6的机器人小车电机驱动与PID控制设计"><a href="#基于STM32F103C8T6的机器人小车电机驱动与PID控制设计" class="headerlink" title="基于STM32F103C8T6的机器人小车电机驱动与PID控制设计"></a>基于STM32F103C8T6的机器人小车电机驱动与PID控制设计</h1><h2 id="第1节：STM32F103C8T6与机器人小车电机控制概述"><a href="#第1节：STM32F103C8T6与机器人小车电机控制概述" class="headerlink" title="第1节：STM32F103C8T6与机器人小车电机控制概述"></a>第1节：STM32F103C8T6与机器人小车电机控制概述</h2><h3 id="1-1-STM32F103C8T6微控制器概览"><a href="#1-1-STM32F103C8T6微控制器概览" class="headerlink" title="1.1. STM32F103C8T6微控制器概览"></a>1.1. STM32F103C8T6微控制器概览</h3><p>STM32F103C8T6是一款基于ARM Cortex-M3内核的32位微控制器，由意法半导体（STMicroelectronics）生产。其核心特性包括高达72 MHz的工作频率、64KB的Flash程序存储器和20KB的SRAM 1。这些特性使其成为各种嵌入式控制应用的理想选择，尤其是在机器人技术领域。</p>
-<p>对于电机控制而言，STM32F103C8T6的以下外设至关重要：</p>
-<ul>
-<li><strong>通用输入&#x2F;输出（GPIO）引脚：</strong> 该微控制器提供多达37个I&#x2F;O引脚 1，可用于配置电机驱动器的方向控制信号，并与其他传感器或模块进行通信。</li>
-<li><strong>定时器（TIM）：</strong> STM32F103C8T6内置多个通用定时器（如TIM1、TIM2、TIM3、TIM4）和高级控制定时器（部分型号）。这些定时器能够产生脉冲宽度调制（PWM）信号，这是控制直流电机速度的关键技术 1。此外，定时器还可以配置为编码器接口模式，用于读取电机转速和位置信息，这对于实现闭环控制（如PID）至关重要。</li>
-</ul>
-<p>尽管STM32F103C8T6被归类为“中等密度”设备 1，但其提供的外设组合对于控制一个双电机机器人小车来说已经绰绰有余，即使是包含PID算法和编码器反馈的复杂控制系统。其72MHz的最高主频确保了控制回路能够及时执行，满足实时性要求。</p>
+          <p>好的，这是一个《视频编码标准及其算法原理》的大作业。我会针对你提出的每一项任务要求，提供详细的步骤、原理、公式，并指出在MATLAB中可能用到的函数或方法。</p>
+<p><strong>请注意：</strong> 由于我无法直接访问你的图像帧F1和F2，也无法执行MATLAB代码，因此我将提供的是一个框架和原理性的指导。你需要准备好你的图像数据，并根据这些指导在MATLAB中实现具体的代码。</p>
+<hr>
+<p><strong>1. 任务要求：使用matlab完成所有流程</strong></p>
+<p>这表示所有后续步骤的计算、变换、编码等都需要你通过编写MATLAB脚本来实现。</p>
+<hr>
+<p><strong>2. 对帧F1进行JPEG编码（帧内编码）</strong> 利用matlab实现JPEG的编码和解码重建第一帧F1’，并计算重建图像帧和原始帧F1之间的峰值信噪比PSNR。</p>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2025/01/01/%E7%94%B5%E6%9C%BA%E9%A9%B1%E5%8A%A8/#more" rel="contents">
+              <a class="btn" href="/2025/01/01/%E8%A7%86%E9%A2%91%E7%BC%96%E7%A0%81%E5%A4%A7%E4%BD%9C%E4%B8%9A/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/01/01/%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="St_w">
+      <meta itemprop="description" content="老大，欢迎回来喵~">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Stellato的星空">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2025/01/01/%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A/" class="post-title-link" itemprop="url">调研报告</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2025-01-01 18:00:00" itemprop="dateCreated datePublished" datetime="2025-01-01T18:00:00+08:00">2025-01-01</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2025-08-10 22:35:50" itemprop="dateModified" datetime="2025-08-10T22:35:50+08:00">2025-08-10</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%9D%82%E7%89%A9/" itemprop="url" rel="index"><span itemprop="name">杂物</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="光纤技术的发展与应用：从原理到前沿展望"><a href="#光纤技术的发展与应用：从原理到前沿展望" class="headerlink" title="光纤技术的发展与应用：从原理到前沿展望"></a>光纤技术的发展与应用：从原理到前沿展望</h1><h2 id="1-引言"><a href="#1-引言" class="headerlink" title="1. 引言"></a>1. 引言</h2><h3 id="光纤技术的核心地位"><a href="#光纤技术的核心地位" class="headerlink" title="光纤技术的核心地位"></a>光纤技术的核心地位</h3><p>光纤技术是现代信息社会的基石，支撑着全球通信网络、互联网、数据中心以及众多新兴科技的飞速发展。其高带宽、低损耗的特性使其成为无可替代的传输媒介。正如相关研究指出的，我们日常阅读的网络信息，在从网络服务器传送到用户设备的这一过程中的某一段就是通过光纤传输的 1。这凸显了光纤技术无所不在的重要性，它如同信息时代的“神经系统”，将世界各地连接起来，促进了信息的快速流动和知识的广泛传播。尽管光纤基础设施在日常生活中往往“隐形”，但其基础性作用不容忽视，本报告旨在通过详尽的阐述，使这项关键技术及其深远影响更为“可见”。</p>
+<h3 id="报告研究范围与结构"><a href="#报告研究范围与结构" class="headerlink" title="报告研究范围与结构"></a>报告研究范围与结构</h3><p>本报告旨在全面系统地阐述光纤技术的发展历程、核心原理、关键组成、多样化应用、市场动态以及未来趋势。内容将涵盖从光纤的基本物理特性到其在各行各业的实际应用，并展望其在前沿科技领域的潜力。理解光纤技术不仅对于工程师至关重要，对于政策制定者、投资者乃至普通公众同样具有重要意义，因为它深刻影响着各个行业的数字化转型进程。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2025/01/01/%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -351,88 +433,6 @@
 
       
           
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/01/01/%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="St_w">
-      <meta itemprop="description" content="老大，欢迎回来喵~">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Stellato的星空">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2025/01/01/%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A/" class="post-title-link" itemprop="url">调研报告</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2025-01-01 18:00:00" itemprop="dateCreated datePublished" datetime="2025-01-01T18:00:00+08:00">2025-01-01</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2025-08-10 22:35:50" itemprop="dateModified" datetime="2025-08-10T22:35:50+08:00">2025-08-10</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%9D%82%E7%89%A9/" itemprop="url" rel="index"><span itemprop="name">杂物</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="光纤技术的发展与应用：从原理到前沿展望"><a href="#光纤技术的发展与应用：从原理到前沿展望" class="headerlink" title="光纤技术的发展与应用：从原理到前沿展望"></a>光纤技术的发展与应用：从原理到前沿展望</h1><h2 id="1-引言"><a href="#1-引言" class="headerlink" title="1. 引言"></a>1. 引言</h2><h3 id="光纤技术的核心地位"><a href="#光纤技术的核心地位" class="headerlink" title="光纤技术的核心地位"></a>光纤技术的核心地位</h3><p>光纤技术是现代信息社会的基石，支撑着全球通信网络、互联网、数据中心以及众多新兴科技的飞速发展。其高带宽、低损耗的特性使其成为无可替代的传输媒介。正如相关研究指出的，我们日常阅读的网络信息，在从网络服务器传送到用户设备的这一过程中的某一段就是通过光纤传输的 1。这凸显了光纤技术无所不在的重要性，它如同信息时代的“神经系统”，将世界各地连接起来，促进了信息的快速流动和知识的广泛传播。尽管光纤基础设施在日常生活中往往“隐形”，但其基础性作用不容忽视，本报告旨在通过详尽的阐述，使这项关键技术及其深远影响更为“可见”。</p>
-<h3 id="报告研究范围与结构"><a href="#报告研究范围与结构" class="headerlink" title="报告研究范围与结构"></a>报告研究范围与结构</h3><p>本报告旨在全面系统地阐述光纤技术的发展历程、核心原理、关键组成、多样化应用、市场动态以及未来趋势。内容将涵盖从光纤的基本物理特性到其在各行各业的实际应用，并展望其在前沿科技领域的潜力。理解光纤技术不仅对于工程师至关重要，对于政策制定者、投资者乃至普通公众同样具有重要意义，因为它深刻影响着各个行业的数字化转型进程。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2025/01/01/%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
       
     </div>
 
@@ -543,7 +543,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E4%BD%9C%E4%B8%9A/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/C/%E6%B3%9B%E5%9E%8B%E6%8C%87%E9%92%88%E4%B8%8E%E9%80%9A%E7%94%A8%E6%80%A7/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
@@ -557,7 +557,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E4%BD%9C%E4%B8%9A/" class="post-title-link" itemprop="url">C语言函数作业</a>
+            <a href="/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/C/%E6%B3%9B%E5%9E%8B%E6%8C%87%E9%92%88%E4%B8%8E%E9%80%9A%E7%94%A8%E6%80%A7/" class="post-title-link" itemprop="url">泛型指针与通用性</a>
         </h2>
 
         <div class="post-meta">
@@ -574,7 +574,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2025-08-10 22:37:56" itemprop="dateModified" datetime="2025-08-10T22:37:56+08:00">2025-08-10</time>
+                <time title="修改时间：2025-08-10 22:37:33" itemprop="dateModified" datetime="2025-08-10T22:37:33+08:00">2025-08-10</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -590,11 +590,11 @@
                 </span>
                   ，
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/RM-PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/" itemprop="url" rel="index"><span itemprop="name">作业文件</span></a>
+                  <a href="/categories/RM-PRIME/RM%E7%AE%97%E6%B3%95/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" itemprop="url" rel="index"><span itemprop="name">学习记录</span></a>
                 </span>
                   ，
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/RM-PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/" itemprop="url" rel="index"><span itemprop="name">C语言</span></a>
+                  <a href="/categories/RM-PRIME/RM%E7%AE%97%E6%B3%95/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/C/" itemprop="url" rel="index"><span itemprop="name">C</span></a>
                 </span>
             </span>
 
@@ -609,12 +609,12 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="题目一：求和"><a href="#题目一：求和" class="headerlink" title="题目一：求和"></a>题目一：求和</h1><h2 id="程序如下："><a href="#程序如下：" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">float</span> <span class="title function_">sum</span><span class="params">(<span class="type">float</span> data[], <span class="type">int</span> N)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">float</span> sum=<span class="number">0.0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;N;i++)</span><br><span class="line">        sum += data[i];</span><br><span class="line">    <span class="keyword">return</span> sum;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>简单的for循环即可实现功能</p>
+          <h1 id="1-泛型指针的定义"><a href="#1-泛型指针的定义" class="headerlink" title="1.泛型指针的定义"></a>1.泛型指针的定义</h1><h2 id="类型声明："><a href="#类型声明：" class="headerlink" title="类型声明："></a>类型声明：</h2><h3 id="void-是一个无类型指针，可以指向任意类型的数据的地址"><a href="#void-是一个无类型指针，可以指向任意类型的数据的地址" class="headerlink" title="void * 是一个无类型指针，可以指向任意类型的数据的地址"></a>void * 是一个<em>无类型指针</em>，可以指向任意类型的数据的地址</h3><h3 id="eg"><a href="#eg" class="headerlink" title="eg."></a>eg.</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> a = <span class="number">10</span>;</span><br><span class="line"><span class="type">char</span> c = <span class="string">&#x27;x&#x27;</span>;</span><br><span class="line"><span class="type">void</span> *p = &amp;a;  <span class="comment">// 正确：指向 int</span></span><br><span class="line">p = &amp;c;        <span class="comment">// 正确：指向 char</span></span><br></pre></td></tr></table></figure>
+
 <hr>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E4%BD%9C%E4%B8%9A/#more" rel="contents">
+              <a class="btn" href="/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/C/%E6%B3%9B%E5%9E%8B%E6%8C%87%E9%92%88%E4%B8%8E%E9%80%9A%E7%94%A8%E6%80%A7/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
