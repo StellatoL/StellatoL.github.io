@@ -19,7 +19,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="老大，欢迎回来喵~">
@@ -103,6 +103,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -139,14 +140,41 @@
   </li>
         <li class="menu-item menu-item-about">
 
-    <a href="/about/" rel="section"><i class="user fa-fw"></i>关于</a>
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -169,7 +197,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/%E5%88%A4%E6%96%AD%E5%92%8C%E5%BE%AA%E7%8E%AF/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/C/%E6%B3%9B%E5%9E%8B%E6%8C%87%E9%92%88%E4%B8%8E%E9%80%9A%E7%94%A8%E6%80%A7/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
@@ -183,7 +211,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/%E5%88%A4%E6%96%AD%E5%92%8C%E5%BE%AA%E7%8E%AF/" class="post-title-link" itemprop="url">循环与判断</a>
+            <a href="/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/C/%E6%B3%9B%E5%9E%8B%E6%8C%87%E9%92%88%E4%B8%8E%E9%80%9A%E7%94%A8%E6%80%A7/" class="post-title-link" itemprop="url">泛型指针与通用性</a>
         </h2>
 
         <div class="post-meta">
@@ -200,7 +228,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2025-08-10 22:38:46" itemprop="dateModified" datetime="2025-08-10T22:38:46+08:00">2025-08-10</time>
+                <time title="修改时间：2025-08-10 22:37:33" itemprop="dateModified" datetime="2025-08-10T22:37:33+08:00">2025-08-10</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -216,11 +244,11 @@
                 </span>
                   ，
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/RM-PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/" itemprop="url" rel="index"><span itemprop="name">作业文件</span></a>
+                  <a href="/categories/RM-PRIME/RM%E7%AE%97%E6%B3%95/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" itemprop="url" rel="index"><span itemprop="name">学习记录</span></a>
                 </span>
                   ，
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/RM-PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/" itemprop="url" rel="index"><span itemprop="name">C语言</span></a>
+                  <a href="/categories/RM-PRIME/RM%E7%AE%97%E6%B3%95/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/C/" itemprop="url" rel="index"><span itemprop="name">C</span></a>
                 </span>
             </span>
 
@@ -235,14 +263,12 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <hr>
-<h1 id="题目一：将三个整数从大到小输出"><a href="#题目一：将三个整数从大到小输出" class="headerlink" title="题目一：将三个整数从大到小输出"></a>题目一：将三个整数从大到小输出<br></h1><h2 id="程序如下："><a href="#程序如下：" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> a,b,c,n;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">&quot;%d %d %d&quot;</span>,&amp;a,&amp;b,&amp;c);</span><br><span class="line">	<span class="keyword">if</span> (a&lt;(b&lt;c?b:c))<span class="comment">//a是最小值</span></span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d %d %d&quot;</span>,(b&gt;c?b:c),(b&gt;c?c:b),a);</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">if</span> (a&gt;(b&gt;c?b:c))</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d %d %d&quot;</span>,a,(b&gt;c?b:c),(b&gt;c?c:b));</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d %d %d&quot;</span>,(b&gt;c?b:c),a,(b&gt;c?c:b));</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+          <h1 id="1-泛型指针的定义"><a href="#1-泛型指针的定义" class="headerlink" title="1.泛型指针的定义"></a>1.泛型指针的定义</h1><h2 id="类型声明："><a href="#类型声明：" class="headerlink" title="类型声明："></a>类型声明：</h2><h3 id="void-是一个无类型指针，可以指向任意类型的数据的地址"><a href="#void-是一个无类型指针，可以指向任意类型的数据的地址" class="headerlink" title="void * 是一个无类型指针，可以指向任意类型的数据的地址"></a>void * 是一个<em>无类型指针</em>，可以指向任意类型的数据的地址</h3><h3 id="eg"><a href="#eg" class="headerlink" title="eg."></a>eg.</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> a = <span class="number">10</span>;</span><br><span class="line"><span class="type">char</span> c = <span class="string">&#x27;x&#x27;</span>;</span><br><span class="line"><span class="type">void</span> *p = &amp;a;  <span class="comment">// 正确：指向 int</span></span><br><span class="line">p = &amp;c;        <span class="comment">// 正确：指向 char</span></span><br></pre></td></tr></table></figure>
 
-<p>用三元表达式替换了一下if else语句<del>（单纯懒得写而已）</del></p>
 <hr>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/%E5%88%A4%E6%96%AD%E5%92%8C%E5%BE%AA%E7%8E%AF/#more" rel="contents">
+              <a class="btn" href="/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/C/%E6%B3%9B%E5%9E%8B%E6%8C%87%E9%92%88%E4%B8%8E%E9%80%9A%E7%94%A8%E6%80%A7/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -536,6 +562,10 @@ window.addEventListener('pjax:success', () => {
 
 
 
+  
+<script src="/js/local-search.js"></script>
+
+
 
 
 
@@ -586,7 +616,7 @@ if (document.querySelectorAll('pre.mermaid').length) {
   
 
   
-<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script defer src= https://cdn.jsdelivr.net/npm/live2d-widget@3.1.4/lib/L2Dwidget.min.js></script><script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 
 <script>
 var options = {
@@ -606,7 +636,7 @@ const darkmode = new Darkmode(options);
 window.darkmode = darkmode;
 darkmode.showWidget();
 </script>
-<script defer src= https://cdn.jsdelivr.net/npm/live2d-widget@3.1.4/lib/L2Dwidget.min.js></script>
+
     </div>
 </body>
 </html>

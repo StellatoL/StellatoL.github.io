@@ -19,7 +19,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="大学英语四级（CET-4）考点深度剖析：基于农业与环境文本的语言特征分析1. 引言1.1 报告目的本报告旨在对提供的特定英文段落进行全面的语言学分析，重点关注其中与大学英语四级（CET-4）考试相关的词汇、搭配、语法及句式结构。本报告致力于为CET-4考生提供一份深度学习指南，帮助其更好地理解和掌握考试所需的语言知识点。 1.2 段落概述所分析的段落如下： “US agriculture show">
@@ -106,6 +106,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -142,14 +143,41 @@
   </li>
         <li class="menu-item menu-item-about">
 
-    <a href="/about/" rel="section"><i class="user fa-fw"></i>关于</a>
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -736,12 +764,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2025/01/01/%E8%A7%86%E9%A2%91%E7%BC%96%E7%A0%81%E5%A4%A7%E4%BD%9C%E4%B8%9A/" rel="prev" title="视频编码大作业">
-      <i class="fa fa-chevron-left"></i> 视频编码大作业
+    <a href="/2025/01/01/YAML%E6%A0%87%E7%AD%BE%E6%A0%BC%E5%BC%8F/" rel="prev" title="YAML标签格式">
+      <i class="fa fa-chevron-left"></i> YAML标签格式
     </a></div>
       <div class="post-nav-item">
-    <a href="/2025/01/01/Markdown%E5%AD%A6%E4%B9%A0/" rel="next" title="Markdown学习">
-      Markdown学习 <i class="fa fa-chevron-right"></i>
+    <a href="/2025/01/01/hello-world/" rel="next" title="Hello World">
+      Hello World <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -1020,6 +1048,10 @@ window.addEventListener('pjax:success', () => {
 
 
 
+  
+<script src="/js/local-search.js"></script>
+
+
 
 
 
@@ -1070,7 +1102,7 @@ if (document.querySelectorAll('pre.mermaid').length) {
   
 
   
-<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script defer src= https://cdn.jsdelivr.net/npm/live2d-widget@3.1.4/lib/L2Dwidget.min.js></script><script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 
 <script>
 var options = {
@@ -1090,7 +1122,7 @@ const darkmode = new Darkmode(options);
 window.darkmode = darkmode;
 darkmode.showWidget();
 </script>
-<script defer src= https://cdn.jsdelivr.net/npm/live2d-widget@3.1.4/lib/L2Dwidget.min.js></script>
+
     </div>
 </body>
 </html>
