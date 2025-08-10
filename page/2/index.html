@@ -197,7 +197,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/01/01/blog%E6%90%AD%E5%BB%BA/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/01/01/Markdown%E5%AD%A6%E4%B9%A0/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
@@ -211,7 +211,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2025/01/01/blog%E6%90%AD%E5%BB%BA/" class="post-title-link" itemprop="url">blog搭建</a>
+            <a href="/2025/01/01/Markdown%E5%AD%A6%E4%B9%A0/" class="post-title-link" itemprop="url">Markdown学习</a>
         </h2>
 
         <div class="post-meta">
@@ -228,7 +228,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2025-08-10 22:36:59" itemprop="dateModified" datetime="2025-08-10T22:36:59+08:00">2025-08-10</time>
+                <time title="修改时间：2025-08-10 22:36:45" itemprop="dateModified" datetime="2025-08-10T22:36:45+08:00">2025-08-10</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -251,12 +251,70 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="构建您的数字第二大脑：基于-Obsidian-的本地化个人博客系统搭建指南"><a href="#构建您的数字第二大脑：基于-Obsidian-的本地化个人博客系统搭建指南" class="headerlink" title="构建您的数字第二大脑：基于 Obsidian 的本地化个人博客系统搭建指南"></a>构建您的数字第二大脑：基于 Obsidian 的本地化个人博客系统搭建指南</h1><h2 id="1-引言：打造您的数字殿堂"><a href="#1-引言：打造您的数字殿堂" class="headerlink" title="1. 引言：打造您的数字殿堂"></a>1. 引言：打造您的数字殿堂</h2><h3 id="1-1-重申目标"><a href="#1-1-重申目标" class="headerlink" title="1.1. 重申目标"></a>1.1. 重申目标</h3><p>本报告旨在提供一份详尽的指南，帮助用户建立一个完全自主部署、在本地运行的个人博客系统。该系统将无缝集成并高效展示来自 Obsidian 的笔记内容，核心目标是创建一个既能作为个人思绪与记录的知识库，又能成为一个公开访问的分享平台，同时确保用户对自身数据和系统架构拥有完全的掌控权。</p>
-<h3 id="1-2-概览：构建之旅"><a href="#1-2-概览：构建之旅" class="headerlink" title="1.2. 概览：构建之旅"></a>1.2. 概览：构建之旅</h3><p>我们将共同探索从技术选型到最终部署的全过程。首先，我们会筛选出能够充分尊重并兼容 Obsidian 特有功能的核心技术；随后，深入剖析这些技术的安装与配置细节；接着，探讨如何将您的博客系统部署至互联网，使其能够被远程访问；最后，也是至关重要的一环，我们将研究如何加固您的博客系统，以抵御常见的网络安全威胁。此番旅程将赋予您将本地知识库转化为一个可分享、安全且高度个性化的在线空间的能力。</p>
-<h3 id="1-3-为何选择自托管与-Obsidian-结合"><a href="#1-3-为何选择自托管与-Obsidian-结合" class="headerlink" title="1.3. 为何选择自托管与 Obsidian 结合"></a>1.3. 为何选择自托管与 Obsidian 结合</h3><p>自托管个人博客并与 Obsidian 笔记系统深度结合，其核心驱动力在于用户对数据所有权、高度自定义能力以及摆脱供应商锁定的追求。用户明确要求系统“完全在本地运行、自己部署”，并能“良好地支持并展示来自 Obsidian 的 Markdown 文件” [用户查询]。这表明用户期望对其数据、软件选择和运营细节拥有最大限度的控制权，避免受制于第三方平台。Obsidian 作为知识管理的核心，其丰富的链接和格式化特性必须在博客系统中得到忠实再现，而非要求用户对内容进行大规模的二次加工。这种对控制权和 Obsidian 内容保真度的双重强调，意味着理想的解决方案必须优先考虑减少从 Obsidian 到公开博客的内容迁移阻力，尽可能保留 Obsidian 的核心功能。这通常需要选择那些专为 Obsidian 设计或具有高度适应性的工具，而非功能宽泛但需大量定制的通用方案。用户愿意为此投入相应的技术精力，以换取这种控制权和内容呈现的精确性。</p>
+          <h1 id="Markdown基本语法"><a href="#Markdown基本语法" class="headerlink" title="Markdown基本语法"></a>Markdown基本语法</h1><h2 id="1-Markdown标题语法"><a href="#1-Markdown标题语法" class="headerlink" title="1.Markdown标题语法"></a>1.Markdown标题语法</h2><p>要创建标题，请在单词或短语前面添加井号 (<code>#</code>) 。<code>#</code> 的数量代表了标题的级别。  </p>
+<table>
+<thead>
+<tr>
+<th>Markdown语法</th>
+<th>HTML</th>
+<th>预览效果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code># Heading level 1</code></td>
+<td><code>&lt;h1&gt;Heading level 1&lt;/h1&gt;</code></td>
+<td># Heading level 1</td>
+</tr>
+<tr>
+<td><code>## Heading level 2</code></td>
+<td><code>&lt;h2&gt;Heading level 2&lt;/h2&gt;</code></td>
+<td>## Heading level 2</td>
+</tr>
+<tr>
+<td><code>### Heading level 3</code></td>
+<td><code>&lt;h3&gt;Heading level 3&lt;/h3&gt;</code></td>
+<td>### Heading level 3</td>
+</tr>
+<tr>
+<td><code>#### Heading level 4</code></td>
+<td><code>&lt;h4&gt;Heading level 4&lt;/h4&gt;</code></td>
+<td>#### Heading level 4</td>
+</tr>
+<tr>
+<td><code>##### Heading level 5</code></td>
+<td><code>&lt;h5&gt;Heading level 5&lt;/h5&gt;</code></td>
+<td>##### Heading level 5</td>
+</tr>
+<tr>
+<td><code>###### Heading level 6</code></td>
+<td><code>&lt;h6&gt;Heading level 6&lt;/h6&gt;</code></td>
+<td>###### Heading level 6</td>
+</tr>
+</tbody></table>
+<h3 id="可选语法"><a href="#可选语法" class="headerlink" title="可选语法"></a>可选语法</h3><p>还可以在文本下方添加任意数量的 &#x3D;&#x3D; 号来标识一级标题，或者 – 号来标识二级标题。</p>
+<table>
+<thead>
+<tr>
+<th>Markdown语法</th>
+<th>HTML</th>
+<th>预览效果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>Heading level 1   ===============</code></td>
+<td><code>&lt;h1&gt;Heading level 1&lt;/h1&gt;</code></td>
+<td># Heading level 1</td>
+</tr>
+<tr>
+<td><code>Heading level 2   ---------------</code></td>
+<td><code>&lt;h2&gt;Heading level 2&lt;/h2&gt;</code></td>
+<td>## Heading level 2</td>
+</tr>
+</tbody></table>
+<h3 id="最佳实践"><a href="#最佳实践" class="headerlink" title="最佳实践"></a>最佳实践<br></h3><p>不同的 Markdown 应用程序处理 <code>#</code> 和标题之间的空格方式并不一致。为了兼容考虑，请用一个空格在 <code>#</code> 和标题之间进行分隔。  </p>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2025/01/01/blog%E6%90%AD%E5%BB%BA/#more" rel="contents">
+              <a class="btn" href="/2025/01/01/Markdown%E5%AD%A6%E4%B9%A0/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -451,7 +509,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/01/01/YAML%E6%A0%87%E7%AD%BE%E6%A0%BC%E5%BC%8F/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/01/01/%E7%94%B5%E6%9C%BA%E9%A9%B1%E5%8A%A8/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
@@ -465,7 +523,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2025/01/01/YAML%E6%A0%87%E7%AD%BE%E6%A0%BC%E5%BC%8F/" class="post-title-link" itemprop="url">YAML标签格式</a>
+            <a href="/2025/01/01/%E7%94%B5%E6%9C%BA%E9%A9%B1%E5%8A%A8/" class="post-title-link" itemprop="url">电机驱动</a>
         </h2>
 
         <div class="post-meta">
@@ -482,7 +540,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2025-05-31 13:12:05" itemprop="dateModified" datetime="2025-05-31T13:12:05+08:00">2025-05-31</time>
+                <time title="修改时间：2025-08-10 22:35:33" itemprop="dateModified" datetime="2025-08-10T22:35:33+08:00">2025-08-10</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -505,8 +563,21 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <hr>
-<h2 id="title-Your-Post-Titledate-YYYY-MM-DD-HH-MM-SStags-Tag1-Tag2-Another-Tagcategories-Category1-SubCategoryA"><a href="#title-Your-Post-Titledate-YYYY-MM-DD-HH-MM-SStags-Tag1-Tag2-Another-Tagcategories-Category1-SubCategoryA" class="headerlink" title="title: Your Post Titledate: YYYY-MM-DD HH:MM:SStags:  - Tag1  - Tag2  - Another Tagcategories:  - Category1  - SubCategoryA "></a>title: Your Post Title<br>date: YYYY-MM-DD HH:MM:SS<br>tags:<br>  - Tag1<br>  - Tag2<br>  - Another Tag<br>categories:<br>  - Category1<br>  - SubCategoryA </h2>
+          <h1 id="基于STM32F103C8T6的机器人小车电机驱动与PID控制设计"><a href="#基于STM32F103C8T6的机器人小车电机驱动与PID控制设计" class="headerlink" title="基于STM32F103C8T6的机器人小车电机驱动与PID控制设计"></a>基于STM32F103C8T6的机器人小车电机驱动与PID控制设计</h1><h2 id="第1节：STM32F103C8T6与机器人小车电机控制概述"><a href="#第1节：STM32F103C8T6与机器人小车电机控制概述" class="headerlink" title="第1节：STM32F103C8T6与机器人小车电机控制概述"></a>第1节：STM32F103C8T6与机器人小车电机控制概述</h2><h3 id="1-1-STM32F103C8T6微控制器概览"><a href="#1-1-STM32F103C8T6微控制器概览" class="headerlink" title="1.1. STM32F103C8T6微控制器概览"></a>1.1. STM32F103C8T6微控制器概览</h3><p>STM32F103C8T6是一款基于ARM Cortex-M3内核的32位微控制器，由意法半导体（STMicroelectronics）生产。其核心特性包括高达72 MHz的工作频率、64KB的Flash程序存储器和20KB的SRAM 1。这些特性使其成为各种嵌入式控制应用的理想选择，尤其是在机器人技术领域。</p>
+<p>对于电机控制而言，STM32F103C8T6的以下外设至关重要：</p>
+<ul>
+<li><strong>通用输入&#x2F;输出（GPIO）引脚：</strong> 该微控制器提供多达37个I&#x2F;O引脚 1，可用于配置电机驱动器的方向控制信号，并与其他传感器或模块进行通信。</li>
+<li><strong>定时器（TIM）：</strong> STM32F103C8T6内置多个通用定时器（如TIM1、TIM2、TIM3、TIM4）和高级控制定时器（部分型号）。这些定时器能够产生脉冲宽度调制（PWM）信号，这是控制直流电机速度的关键技术 1。此外，定时器还可以配置为编码器接口模式，用于读取电机转速和位置信息，这对于实现闭环控制（如PID）至关重要。</li>
+</ul>
+<p>尽管STM32F103C8T6被归类为“中等密度”设备 1，但其提供的外设组合对于控制一个双电机机器人小车来说已经绰绰有余，即使是包含PID算法和编码器反馈的复杂控制系统。其72MHz的最高主频确保了控制回路能够及时执行，满足实时性要求。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2025/01/01/%E7%94%B5%E6%9C%BA%E9%A9%B1%E5%8A%A8/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -525,7 +596,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/01/01/%E8%A7%86%E9%A2%91%E7%BC%96%E7%A0%81%E5%A4%A7%E4%BD%9C%E4%B8%9A/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/01/01/blog%E6%90%AD%E5%BB%BA/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
@@ -539,7 +610,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2025/01/01/%E8%A7%86%E9%A2%91%E7%BC%96%E7%A0%81%E5%A4%A7%E4%BD%9C%E4%B8%9A/" class="post-title-link" itemprop="url">视频编码大作业</a>
+            <a href="/2025/01/01/blog%E6%90%AD%E5%BB%BA/" class="post-title-link" itemprop="url">blog搭建</a>
         </h2>
 
         <div class="post-meta">
@@ -556,7 +627,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2025-08-10 22:36:12" itemprop="dateModified" datetime="2025-08-10T22:36:12+08:00">2025-08-10</time>
+                <time title="修改时间：2025-08-10 22:36:59" itemprop="dateModified" datetime="2025-08-10T22:36:59+08:00">2025-08-10</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -579,16 +650,12 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>好的，这是一个《视频编码标准及其算法原理》的大作业。我会针对你提出的每一项任务要求，提供详细的步骤、原理、公式，并指出在MATLAB中可能用到的函数或方法。</p>
-<p><strong>请注意：</strong> 由于我无法直接访问你的图像帧F1和F2，也无法执行MATLAB代码，因此我将提供的是一个框架和原理性的指导。你需要准备好你的图像数据，并根据这些指导在MATLAB中实现具体的代码。</p>
-<hr>
-<p><strong>1. 任务要求：使用matlab完成所有流程</strong></p>
-<p>这表示所有后续步骤的计算、变换、编码等都需要你通过编写MATLAB脚本来实现。</p>
-<hr>
-<p><strong>2. 对帧F1进行JPEG编码（帧内编码）</strong> 利用matlab实现JPEG的编码和解码重建第一帧F1’，并计算重建图像帧和原始帧F1之间的峰值信噪比PSNR。</p>
+          <h1 id="构建您的数字第二大脑：基于-Obsidian-的本地化个人博客系统搭建指南"><a href="#构建您的数字第二大脑：基于-Obsidian-的本地化个人博客系统搭建指南" class="headerlink" title="构建您的数字第二大脑：基于 Obsidian 的本地化个人博客系统搭建指南"></a>构建您的数字第二大脑：基于 Obsidian 的本地化个人博客系统搭建指南</h1><h2 id="1-引言：打造您的数字殿堂"><a href="#1-引言：打造您的数字殿堂" class="headerlink" title="1. 引言：打造您的数字殿堂"></a>1. 引言：打造您的数字殿堂</h2><h3 id="1-1-重申目标"><a href="#1-1-重申目标" class="headerlink" title="1.1. 重申目标"></a>1.1. 重申目标</h3><p>本报告旨在提供一份详尽的指南，帮助用户建立一个完全自主部署、在本地运行的个人博客系统。该系统将无缝集成并高效展示来自 Obsidian 的笔记内容，核心目标是创建一个既能作为个人思绪与记录的知识库，又能成为一个公开访问的分享平台，同时确保用户对自身数据和系统架构拥有完全的掌控权。</p>
+<h3 id="1-2-概览：构建之旅"><a href="#1-2-概览：构建之旅" class="headerlink" title="1.2. 概览：构建之旅"></a>1.2. 概览：构建之旅</h3><p>我们将共同探索从技术选型到最终部署的全过程。首先，我们会筛选出能够充分尊重并兼容 Obsidian 特有功能的核心技术；随后，深入剖析这些技术的安装与配置细节；接着，探讨如何将您的博客系统部署至互联网，使其能够被远程访问；最后，也是至关重要的一环，我们将研究如何加固您的博客系统，以抵御常见的网络安全威胁。此番旅程将赋予您将本地知识库转化为一个可分享、安全且高度个性化的在线空间的能力。</p>
+<h3 id="1-3-为何选择自托管与-Obsidian-结合"><a href="#1-3-为何选择自托管与-Obsidian-结合" class="headerlink" title="1.3. 为何选择自托管与 Obsidian 结合"></a>1.3. 为何选择自托管与 Obsidian 结合</h3><p>自托管个人博客并与 Obsidian 笔记系统深度结合，其核心驱动力在于用户对数据所有权、高度自定义能力以及摆脱供应商锁定的追求。用户明确要求系统“完全在本地运行、自己部署”，并能“良好地支持并展示来自 Obsidian 的 Markdown 文件” [用户查询]。这表明用户期望对其数据、软件选择和运营细节拥有最大限度的控制权，避免受制于第三方平台。Obsidian 作为知识管理的核心，其丰富的链接和格式化特性必须在博客系统中得到忠实再现，而非要求用户对内容进行大规模的二次加工。这种对控制权和 Obsidian 内容保真度的双重强调，意味着理想的解决方案必须优先考虑减少从 Obsidian 到公开博客的内容迁移阻力，尽可能保留 Obsidian 的核心功能。这通常需要选择那些专为 Obsidian 设计或具有高度适应性的工具，而非功能宽泛但需大量定制的通用方案。用户愿意为此投入相应的技术精力，以换取这种控制权和内容呈现的精确性。</p>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2025/01/01/%E8%A7%86%E9%A2%91%E7%BC%96%E7%A0%81%E5%A4%A7%E4%BD%9C%E4%B8%9A/#more" rel="contents">
+              <a class="btn" href="/2025/01/01/blog%E6%90%AD%E5%BB%BA/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -936,7 +1003,7 @@ if (document.querySelectorAll('pre.mermaid').length) {
   
 
   
-<script defer src= https://cdn.jsdelivr.net/npm/live2d-widget@3.1.4/lib/L2Dwidget.min.js></script><script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 
 <script>
 var options = {
@@ -956,7 +1023,7 @@ const darkmode = new Darkmode(options);
 window.darkmode = darkmode;
 darkmode.showWidget();
 </script>
-
+<script defer src= https://cdn.jsdelivr.net/npm/live2d-widget@3.1.4/lib/L2Dwidget.min.js></script>
     </div>
 </body>
 </html>
