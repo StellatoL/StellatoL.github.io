@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>YAML标签格式</title>
-    <url>/2025/01/01/YAML%E6%A0%87%E7%AD%BE%E6%A0%BC%E5%BC%8F/</url>
-    <content><![CDATA[<hr>
-<h2 id="title-Your-Post-Titledate-YYYY-MM-DD-HH-MM-SStags-Tag1-Tag2-Another-Tagcategories-Category1-SubCategoryA"><a href="#title-Your-Post-Titledate-YYYY-MM-DD-HH-MM-SStags-Tag1-Tag2-Another-Tagcategories-Category1-SubCategoryA" class="headerlink" title="title: Your Post Titledate: YYYY-MM-DD HH:MM:SStags:  - Tag1  - Tag2  - Another Tagcategories:  - Category1  - SubCategoryA "></a>title: Your Post Title<br>date: YYYY-MM-DD HH:MM:SS<br>tags:<br>  - Tag1<br>  - Tag2<br>  - Another Tag<br>categories:<br>  - Category1<br>  - SubCategoryA </h2>]]></content>
-      <categories>
-        <category>杂物</category>
-      </categories>
-      <tags>
-        <tag>YAML</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown学习</title>
     <url>/2025/01/01/Markdown%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[<h1 id="Markdown基本语法"><a href="#Markdown基本语法" class="headerlink" title="Markdown基本语法"></a>Markdown基本语法</h1><h2 id="1-Markdown标题语法"><a href="#1-Markdown标题语法" class="headerlink" title="1.Markdown标题语法"></a>1.Markdown标题语法</h2><p>要创建标题，请在单词或短语前面添加井号 (<code>#</code>) 。<code>#</code> 的数量代表了标题的级别。  </p>
@@ -452,7 +440,7 @@
 <h3 id="网址和Email地址"><a href="#网址和Email地址" class="headerlink" title="网址和Email地址"></a>网址和Email地址</h3><p>使用尖括号可以很方便地把URL或者email地址变成可点击的链接。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://markdown.com.cn&gt;</span><br><span class="line">&lt;fake@example.com&gt;</span><br></pre></td></tr></table></figure>
 
-<p>渲染效果如下：<br><br><a href="https://markdown.com.cn/">https://markdown.com.cn(opens new window)</a><br><a href="mailto:&#102;&#97;&#x6b;&#101;&#64;&#101;&#120;&#x61;&#x6d;&#x70;&#108;&#101;&#x2e;&#x63;&#111;&#x6d;">fake@example.com</a><br></p>
+<p>渲染效果如下：<br><br><a href="https://markdown.com.cn/">https://markdown.com.cn(opens new window)</a><br><a href="mailto:&#102;&#97;&#107;&#x65;&#x40;&#101;&#x78;&#97;&#x6d;&#112;&#x6c;&#101;&#x2e;&#x63;&#x6f;&#x6d;">fake@example.com</a><br></p>
 <h3 id="带格式化的链接"><a href="#带格式化的链接" class="headerlink" title="带格式化的链接"></a>带格式化的链接<br></h3><p><a href="https://markdown.com.cn/extended-syntax/fenced-code-blocks.html#emphasis">强调</a> 链接, 在链接语法前后增加星号。 要将链接表示为代码，请在方括号中添加反引号。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I love supporting the **[EFF](https://eff.org)**.</span><br><span class="line">This is the *[Markdown Guide](https://www.markdownguide.org)*.</span><br><span class="line">See the section on [`code`](#code).</span><br></pre></td></tr></table></figure>
 
@@ -713,6 +701,18 @@
       </categories>
       <tags>
         <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>YAML标签格式</title>
+    <url>/2025/01/01/YAML%E6%A0%87%E7%AD%BE%E6%A0%BC%E5%BC%8F/</url>
+    <content><![CDATA[<hr>
+<h2 id="title-Your-Post-Titledate-YYYY-MM-DD-HH-MM-SStags-Tag1-Tag2-Another-Tagcategories-Category1-SubCategoryA"><a href="#title-Your-Post-Titledate-YYYY-MM-DD-HH-MM-SStags-Tag1-Tag2-Another-Tagcategories-Category1-SubCategoryA" class="headerlink" title="title: Your Post Titledate: YYYY-MM-DD HH:MM:SStags:  - Tag1  - Tag2  - Another Tagcategories:  - Category1  - SubCategoryA "></a>title: Your Post Title<br>date: YYYY-MM-DD HH:MM:SS<br>tags:<br>  - Tag1<br>  - Tag2<br>  - Another Tag<br>categories:<br>  - Category1<br>  - SubCategoryA </h2>]]></content>
+      <categories>
+        <category>杂物</category>
+      </categories>
+      <tags>
+        <tag>YAML</tag>
       </tags>
   </entry>
   <entry>
@@ -3048,32 +3048,6 @@
       </tags>
   </entry>
   <entry>
-    <title>电路笔记</title>
-    <url>/2025/05/31/%E7%AC%94%E8%AE%B0/%E7%94%B5%E8%B7%AF%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<div class="pdfobject-container" data-target="/pdfs/电路原理.pdf" data-height="800px"></div>]]></content>
-      <categories>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>电路</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>GPIO</title>
-    <url>/2025/01/01/RM__PRIME/RM%E7%94%B5%E6%8E%A7/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/STM32/GPIO/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>RM_PRIME</category>
-        <category>RM电控</category>
-        <category>学习记录</category>
-        <category>STM32</category>
-      </categories>
-      <tags>
-        <tag>STM32</tag>
-        <tag>GPIO</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>大物笔记</title>
     <url>/2025/05/31/%E7%AC%94%E8%AE%B0/%E5%A4%A7%E7%89%A9%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<div class="pdfobject-container" data-target="/pdfs/大学物理.pdf" data-height="800px"></div>]]></content>
@@ -3085,36 +3059,14 @@
       </tags>
   </entry>
   <entry>
-    <title>高数笔记</title>
-    <url>/2025/05/31/%E7%AC%94%E8%AE%B0/%E9%AB%98%E6%95%B0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<div class="pdfobject-container" data-target="/pdfs/高等数学.pdf" data-height="800px"></div>]]></content>
+    <title>电路笔记</title>
+    <url>/2025/05/31/%E7%AC%94%E8%AE%B0/%E7%94%B5%E8%B7%AF%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<div class="pdfobject-container" data-target="/pdfs/电路原理.pdf" data-height="800px"></div>]]></content>
       <categories>
         <category>笔记</category>
       </categories>
       <tags>
-        <tag>math</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>基本设置</title>
-    <url>/2025/01/01/RM__PRIME/RM%E7%94%B5%E6%8E%A7/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/STM32/%E5%9F%BA%E6%9C%AC%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<h1 id="1-开启时钟以及初始化GPIO口"><a href="#1-开启时钟以及初始化GPIO口" class="headerlink" title="1.开启时钟以及初始化GPIO口"></a>1.开启时钟以及初始化GPIO口</h1><hr>
-<h2 id="开启时钟"><a href="#开启时钟" class="headerlink" title="开启时钟"></a>开启时钟</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOX,ENABLE);</span><br></pre></td></tr></table></figure>
-<p><strong>具体代码解释：</strong><br>	因为GPIO挂载在APB2总线上，所以此函数是用于开启GPIO_x上的时钟信号</p>
-<p><strong>参数：</strong><br>	1.<em>RCC_APB2Periph_GPIOx</em><br>		其中，x代表数字，这个参数用于控制开启时钟的GPIO端口号<br>	2.<em>ENABLE</em><br>		这个参数表示开启或关闭时钟，对应<em>ENABLE</em>和<em>DISABLE</em></p>
-<hr>
-<h2 id="初始化GPIO口"><a href="#初始化GPIO口" class="headerlink" title="初始化GPIO口"></a>初始化GPIO口</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">GPIO_InitTypeDef GPIO_InitStructure;</span><br><span class="line"></span><br><span class="line">GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;</span><br><span class="line">GPIO_InitStructure.GPIO_Pin = GPIO_Pin_x;</span><br><span class="line">GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;</span><br><span class="line"></span><br><span class="line">GPIO_Init(GPIOX,&amp;GPIO_InitStructure);</span><br></pre></td></tr></table></figure>
-<p><strong>具体代码解释：</strong></p>
-]]></content>
-      <categories>
-        <category>RM_PRIME</category>
-        <category>RM电控</category>
-        <category>学习记录</category>
-        <category>STM32</category>
-      </categories>
-      <tags>
-        <tag>STM32</tag>
-        <tag>GPIO</tag>
+        <tag>电路</tag>
       </tags>
   </entry>
   <entry>
@@ -3880,6 +3832,54 @@
       </tags>
   </entry>
   <entry>
+    <title>高数笔记</title>
+    <url>/2025/05/31/%E7%AC%94%E8%AE%B0/%E9%AB%98%E6%95%B0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<div class="pdfobject-container" data-target="/pdfs/高等数学.pdf" data-height="800px"></div>]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GPIO</title>
+    <url>/2025/01/01/RM__PRIME/RM%E7%94%B5%E6%8E%A7/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/STM32/GPIO/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>RM_PRIME</category>
+        <category>RM电控</category>
+        <category>学习记录</category>
+        <category>STM32</category>
+      </categories>
+      <tags>
+        <tag>STM32</tag>
+        <tag>GPIO</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>基本设置</title>
+    <url>/2025/01/01/RM__PRIME/RM%E7%94%B5%E6%8E%A7/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/STM32/%E5%9F%BA%E6%9C%AC%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<h1 id="1-开启时钟以及初始化GPIO口"><a href="#1-开启时钟以及初始化GPIO口" class="headerlink" title="1.开启时钟以及初始化GPIO口"></a>1.开启时钟以及初始化GPIO口</h1><hr>
+<h2 id="开启时钟"><a href="#开启时钟" class="headerlink" title="开启时钟"></a>开启时钟</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOX,ENABLE);</span><br></pre></td></tr></table></figure>
+<p><strong>具体代码解释：</strong><br>	因为GPIO挂载在APB2总线上，所以此函数是用于开启GPIO_x上的时钟信号</p>
+<p><strong>参数：</strong><br>	1.<em>RCC_APB2Periph_GPIOx</em><br>		其中，x代表数字，这个参数用于控制开启时钟的GPIO端口号<br>	2.<em>ENABLE</em><br>		这个参数表示开启或关闭时钟，对应<em>ENABLE</em>和<em>DISABLE</em></p>
+<hr>
+<h2 id="初始化GPIO口"><a href="#初始化GPIO口" class="headerlink" title="初始化GPIO口"></a>初始化GPIO口</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">GPIO_InitTypeDef GPIO_InitStructure;</span><br><span class="line"></span><br><span class="line">GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;</span><br><span class="line">GPIO_InitStructure.GPIO_Pin = GPIO_Pin_x;</span><br><span class="line">GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;</span><br><span class="line"></span><br><span class="line">GPIO_Init(GPIOX,&amp;GPIO_InitStructure);</span><br></pre></td></tr></table></figure>
+<p><strong>具体代码解释：</strong></p>
+]]></content>
+      <categories>
+        <category>RM_PRIME</category>
+        <category>RM电控</category>
+        <category>学习记录</category>
+        <category>STM32</category>
+      </categories>
+      <tags>
+        <tag>STM32</tag>
+        <tag>GPIO</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C语言函数作业</title>
     <url>/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E4%BD%9C%E4%B8%9A/</url>
     <content><![CDATA[<h1 id="题目一：求和"><a href="#题目一：求和" class="headerlink" title="题目一：求和"></a>题目一：求和</h1><h2 id="程序如下："><a href="#程序如下：" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">float</span> <span class="title function_">sum</span><span class="params">(<span class="type">float</span> data[], <span class="type">int</span> N)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">float</span> sum=<span class="number">0.0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;N;i++)</span><br><span class="line">        sum += data[i];</span><br><span class="line">    <span class="keyword">return</span> sum;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -3893,36 +3893,6 @@
 <p>类似于循环队列的操作方式</p>
 <hr>
 <h1 id="题目四：万年历"><a href="#题目四：万年历" class="headerlink" title="题目四：万年历"></a>题目四：万年历</h1><h2 id="程序如下：-3"><a href="#程序如下：-3" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">ShowDate</span><span class="params">(<span class="type">int</span> y, <span class="type">int</span> m)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> daysInMonth = GetDaysofMonth(y, m);</span><br><span class="line">	<span class="type">int</span> firstDay = GetFirstDayInTable(y, m); </span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;***********************************\n&quot;</span>);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;Sun Mon Tue Wen Thur Fri Sta\n&quot;</span>); </span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; firstDay; i++)</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;    &quot;</span>);</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> day = <span class="number">1</span>; day &lt;= daysInMonth; day++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%2d &quot;</span>, day);</span><br><span class="line">		<span class="keyword">if</span> ((day + firstDay) % <span class="number">7</span> == <span class="number">0</span>)</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;\n***********************************\n&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>RM_PRIME</category>
-        <category>RM算法</category>
-        <category>作业文件</category>
-        <category>C语言</category>
-      </categories>
-      <tags>
-        <tag>基础语法</tag>
-        <tag>C</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>循环与判断</title>
-    <url>/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/%E5%88%A4%E6%96%AD%E5%92%8C%E5%BE%AA%E7%8E%AF/</url>
-    <content><![CDATA[<hr>
-<h1 id="题目一：将三个整数从大到小输出"><a href="#题目一：将三个整数从大到小输出" class="headerlink" title="题目一：将三个整数从大到小输出"></a>题目一：将三个整数从大到小输出<br></h1><h2 id="程序如下："><a href="#程序如下：" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> a,b,c,n;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">&quot;%d %d %d&quot;</span>,&amp;a,&amp;b,&amp;c);</span><br><span class="line">	<span class="keyword">if</span> (a&lt;(b&lt;c?b:c))<span class="comment">//a是最小值</span></span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d %d %d&quot;</span>,(b&gt;c?b:c),(b&gt;c?c:b),a);</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">if</span> (a&gt;(b&gt;c?b:c))</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d %d %d&quot;</span>,a,(b&gt;c?b:c),(b&gt;c?c:b));</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d %d %d&quot;</span>,(b&gt;c?b:c),a,(b&gt;c?c:b));</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>用三元表达式替换了一下if else语句<del>（单纯懒得写而已）</del></p>
-<hr>
-<span id="more"></span>
-
-<h1 id="题目2：判断100-200的素数，并输出所有素数"><a href="#题目2：判断100-200的素数，并输出所有素数" class="headerlink" title="题目2：判断100-200的素数，并输出所有素数"></a>题目2：判断100-200的素数，并输出所有素数</h1><h2 id="程序如下：-1"><a href="#程序如下：-1" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;math.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> N=<span class="number">200</span>,i,flag,count=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (i=<span class="number">100</span>;i &lt;= N;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        flag = <span class="number">1</span>;</span><br><span class="line">        <span class="type">int</span> n = (<span class="type">int</span>)<span class="built_in">sqrt</span>(i);</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> k=<span class="number">2</span>;k&lt;=n;k++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span> (i%k == <span class="number">0</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                flag = <span class="number">0</span>;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (flag)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">&quot;%5d&quot;</span>,i);</span><br><span class="line">            count +=<span class="number">1</span>;</span><br><span class="line">            <span class="keyword">if</span> (count==<span class="number">8</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">                count = <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>为了美观，八个为一行输出<br>（其实判断是否为素数完全可以写成一个函数，这样主程序就不会这么臃肿）</p>
-<hr>
-<h1 id="题目3：输入一个正整数，将其分解质因数"><a href="#题目3：输入一个正整数，将其分解质因数" class="headerlink" title="题目3：输入一个正整数，将其分解质因数"></a>题目3：输入一个正整数，将其分解质因数</h1><h2 id="程序如下：-2"><a href="#程序如下：-2" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;math.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">isprime</span><span class="params">(<span class="type">int</span>)</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> n, i = <span class="number">2</span>;</span><br><span class="line">    <span class="type">int</span> N = <span class="number">0</span>, p = <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> a[<span class="number">101</span>];</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line">    N = n;</span><br><span class="line">    <span class="keyword">while</span> (N &gt; <span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">while</span> (N % i == <span class="number">0</span> &amp;&amp; isprime(i))</span><br><span class="line">        &#123;</span><br><span class="line">            N /= i;</span><br><span class="line">            a[p++] = i;</span><br><span class="line">        &#125;</span><br><span class="line">        i++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d=&quot;</span>, n);</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; p; j++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (j&lt;p<span class="number">-1</span>)</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">&quot;%d*&quot;</span>, a[j]);</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>, a[j]);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (p == <span class="number">0</span>)</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>, n);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">isprime</span><span class="params">(<span class="type">int</span> n)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">if</span> (n &lt; <span class="number">2</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> k = <span class="number">2</span>; k &lt;= (<span class="type">int</span>)<span class="built_in">sqrt</span>(n); k++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (n % k == <span class="number">0</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>对上一题说的这题实现了：）</p>
-<p>Date: 24.12.1</p>
-]]></content>
       <categories>
         <category>RM_PRIME</category>
         <category>RM算法</category>
@@ -3965,6 +3935,58 @@
 <hr>
 <h1 id="题目九：SwapMemory"><a href="#题目九：SwapMemory" class="headerlink" title="题目九：SwapMemory"></a>题目九：SwapMemory</h1><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">void</span> <span class="title function_">SwapMemory</span><span class="params">(<span class="type">void</span> * m1, <span class="type">void</span> * m2, <span class="type">int</span> size)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">char</span> temp;</span><br><span class="line">	<span class="type">char</span> *cm1 = (<span class="type">char</span> *)m1;</span><br><span class="line">	<span class="type">char</span> *cm2 = (<span class="type">char</span> *)m2;</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;size;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		temp = cm1[i];</span><br><span class="line">		cm1[i] = cm2[i];</span><br><span class="line">		cm2[i] = temp;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">void</span> <span class="title function_">PrintIntArray</span><span class="params">(<span class="type">int</span> * a, <span class="type">int</span> n)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>;i &lt; n; ++i)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d,&quot;</span>, a[i]);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> a[<span class="number">5</span>] = &#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>&#125;;<span class="type">int</span> b[<span class="number">5</span>] = &#123;<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>, <span class="number">40</span>, <span class="number">50</span>&#125;;</span><br><span class="line">	SwapMemory(a, b, <span class="number">5</span> * <span class="keyword">sizeof</span>(<span class="type">int</span>));</span><br><span class="line">	PrintIntArray(a, <span class="number">5</span>);</span><br><span class="line">	PrintIntArray(b, <span class="number">5</span>);</span><br><span class="line">	<span class="type">char</span> s1[] = <span class="string">&quot;12345&quot;</span>;</span><br><span class="line">	<span class="type">char</span> s2[] = <span class="string">&quot;abcde&quot;</span>;</span><br><span class="line">	SwapMemory(s1, s2, <span class="number">5</span>);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%s\n&quot;</span>, s1);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%s\n&quot;</span>, s2);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <hr>
+]]></content>
+      <categories>
+        <category>RM_PRIME</category>
+        <category>RM算法</category>
+        <category>作业文件</category>
+        <category>C语言</category>
+      </categories>
+      <tags>
+        <tag>基础语法</tag>
+        <tag>C</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C语言数组作业</title>
+    <url>/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E4%BD%9C%E4%B8%9A/</url>
+    <content><![CDATA[<hr>
+<h1 id="题目一：计算总和"><a href="#题目一：计算总和" class="headerlink" title="题目一：计算总和"></a>题目一：计算总和</h1><h2 id="程序如下："><a href="#程序如下：" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> n,sum=<span class="number">0</span>;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;n);</span><br><span class="line">    <span class="type">int</span> num[n];</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;num[i]);</span><br><span class="line">        sum += num[i];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>,sum);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<hr>
+<span id="more"></span>
+
+<h1 id="题目二：反转字符串"><a href="#题目二：反转字符串" class="headerlink" title="题目二：反转字符串"></a>题目二：反转字符串</h1><h2 id="程序如下：-1"><a href="#程序如下：-1" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">char</span> str[<span class="number">99</span>];</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">&quot;%s&quot;</span>,str);</span><br><span class="line">	<span class="type">int</span> len = <span class="built_in">strlen</span>(str);</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;len;i++)</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%c&quot;</span>,str[len-i<span class="number">-1</span>]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<hr>
+<h1 id="题目三：最大最小元素"><a href="#题目三：最大最小元素" class="headerlink" title="题目三：最大最小元素"></a>题目三：最大最小元素</h1><h2 id="程序如下：-2"><a href="#程序如下：-2" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> n,max;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;n);</span><br><span class="line">    <span class="type">int</span> num[n];</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;num[i]);</span><br><span class="line">    <span class="type">int</span> min=max=num[<span class="number">0</span>];</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (num[i]&gt;max)</span><br><span class="line">            max = num[i];</span><br><span class="line">        <span class="keyword">if</span> (num[i]&lt;min)</span><br><span class="line">            min = num[i];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;min=%d,max=%d&quot;</span>,min,max);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>RM_PRIME</category>
+        <category>RM算法</category>
+        <category>作业文件</category>
+        <category>C语言</category>
+      </categories>
+      <tags>
+        <tag>基础语法</tag>
+        <tag>C</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>循环与判断</title>
+    <url>/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/%E5%88%A4%E6%96%AD%E5%92%8C%E5%BE%AA%E7%8E%AF/</url>
+    <content><![CDATA[<hr>
+<h1 id="题目一：将三个整数从大到小输出"><a href="#题目一：将三个整数从大到小输出" class="headerlink" title="题目一：将三个整数从大到小输出"></a>题目一：将三个整数从大到小输出<br></h1><h2 id="程序如下："><a href="#程序如下：" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> a,b,c,n;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">&quot;%d %d %d&quot;</span>,&amp;a,&amp;b,&amp;c);</span><br><span class="line">	<span class="keyword">if</span> (a&lt;(b&lt;c?b:c))<span class="comment">//a是最小值</span></span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d %d %d&quot;</span>,(b&gt;c?b:c),(b&gt;c?c:b),a);</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">if</span> (a&gt;(b&gt;c?b:c))</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d %d %d&quot;</span>,a,(b&gt;c?b:c),(b&gt;c?c:b));</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d %d %d&quot;</span>,(b&gt;c?b:c),a,(b&gt;c?c:b));</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>用三元表达式替换了一下if else语句<del>（单纯懒得写而已）</del></p>
+<hr>
+<span id="more"></span>
+
+<h1 id="题目2：判断100-200的素数，并输出所有素数"><a href="#题目2：判断100-200的素数，并输出所有素数" class="headerlink" title="题目2：判断100-200的素数，并输出所有素数"></a>题目2：判断100-200的素数，并输出所有素数</h1><h2 id="程序如下：-1"><a href="#程序如下：-1" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;math.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> N=<span class="number">200</span>,i,flag,count=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (i=<span class="number">100</span>;i &lt;= N;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        flag = <span class="number">1</span>;</span><br><span class="line">        <span class="type">int</span> n = (<span class="type">int</span>)<span class="built_in">sqrt</span>(i);</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> k=<span class="number">2</span>;k&lt;=n;k++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span> (i%k == <span class="number">0</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                flag = <span class="number">0</span>;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (flag)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">&quot;%5d&quot;</span>,i);</span><br><span class="line">            count +=<span class="number">1</span>;</span><br><span class="line">            <span class="keyword">if</span> (count==<span class="number">8</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">                count = <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>为了美观，八个为一行输出<br>（其实判断是否为素数完全可以写成一个函数，这样主程序就不会这么臃肿）</p>
+<hr>
+<h1 id="题目3：输入一个正整数，将其分解质因数"><a href="#题目3：输入一个正整数，将其分解质因数" class="headerlink" title="题目3：输入一个正整数，将其分解质因数"></a>题目3：输入一个正整数，将其分解质因数</h1><h2 id="程序如下：-2"><a href="#程序如下：-2" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;math.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">isprime</span><span class="params">(<span class="type">int</span>)</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> n, i = <span class="number">2</span>;</span><br><span class="line">    <span class="type">int</span> N = <span class="number">0</span>, p = <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> a[<span class="number">101</span>];</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line">    N = n;</span><br><span class="line">    <span class="keyword">while</span> (N &gt; <span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">while</span> (N % i == <span class="number">0</span> &amp;&amp; isprime(i))</span><br><span class="line">        &#123;</span><br><span class="line">            N /= i;</span><br><span class="line">            a[p++] = i;</span><br><span class="line">        &#125;</span><br><span class="line">        i++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d=&quot;</span>, n);</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; p; j++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (j&lt;p<span class="number">-1</span>)</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">&quot;%d*&quot;</span>, a[j]);</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>, a[j]);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (p == <span class="number">0</span>)</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>, n);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">isprime</span><span class="params">(<span class="type">int</span> n)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">if</span> (n &lt; <span class="number">2</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> k = <span class="number">2</span>; k &lt;= (<span class="type">int</span>)<span class="built_in">sqrt</span>(n); k++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (n % k == <span class="number">0</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>对上一题说的这题实现了：）</p>
+<p>Date: 24.12.1</p>
 ]]></content>
       <categories>
         <category>RM_PRIME</category>
@@ -4029,28 +4051,6 @@
       <tags>
         <tag>C</tag>
         <tag>环境配置</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C语言数组作业</title>
-    <url>/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E4%BD%9C%E4%B8%9A/</url>
-    <content><![CDATA[<hr>
-<h1 id="题目一：计算总和"><a href="#题目一：计算总和" class="headerlink" title="题目一：计算总和"></a>题目一：计算总和</h1><h2 id="程序如下："><a href="#程序如下：" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> n,sum=<span class="number">0</span>;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;n);</span><br><span class="line">    <span class="type">int</span> num[n];</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;num[i]);</span><br><span class="line">        sum += num[i];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>,sum);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<hr>
-<span id="more"></span>
-
-<h1 id="题目二：反转字符串"><a href="#题目二：反转字符串" class="headerlink" title="题目二：反转字符串"></a>题目二：反转字符串</h1><h2 id="程序如下：-1"><a href="#程序如下：-1" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">char</span> str[<span class="number">99</span>];</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">&quot;%s&quot;</span>,str);</span><br><span class="line">	<span class="type">int</span> len = <span class="built_in">strlen</span>(str);</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;len;i++)</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%c&quot;</span>,str[len-i<span class="number">-1</span>]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<hr>
-<h1 id="题目三：最大最小元素"><a href="#题目三：最大最小元素" class="headerlink" title="题目三：最大最小元素"></a>题目三：最大最小元素</h1><h2 id="程序如下：-2"><a href="#程序如下：-2" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> n,max;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;n);</span><br><span class="line">    <span class="type">int</span> num[n];</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;num[i]);</span><br><span class="line">    <span class="type">int</span> min=max=num[<span class="number">0</span>];</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (num[i]&gt;max)</span><br><span class="line">            max = num[i];</span><br><span class="line">        <span class="keyword">if</span> (num[i]&lt;min)</span><br><span class="line">            min = num[i];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;min=%d,max=%d&quot;</span>,min,max);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>RM_PRIME</category>
-        <category>RM算法</category>
-        <category>作业文件</category>
-        <category>C语言</category>
-      </categories>
-      <tags>
-        <tag>基础语法</tag>
-        <tag>C</tag>
       </tags>
   </entry>
   <entry>

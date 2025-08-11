@@ -1174,7 +1174,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #2b9c21;
+  background: #17d9ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2684,167 +2684,152 @@ mjx-container + br {
     margin: 8px 0 0;
   }
 }
-/* Stellato's Custom Style - Merged Apple Style with Personal Background */
+/* ===================================================================
+// Stellato's Custom Style - Upgraded to Layered Liquid Glass
+// ===================================================================*/
 
-/* --- 1. 全局字体与您的自定义背景 --- */
-/* 保留您喜爱的背景图，这是您风格的核心 */
+/* --- 1. 全局字体与您的自定义背景 (已保留) --- */
 body {
   background: url(/images/background.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
-  /* 优先使用苹果官方字体，并为其他系统设置优雅的备用字体 */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-/* 深色模式下使用纯色背景，因为背景图在深色模式下可能不协调 */
 [data-theme="dark"] body {
-    background: #1d1d1f; /* 苹果官网常用的深黑色背景 */
+    background: #1d1d1f;
 }
 
-/* --- 2. 核心元素“磨砂玻璃卡片化”改造 --- */
-/* --- 核心元素“磨砂玻璃卡片化”最终版 --- */
+/* --- 2. 核心元素“分层液态玻璃”升级版 --- */
 
+/* 首先，让主内容区和侧边栏的原始背景透明 */
 .main-inner, .sidebar {
   background: none !important;
 }
 
+/* 为文章、侧边栏、分页应用分层玻璃效果 */
 .post-block,
 .sidebar-inner,
 .pagination {
-  background: rgba(242, 242, 242, 0.65); /* 半透明浅灰色背景 */
-  backdrop-filter: saturate(180%) blur(20px); /* 磨砂玻璃效果 */
-  border-radius: 18px; /* 苹果风格大圆角 */
+  position: relative; /* 关键：为伪元素定位提供锚点 */
+  overflow: hidden; /* 关键：隐藏溢出的光晕动画 */
+  
+  /* 基础玻璃层 */
+  background-color: rgba(242, 242, 242, 0.6);
+  backdrop-filter: blur(25px) saturate(160%);
+  
+  border-radius: 24px; /* 参考您的30px设置，使用一个更现代的值 */
   margin-bottom: 30px;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1); /* 柔和的阴影 */
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  transition: all 0.3s ease-in-out;
+  border: none; /* 移除旧的边框，用新的高光边框代替 */
+  
+  /* 深度阴影 */
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.post-block {
-  padding: 40px;
+/* 高光边框层 (伪元素) */
+.post-block::before,
+.sidebar-inner::before,
+.pagination::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.7);
+  pointer-events: none;
+  z-index: 2;
 }
 
-.sidebar-inner, .pagination {
-  padding: 20px;
+/* 动态光晕层 (伪元素) */
+.post-block::after,
+.sidebar-inner::after,
+.pagination::after {
+  content: '';
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 300%;
+  height: 300%;
+  background-image: conic-gradient(
+      from 180deg at 50% 50%,
+      rgba(173, 216, 230, 0.5) 0deg,
+      rgba(255, 182, 193, 0.5) 120deg,
+      rgba(144, 238, 144, 0.5) 240deg,
+      rgba(173, 216, 230, 0.5) 360deg
+  );
+  opacity: 0.15;
+  filter: blur(50px);
+  animation: rotate-sheen 12s linear infinite;
+  z-index: 1;
+  pointer-events: none; 
 }
 
+/* 深色模式下的分层玻璃 */
 [data-theme="dark"] .post-block,
 [data-theme="dark"] .sidebar-inner,
 [data-theme="dark"] .pagination {
-    background: rgba(44, 44, 46, 0.7);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: none;
+    background-color: rgba(44, 44, 46, 0.65);
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.25);
 }
 
+[data-theme="dark"] .post-block::before,
+[data-theme="dark"] .sidebar-inner::before,
+[data-theme="dark"] .pagination::before {
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+}
+
+/* 增强的悬浮效果 */
 .post-block:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 28px 0 rgba(31, 38, 135, 0.15);
-}
-/* 鼠标悬浮在文章卡片上时，轻微上浮 */
-.post-block:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 28px 0 rgba(31, 38, 135, 0.15);
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
 }
 
+/* 统一样式，设置内边距 */
+.post-block { padding: 40px; }
+.sidebar-inner, .pagination { padding: 20px; }
 
-/* --- 3. 保留并优化您的自定义颜色与布局 --- */
-/* 头部导航栏：继续使用磨砂玻璃效果 */
+
+/* --- 3. 头部导航栏 & 您的自定义颜色 (已保留并优化) --- */
 .header-inner {
-  background: rgba(255, 255, 255, 0.7) !important;
-  backdrop-filter: saturate(180%) blur(20px);
+  background: rgba(242, 242, 242, 0.6) !important;
+  backdrop-filter: saturate(160%) blur(25px);
 }
 
 [data-theme="dark"] .header-inner {
-  background: rgba(29, 29, 31, 0.7) !important;
+  background: rgba(44, 44, 46, 0.65) !important;
 }
 
 /* 保留您定义的字体颜色 */
-body {
-  color: #000;
-}
-.posts-expand .post-title-link {
-    color: #000;
-}
-.posts-expand .post-meta-container {
-    color: #880000
-}
+body { color: #000; }
+.posts-expand .post-title-link { color: #000; }
+.posts-expand .post-meta-container { color: #880000; }
 
-/* 为您的自定义颜色增加深色模式适配 */
+/* 您的自定义颜色深色模式适配 */
 [data-theme="dark"] body,
-[data-theme="dark"] .posts-expand .post-title-link {
-    color: #f5f5f7;
-}
-
-[data-theme="dark"] .posts-expand .post-meta-container {
-    color: #ff8a80; /* 将红色调整为在深色背景下更易读的亮红色 */
-}
+[data-theme="dark"] .posts-expand .post-title-link { color: #f5f5f7; }
+[data-theme="dark"] .posts-expand .post-meta-container { color: #ff8a80; }
 
 
-/* --- 4. 移除不必要的旧样式与冲突 --- */
-/* 使主内容区透明，让卡片效果和背景图完美融合 */
-.main-inner {
-  background: none;
-}
-
-/* 移除文章卡片之间的分割线，因为我们已经有独立的卡片了 */
-.posts-expand .post-eof {
-  display: none;
-}
-
-/* --- 侧边栏（Sidebar）字体颜色加深优化 --- */
-
-/*
- * 目标：为侧边栏内的所有文字和链接设置一个更深的颜色
-*/
-
-/* 浅色模式下的侧边栏文字颜色 */
-.sidebar-inner {
-  color: #333333; /* 使用一个非常深的灰色，比纯黑更柔和 */
-}
-
-/* 侧边栏内的链接颜色也要加深 */
-.sidebar-inner a {
-  color: #222222; /* 链接颜色比普通文字更深一点，以示区分 */
-}
-
-.sidebar-inner a:hover {
-  color: #000000; /* 鼠标悬浮时变为纯黑 */
-}
+/* --- 4. 侧边栏字体颜色 (已保留) --- */
+.sidebar-inner { color: #333333; }
+.sidebar-inner a { color: #222222; }
+.sidebar-inner a:hover { color: #000000; }
+[data-theme="dark"] .sidebar-inner { color: #dddddd; }
+[data-theme="dark"] .sidebar-inner a { color: #ffffff; }
+[data-theme="dark"] .sidebar-inner a:hover { color: #bbbbbb; }
 
 
-/* --- 深色模式下的适配 --- */
-/*
- * 在深色模式下，我们需要确保文字足够亮才能看清
-*/
+/* --- 5. 布局清理 --- */
+.posts-expand .post-eof { display: none; }
 
-[data-theme="dark"] .sidebar-inner {
-  color: #dddddd; /* 使用一个非常亮的灰色 */
-}
 
-[data-theme="dark"] .sidebar-inner a {
-  color: #ffffff; /* 链接使用纯白色，最显眼 */
-}
-
-[data-theme="dark"] .sidebar-inner a:hover {
-  color: #bbbbbb; /* 鼠标悬浮时颜色稍暗 */
-}
-
-/*
- * 搜索框居中、阴影及动画最终解决方案
-*/
-
-/* 1. 设置半透明背景浮层 */
+/* --- 6. 搜索框居中及动画 (已保留) --- */
 .search-pop-overlay {
-  /* 默认隐藏，但为淡出动画做准备 */
   visibility: hidden;
   opacity: 0;
-  
-  /* 关键：添加过渡效果，持续0.2秒 */
   transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
-  
-  /* 保持之前的强制定位 */
   position: fixed !important;
   top: 0 !important;
   left: 0 !important;
@@ -2853,28 +2838,26 @@ body {
   background: rgba(0, 0, 0, 0.4) !important;
   z-index: 9998 !important;
 }
-
-/* 当搜索框激活时，让背景浮层平滑地显示出来 */
 .search-pop-overlay.search-active {
   visibility: visible;
   opacity: 1;
 }
-
-/* 2. 将白色弹窗本身居中并添加阴影 */
 .search-pop-overlay .popup.search-popup {
-  /* 保持之前的居中方案 */
   position: fixed !important;
   top: 50% !important;
   left: 50% !important;
   transform: translate(-50%, -50%) !important;
   z-index: 9999 !important;
-  
-  /* 添加柔和的阴影效果 */
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-  
-  /* 您可以按需调整下面的外观样式 */
   width: 550px !important;
   max-width: 95% !important;
-  border-radius: 12px; /* 添加圆角以匹配阴影 */
-  border: none; /* 移除可能的边框 */
+  border-radius: 12px;
+  border: none;
+}
+
+
+/* --- 7. 动画关键帧定义 --- */
+@keyframes rotate-sheen {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
