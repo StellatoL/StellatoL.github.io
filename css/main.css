@@ -1174,7 +1174,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #65ddff;
+  background: #5c24cb;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2685,26 +2685,58 @@ mjx-container + br {
   }
 }
 /* ===================================================================
-// Stellato's Custom Style - Upgraded to Layered Liquid Glass
+// Stellato's Custom Style - Optimized & Configurable Liquid Glass
 // ===================================================================*/
 
-/* --- 1. 全局字体与您的自定义背景 (已保留) --- */
-body {
-  background: url(/images/background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 50%;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+/* --- 1. 全局配置：您的液态玻璃控制面板 --- */
+:root {
+  /* 基础玻璃设置 */
+  --glass-border-radius: 24px;
+  --glass-blur: 25px;
+  --glass-saturation: 180%;
+  
+  /* 光照 & 阴影 */
+  --shadow-light: 0 10px 35px rgba(0, 0, 0, 0.12);
+  --shadow-dark: 0 10px 35px rgba(0, 0, 0, 0.25);
+  --hover-shadow-light: 0 16px 45px rgba(0, 0, 0, 0.18);
+  --hover-shadow-dark: 0 16px 45px rgba(0, 0, 0, 0.3);
+
+  /* 动态光晕 (Sheen) */
+  --sheen-opacity: 0.1;
+  --sheen-blur: 50px;
+  --sheen-speed: 10s; /* 动画速度，值越大越慢 */
+  --sheen-gradient: conic-gradient(
+      from 180deg at 50% 50%,
+      rgba(173, 216, 230, 0.6) 0deg,   /* Light Blue */
+      rgba(255, 182, 193, 0.6) 120deg, /* Pink */
+      rgba(144, 238, 144, 0.6) 240deg, /* Light Green */
+      rgba(173, 216, 230, 0.6) 360deg
+  );
+
+  /* 悬浮效果 */
+  --hover-translateY: -8px;
+  --hover-scale: 1.02;
+
+  /* 明亮模式颜色 */
+  --glass-bg-light: rgba(242, 242, 242, 0.65);
+  --highlight-border-light: rgba(255, 255, 255, 0.7);
+
+  /* 暗黑模式颜色 */
+  --glass-bg-dark: rgba(44, 44, 46, 0.65);
+  --highlight-border-dark: rgba(255, 255, 255, 0.2);
 }
 
-[data-theme="dark"] body {
-    background: #1d1d1f;
+
+/* --- 2. 核心元素“分层液态玻璃” --- */
+
+/* 性能优化：为父元素创建新的堆叠上下文 */
+.post-block,
+.sidebar-inner,
+.pagination {
+  isolation: isolate;
 }
 
-/* --- 2. 核心元素“分层液态玻璃”升级版 --- */
-
-/* 首先，让主内容区和侧边栏的原始背景透明 */
+/* 首先，让主内容区和侧边栏的原始背景透明 (已保留) */
 .main-inner, .sidebar {
   background: none !important;
 }
@@ -2713,151 +2745,165 @@ body {
 .post-block,
 .sidebar-inner,
 .pagination {
-  position: relative; /* 关键：为伪元素定位提供锚点 */
-  overflow: hidden; /* 关键：隐藏溢出的光晕动画 */
+  position: relative;
+  overflow: hidden;
   
-  /* 基础玻璃层 */
-  background-color: rgba(242, 242, 242, 0.6);
-  backdrop-filter: blur(25px) saturate(160%);
+  background-color: var(--glass-bg-light);
+  backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturation));
   
-  border-radius: 24px; /* 参考您的30px设置，使用一个更现代的值 */
+  border-radius: var(--glass-border-radius);
   margin-bottom: 30px;
-  border: none; /* 移除旧的边框，用新的高光边框代替 */
+  border: none;
   
-  /* 深度阴影 */
-  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--shadow-light);
   transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-/* 高光边框层 (伪元素) */
+/* 高光边框层 & 动态光晕层 (伪元素) */
+.post-block::before, .sidebar-inner::before, .pagination::before,
+.post-block::after, .sidebar-inner::after, .pagination::after {
+  content: '';
+  position: absolute;
+  border-radius: inherit;
+  pointer-events: none;
+  /* 性能优化：提示浏览器这些属性将要变化 */
+  will-change: transform, opacity;
+}
+
+/* 高光层 */
 .post-block::before,
 .sidebar-inner::before,
 .pagination::before {
-  content: '';
-  position: absolute;
   inset: 0;
-  border-radius: inherit;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.7);
-  pointer-events: none;
+  box-shadow: inset 0 0 0 1px var(--highlight-border-light);
   z-index: 2;
 }
 
-/* 动态光晕层 (伪元素) */
+/* 动态光晕层 */
 .post-block::after,
 .sidebar-inner::after,
 .pagination::after {
-  content: '';
-  position: absolute;
-  top: -100%;
-  left: -100%;
-  width: 300%;
-  height: 300%;
-  background-image: conic-gradient(
-      from 180deg at 50% 50%,
-      rgba(173, 216, 230, 0.5) 0deg,
-      rgba(255, 182, 193, 0.5) 120deg,
-      rgba(144, 238, 144, 0.5) 240deg,
-      rgba(173, 216, 230, 0.5) 360deg
-  );
-  opacity: 0.15;
-  filter: blur(50px);
-  animation: rotate-sheen 12s linear infinite;
+  top: -100%; left: -100%;
+  width: 300%; height: 300%;
+  background-image: var(--sheen-gradient);
+  opacity: var(--sheen-opacity);
+  filter: blur(var(--sheen-blur));
+  animation: rotate-sheen var(--sheen-speed) linear infinite;
   z-index: 1;
-  pointer-events: none; 
 }
 
-/* 深色模式下的分层玻璃 */
+/* 增强的悬浮效果 */
+.post-block:hover {
+    transform: translateY(var(--hover-translateY)) scale(var(--hover-scale));
+    box-shadow: var(--hover-shadow-light);
+}
+
+/* --- 3. 暗黑模式适配 (已用变量简化) --- */
 [data-theme="dark"] .post-block,
 [data-theme="dark"] .sidebar-inner,
 [data-theme="dark"] .pagination {
-    background-color: rgba(44, 44, 46, 0.65);
-    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.25);
+    background-color: var(--glass-bg-dark);
+    box-shadow: var(--shadow-dark);
 }
 
 [data-theme="dark"] .post-block::before,
 [data-theme="dark"] .sidebar-inner::before,
 [data-theme="dark"] .pagination::before {
-    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0 0 0 1px var(--highlight-border-dark);
 }
 
-/* 增强的悬浮效果 */
-.post-block:hover {
-    transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
+[data-theme="dark"] .post-block:hover {
+    box-shadow: var(--hover-shadow-dark);
 }
 
-/* 统一样式，设置内边距 */
+
+/* --- 4. 统一样式与布局清理 (已保留并应用变量) --- */
+
+/* 头部导航栏 */
+.header-inner {
+  background: var(--glass-bg-light) !important;
+  backdrop-filter: saturate(var(--glass-saturation)) blur(var(--glass-blur));
+}
+[data-theme="dark"] .header-inner {
+  background: var(--glass-bg-dark) !important;
+}
+
+/* 内边距 */
 .post-block { padding: 40px; }
 .sidebar-inner, .pagination { padding: 20px; }
 
+/* 布局清理 */
+.posts-expand .post-eof { display: none; }
 
-/* --- 3. 头部导航栏 & 您的自定义颜色 (已保留并优化) --- */
-.header-inner {
-  background: rgba(242, 242, 242, 0.6) !important;
-  backdrop-filter: saturate(160%) blur(25px);
+
+/* --- 5. 动画及其他自定义样式 (已保留) --- */
+
+@keyframes rotate-sheen {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
-[data-theme="dark"] .header-inner {
-  background: rgba(44, 44, 46, 0.65) !important;
+/* 全局字体与背景 - 带高斯模糊效果 */
+body {
+  /* body本身只保留一个纯色背景作为底色 */
+  background: #f0f2f5; 
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  color: #000;
 }
 
-/* 保留您定义的字体颜色 */
-body { color: #000; }
+/* 创建伪元素用于显示和模糊背景图 */
+body::before {
+  content: '';
+  position: fixed; /* 固定在视窗，不随滚动条滚动 */
+  inset: 0; /* 等同于 top: 0; left: 0; right: 0; bottom: 0; */
+  
+  /* 将背景图应用到这个伪元素上 */
+  background: url(/images/background.png) 50% 50% / cover no-repeat fixed;
+  
+  /* --- 在这里调整模糊程度 --- */
+  filter: blur(5px); /* 10px是模糊半径，值越大越模糊 */
+  
+  /* 确保模糊背景在所有内容的后面 */
+  z-index: -1;
+  
+  /* 可选：轻微放大以防止模糊后边缘出现白边 */
+  transform: scale(1.05); 
+}
+
+[data-theme="dark"] body {
+  /* 暗黑模式下的底色 */
+  background: #1d1d1f;
+  color: #f5f5f7;
+}
+
+/* 其他字体颜色 */
 .posts-expand .post-title-link { color: #000; }
 .posts-expand .post-meta-container { color: #880000; }
-
-/* 您的自定义颜色深色模式适配 */
-[data-theme="dark"] body,
-[data-theme="dark"] .posts-expand .post-title-link { color: #f5f5f7; }
-[data-theme="dark"] .posts-expand .post-meta-container { color: #ff8a80; }
-
-
-/* --- 4. 侧边栏字体颜色 (已保留) --- */
 .sidebar-inner { color: #333333; }
 .sidebar-inner a { color: #222222; }
 .sidebar-inner a:hover { color: #000000; }
+
+[data-theme="dark"] .posts-expand .post-title-link { color: #f5f5f7; }
+[data-theme="dark"] .posts-expand .post-meta-container { color: #ff8a80; }
 [data-theme="dark"] .sidebar-inner { color: #dddddd; }
 [data-theme="dark"] .sidebar-inner a { color: #ffffff; }
 [data-theme="dark"] .sidebar-inner a:hover { color: #bbbbbb; }
 
-
-/* --- 5. 布局清理 --- */
-.posts-expand .post-eof { display: none; }
-
-
-/* --- 6. 搜索框居中及动画 (已保留) --- */
+/* 搜索框 */
 .search-pop-overlay {
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
-  position: fixed !important;
-  top: 0 !important;
-  left: 0 !important;
-  width: 100% !important;
-  height: 100% !important;
+  visibility: hidden; opacity: 0;
+  transition: opacity .2s ease-in-out, visibility .2s ease-in-out;
+  position: fixed !important; top: 0 !important; left: 0 !important;
+  width: 100% !important; height: 100% !important;
   background: rgba(0, 0, 0, 0.4) !important;
   z-index: 9998 !important;
 }
-.search-pop-overlay.search-active {
-  visibility: visible;
-  opacity: 1;
-}
+.search-pop-overlay.search-active { visibility: visible; opacity: 1; }
 .search-pop-overlay .popup.search-popup {
-  position: fixed !important;
-  top: 50% !important;
-  left: 50% !important;
+  position: fixed !important; top: 50% !important; left: 50% !important;
   transform: translate(-50%, -50%) !important;
   z-index: 9999 !important;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-  width: 550px !important;
-  max-width: 95% !important;
-  border-radius: 12px;
-  border: none;
-}
-
-
-/* --- 7. 动画关键帧定义 --- */
-@keyframes rotate-sheen {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  width: 550px !important; max-width: 95% !important;
+  border-radius: 12px; border: none;
 }
