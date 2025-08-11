@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>YAML标签格式</title>
-    <url>/2025/01/01/YAML%E6%A0%87%E7%AD%BE%E6%A0%BC%E5%BC%8F/</url>
-    <content><![CDATA[<hr>
-<h2 id="title-Your-Post-Titledate-YYYY-MM-DD-HH-MM-SStags-Tag1-Tag2-Another-Tagcategories-Category1-SubCategoryA"><a href="#title-Your-Post-Titledate-YYYY-MM-DD-HH-MM-SStags-Tag1-Tag2-Another-Tagcategories-Category1-SubCategoryA" class="headerlink" title="title: Your Post Titledate: YYYY-MM-DD HH:MM:SStags:  - Tag1  - Tag2  - Another Tagcategories:  - Category1  - SubCategoryA "></a>title: Your Post Title<br>date: YYYY-MM-DD HH:MM:SS<br>tags:<br>  - Tag1<br>  - Tag2<br>  - Another Tag<br>categories:<br>  - Category1<br>  - SubCategoryA </h2>]]></content>
-      <categories>
-        <category>杂物</category>
-      </categories>
-      <tags>
-        <tag>YAML</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown学习</title>
     <url>/2025/01/01/Markdown%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[<h1 id="Markdown基本语法"><a href="#Markdown基本语法" class="headerlink" title="Markdown基本语法"></a>Markdown基本语法</h1><h2 id="1-Markdown标题语法"><a href="#1-Markdown标题语法" class="headerlink" title="1.Markdown标题语法"></a>1.Markdown标题语法</h2><p>要创建标题，请在单词或短语前面添加井号 (<code>#</code>) 。<code>#</code> 的数量代表了标题的级别。  </p>
@@ -452,7 +440,7 @@
 <h3 id="网址和Email地址"><a href="#网址和Email地址" class="headerlink" title="网址和Email地址"></a>网址和Email地址</h3><p>使用尖括号可以很方便地把URL或者email地址变成可点击的链接。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://markdown.com.cn&gt;</span><br><span class="line">&lt;fake@example.com&gt;</span><br></pre></td></tr></table></figure>
 
-<p>渲染效果如下：<br><br><a href="https://markdown.com.cn/">https://markdown.com.cn(opens new window)</a><br><a href="mailto:&#102;&#97;&#x6b;&#x65;&#x40;&#x65;&#120;&#97;&#109;&#x70;&#x6c;&#101;&#46;&#99;&#x6f;&#x6d;">fake@example.com</a><br></p>
+<p>渲染效果如下：<br><br><a href="https://markdown.com.cn/">https://markdown.com.cn(opens new window)</a><br><a href="mailto:&#x66;&#x61;&#x6b;&#x65;&#64;&#x65;&#x78;&#97;&#109;&#112;&#108;&#101;&#x2e;&#x63;&#111;&#x6d;">fake@example.com</a><br></p>
 <h3 id="带格式化的链接"><a href="#带格式化的链接" class="headerlink" title="带格式化的链接"></a>带格式化的链接<br></h3><p><a href="https://markdown.com.cn/extended-syntax/fenced-code-blocks.html#emphasis">强调</a> 链接, 在链接语法前后增加星号。 要将链接表示为代码，请在方括号中添加反引号。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I love supporting the **[EFF](https://eff.org)**.</span><br><span class="line">This is the *[Markdown Guide](https://www.markdownguide.org)*.</span><br><span class="line">See the section on [`code`](#code).</span><br></pre></td></tr></table></figure>
 
@@ -716,499 +704,15 @@
       </tags>
   </entry>
   <entry>
-    <title>大英课文</title>
-    <url>/2025/01/01/%E5%A4%A7%E8%8B%B1%E8%AF%BE%E6%96%87/</url>
-    <content><![CDATA[<h1 id="大学英语四级（CET-4）考点深度剖析：基于农业与环境文本的语言特征分析"><a href="#大学英语四级（CET-4）考点深度剖析：基于农业与环境文本的语言特征分析" class="headerlink" title="大学英语四级（CET-4）考点深度剖析：基于农业与环境文本的语言特征分析"></a>大学英语四级（CET-4）考点深度剖析：基于农业与环境文本的语言特征分析</h1><h2 id="1-引言"><a href="#1-引言" class="headerlink" title="1. 引言"></a>1. 引言</h2><h3 id="1-1-报告目的"><a href="#1-1-报告目的" class="headerlink" title="1.1 报告目的"></a>1.1 报告目的</h3><p>本报告旨在对提供的特定英文段落进行全面的语言学分析，重点关注其中与大学英语四级（CET-4）考试相关的词汇、搭配、语法及句式结构。本报告致力于为CET-4考生提供一份深度学习指南，帮助其更好地理解和掌握考试所需的语言知识点。</p>
-<h3 id="1-2-段落概述"><a href="#1-2-段落概述" class="headerlink" title="1.2 段落概述"></a>1.2 段落概述</h3><p>所分析的段落如下：</p>
-<p>“US agriculture shows us how bad intensive livestock-raising is for people, animals and the environment. This should be a warning sign as global demand for livestock products increases, and, along with it, the drive to intensify the inputs into what have been traditional mixed agricultural systems.”</p>
-<p>该段落主要讨论了美国农业中集约化畜牧业对人类、动物及环境的负面影响，并警示随着全球对畜牧产品需求的增加以及对传统混合农业系统投入集约化的推动，类似的趋势可能在全球范围内出现。农业、环境和全球趋势等主题在CET-4的材料中较为常见 1。</p>
-<h3 id="1-3-与CET-4的关联性"><a href="#1-3-与CET-4的关联性" class="headerlink" title="1.3 与CET-4的关联性"></a>1.3 与CET-4的关联性</h3><p>理解此类文本对于CET-4的多个部分至关重要，包括阅读理解、语境词汇，并可能为写作或翻译任务提供信息和思路 5。CET-4考试旨在全面评估中国大学生的英语应用能力，而此类涉及社会、经济与环境议题的文本是常见的考查材料。</p>
-<span id="more"></span>
-
-<h2 id="2-CET-4词汇分析-生词"><a href="#2-CET-4词汇分析-生词" class="headerlink" title="2. CET-4词汇分析 (生词)"></a>2. CET-4词汇分析 (生词)</h2><h3 id="2-1-CET-4词汇考查方法概述"><a href="#2-1-CET-4词汇考查方法概述" class="headerlink" title="2.1 CET-4词汇考查方法概述"></a>2.1 CET-4词汇考查方法概述</h3><p>CET-4要求考生掌握约4500至5418个基础词汇 5。然而，考试越来越侧重于在语境中考查词汇，而非孤立的词义辨析 9。这意味着理解词汇的细微差别、同义词、反义词以及词形变化至关重要。自从专门的“词汇与结构”部分被取消后 7，词汇的考查更加融入阅读理解、完形填空以及写作与翻译等部分。</p>
-<h3 id="2-2-核心词汇详解"><a href="#2-2-核心词汇详解" class="headerlink" title="2.2 核心词汇详解"></a>2.2 核心词汇详解</h3><p>以下是对段落中核心词汇的详细分析：</p>
-<ul>
-<li><p><strong>agriculture (n.)</strong></p>
-<ul>
-<li><strong>语境含义:</strong> 农业，农学；指种植农作物和饲养牲畜以提供食物、羊毛和其他产品的科学或实践。</li>
-<li><strong>CET-4相关性:</strong> 核心主题词汇，常出现在与经济、环境或社会发展相关的文章中 1。</li>
-<li><strong>段落例句:</strong> “US <em>agriculture</em> shows us…”</li>
-</ul>
-</li>
-<li><p><strong>intensive (adj.)</strong></p>
-<ul>
-<li><strong>语境含义:</strong> 集中的；密集的；加强的。在农业语境下，指在单位土地面积上投入高水平的资本、劳动力或农业化学品等以获得高产出 14。</li>
-<li><strong>CET-4相关性:</strong> 常用于讨论现代农业、工业或学习方法。理解其“高投入&#x2F;努力&#x2F;集中”的含义是关键 19。</li>
-<li><strong>段落例句:</strong> “…how bad <em>intensive</em> livestock-raising is…”</li>
-</ul>
-</li>
-<li><p><strong>livestock-raising (n. phrase)</strong></p>
-<ul>
-<li><strong>语境含义:</strong> 畜牧业；饲养牲畜（农场动物）以获取食物、纤维或劳动力的实践 12。</li>
-<li><strong>CET-4相关性:</strong> 农业领域的专门术语。“Livestock”本身是一个重要的名词 12。</li>
-<li><strong>段落例句:</strong> “…intensive <em>livestock-raising</em> is…”</li>
-</ul>
-</li>
-<li><p><strong>environment (n.)</strong></p>
-<ul>
-<li><strong>语境含义:</strong> 环境；围绕人、动物或植物生存和运作的周围事物或条件。</li>
-<li><strong>CET-4相关性:</strong> CET-4中非常常见的高频词，是污染、保护和社会问题等主题的核心词汇 2。</li>
-<li><strong>段落例句:</strong> “…is for people, animals and the <em>environment</em>.”</li>
-</ul>
-</li>
-<li><p><strong>warning sign (n. phrase)</strong></p>
-<ul>
-<li><strong>语境含义:</strong> 警告信号；危险或麻烦即将来临的迹象或指示。</li>
-<li><strong>CET-4相关性:</strong> 理解此类习语和搭配非常重要。“Sign”可以有多种含义，但在这里是固定表达的一部分 29。</li>
-<li><strong>段落例句:</strong> “This should be a <em>warning sign</em>…”</li>
-</ul>
-</li>
-<li><p><strong>global demand (n. phrase)</strong></p>
-<ul>
-<li><strong>语境含义:</strong> 全球需求；指世界各地对某一特定产品或服务的总需求 31。</li>
-<li><strong>CET-4相关性:</strong> “Global”和“demand”是常见词。该短语表示世界范围内的经济趋势，常在关于经济或国际问题的阅读文章中考查 31。</li>
-<li><strong>段落例句:</strong> “…as <em>global demand</em> for livestock products increases…”</li>
-</ul>
-</li>
-<li><p><strong>livestock products (n. phrase)</strong></p>
-<ul>
-<li><strong>语境含义:</strong> 畜产品；来源于农场动物的产品，如肉、奶、蛋、毛、皮革等 23。</li>
-<li><strong>CET-4相关性:</strong> 在“livestock”基础上构建；在此语境下理解“products”虽直接但对理解至关重要。</li>
-<li><strong>段落例句:</strong> “…global demand for <em>livestock products</em> increases…”</li>
-</ul>
-</li>
-<li><p><strong>increases (v.)</strong></p>
-<ul>
-<li><strong>语境含义:</strong> 增加；在大小、数量、强度或程度上变大或使之变大。</li>
-<li><strong>CET-4相关性:</strong> 非常常见的动词，常考查其同义词（如rise, grow）或反义词（如decrease, fall）。其语法形式（一般现在时，第三人称单数）也是基础语法点 37。</li>
-<li><strong>段落例句:</strong> “…global demand for livestock products <em>increases</em>…”</li>
-</ul>
-</li>
-<li><p><strong>drive (n.)</strong></p>
-<ul>
-<li><strong>语境含义:</strong> 此处指为达到特定目标而组织的努力或坚定的决心；内在的驱动力或动机 39。</li>
-<li><strong>CET-4相关性:</strong> 名词“drive”有多种含义（如驾车旅行、电脑驱动器），语境至关重要。CET-4可能会考查这种细微差别。</li>
-<li><strong>段落例句:</strong> “…and, along with it, the <em>drive</em> to intensify the inputs…”</li>
-</ul>
-</li>
-<li><p><strong>intensify (v.)</strong></p>
-<ul>
-<li><strong>语境含义:</strong> 加强，增强；使变得更强烈、更严重或更极端 41。</li>
-<li><strong>CET-4相关性:</strong> 较为正式的动词，常见于学术或分析性文本中。其构词法（源自“intense”）也可能相关。</li>
-<li><strong>段落例句:</strong> “…the drive to <em>intensify</em> the inputs…”</li>
-</ul>
-</li>
-<li><p><strong>inputs (n.)</strong></p>
-<ul>
-<li><strong>语境含义:</strong> 投入；任何过程或系统所投入、接纳或操作的东西，尤指生产中使用的资本、劳动力、材料或能源等资源 43。在农业中，指化肥、饲料、水、劳动力、技术等。</li>
-<li><strong>CET-4相关性:</strong> 在经济、商业或技术语境中常见。理解其复数形式和在此处的特定含义很重要。</li>
-<li><strong>段落例句:</strong> “…the inputs into what have been…”</li>
-</ul>
-</li>
-<li><p><strong>traditional (adj.)</strong></p>
-<ul>
-<li><strong>语境含义:</strong> 传统的；作为传统一部分而存在的；历史悠久的。</li>
-<li><strong>CET-4相关性:</strong> 常用形容词，常与“modern”形成对比。其在“traditional mixed agricultural systems”中的用法是关键 49。</li>
-<li><strong>段落例句:</strong> “…traditional mixed agricultural systems.”</li>
-</ul>
-</li>
-<li><p><strong>mixed agricultural systems (n. phrase)</strong></p>
-<ul>
-<li><strong>语境含义:</strong> 混合农业系统；指在同一农场结合不同类型农业的耕作制度，如种植作物和饲养牲畜，旨在实现协同效应和可持续性 53。</li>
-<li><strong>CET-4相关性:</strong> 农业领域的专门术语。在此语境下理解“mixed”至关重要。</li>
-<li><strong>段落例句:</strong> “…traditional <em>mixed agricultural systems</em>.”</li>
-</ul>
-</li>
-</ul>
-<p><strong>表1：段落中核心CET-4词汇</strong></p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>词汇</strong></td>
-<td><strong>CET-4相关性&#x2F;频率说明</strong></td>
-<td><strong>语境含义 (段落中)</strong></td>
-<td><strong>段落例句</strong></td>
-<td><strong>CET-4相关同&#x2F;反义词及词形变化</strong></td>
-</tr>
-<tr>
-<td>agriculture</td>
-<td>高频学术词汇；主题特定：农业&#x2F;环境</td>
-<td>农业，农学</td>
-<td>US <em>agriculture</em> shows us…</td>
-<td>Farming (同); 词根: agri- (田地), culture (耕作)</td>
-</tr>
-<tr>
-<td>intensive</td>
-<td>中高频学术词汇</td>
-<td>集中的，密集的</td>
-<td>…how bad <em>intensive</em> livestock-raising is…</td>
-<td>Concentrated, thorough (同); extensive (反). intense (形近词)</td>
-</tr>
-<tr>
-<td>livestock-raising</td>
-<td>主题特定：农业</td>
-<td>畜牧业</td>
-<td>…<em>intensive livestock-raising</em> is…</td>
-<td>Animal husbandry (同). livestock (核心词)</td>
-</tr>
-<tr>
-<td>environment</td>
-<td>极高频词汇；主题特定：环境，社会</td>
-<td>环境</td>
-<td>…for people, animals and the <em>environment</em>.</td>
-<td>Surroundings, atmosphere (同). environmental (adj.), environmentally (adv.)</td>
-</tr>
-<tr>
-<td>warning sign</td>
-<td>搭配，固定表达</td>
-<td>警告信号</td>
-<td>This should be a <em>warning sign</em>…</td>
-<td>Indication of danger, alarm signal (同).</td>
-</tr>
-<tr>
-<td>global demand</td>
-<td>组合词汇，常见于经济&#x2F;国际议题</td>
-<td>全球需求</td>
-<td>…as <em>global demand</em> for livestock products increases…</td>
-<td>Worldwide demand (同). global (adj.), demand (n.&#x2F;v.)</td>
-</tr>
-<tr>
-<td>livestock products</td>
-<td>主题特定：农业，经济</td>
-<td>畜产品</td>
-<td>…<em>global demand for livestock products</em> increases…</td>
-<td>Animal products (同).</td>
-</tr>
-<tr>
-<td>increases (v.)</td>
-<td>极高频动词</td>
-<td>增加</td>
-<td>…livestock products <em>increases</em>…</td>
-<td>Rises, grows, expands (同); decreases, falls, shrinks (反). increase (n.), increasing (adj.), increasingly (adv.)</td>
-</tr>
-<tr>
-<td>drive (n.)</td>
-<td>中频词汇，多义</td>
-<td>（为达到某目标的）努力，运动；驱动力</td>
-<td>…the <em>drive</em> to intensify the inputs…</td>
-<td>Urge, motivation, campaign, effort (同). driver (n.), to drive (v.)</td>
-</tr>
-<tr>
-<td>intensify (v.)</td>
-<td>中高频学术词汇</td>
-<td>加强，增强</td>
-<td>…the drive to <em>intensify</em> the inputs…</td>
-<td>Strengthen, escalate, heighten (同); weaken, lessen (反). intense (adj.), intensity (n.), intensification (n.)</td>
-</tr>
-<tr>
-<td>inputs (n.)</td>
-<td>中频词汇，常见于经济&#x2F;技术语境</td>
-<td>投入，输入（指生产过程中投入的资源）</td>
-<td>…to intensify the <em>inputs</em> into what have been…</td>
-<td>Resources, contributions (同); outputs (反). to input (v.)</td>
-</tr>
-<tr>
-<td>traditional</td>
-<td>高频形容词</td>
-<td>传统的</td>
-<td>…<em>traditional</em> mixed agricultural systems.</td>
-<td>Conventional, customary (同); modern, innovative (反). tradition (n.), traditionally (adv.)</td>
-</tr>
-<tr>
-<td>mixed agricultural systems</td>
-<td>主题特定：农业</td>
-<td>混合农业系统</td>
-<td>…traditional <em>mixed agricultural systems</em>.</td>
-<td>Integrated farming systems (同).</td>
-</tr>
-</tbody></table>
-<p>此表提供了对段落中最重要词汇的结构化、快速参考指南。它整合了关键信息（含义、语境、CET-4相关性、相关词汇），以便进行有效的学习和复习，直接满足了用户对详细“生词”分析的要求。这种格式符合有效的词汇习得策略，例如在语境中学习单词并理解它们与其他单词的关系 38。</p>
-<p>段落中的词汇呈现出通用学术词汇（如 “intensive,” “intensify,” “drive,” “inputs”）与特定主题词汇（如 “livestock-raising,” “mixed agricultural systems”）相结合的特点。CET-4文章通常展现这种混合模式，要求学生既具备广泛的学术词汇量，又对常见主题（如环境、经济、科技）的词汇有所熟悉。例如，”intensive” 或名词 “drive” 适用于许多学术领域，其通用性在词典释义中得到证实 20。相比之下，”livestock-raising” 21 和 “mixed agricultural systems” 55 则明显与农业相关。考虑到CET-4旨在测试非英语专业学生的英语水平 7，其文章内容会涉及各种大众兴趣和准学术主题。这意味着学生需要双管齐下地构建词汇：掌握通用学术词汇表（如AWL），并熟悉与CET-4常见主题相关的词汇。</p>
-<p>此外，段落中的几个关键术语是名词短语或复合名词（例如 “livestock-raising,” “warning sign,” “global demand,” “livestock products,” “mixed agricultural systems”）。将这些视为单一的概念单元对于理解至关重要，而不是试图孤立地理解每个单词。用户查询要求分析“生词”但也包括“搭配”。这些“生词”中有许多实际上是多词单元，其功能类似于单个词汇项。例如，“warning sign” 29 的含义不同于单独的“warning”或“sign”。将这些视为词块可以提高阅读速度和理解能力，这对于CET-4的阅读部分至关重要 52。这表明词汇学习应包括常见的名词短语。</p>
-<h2 id="3-CET-4搭配焦点-搭配"><a href="#3-CET-4搭配焦点-搭配" class="headerlink" title="3. CET-4搭配焦点 (搭配)"></a>3. CET-4搭配焦点 (搭配)</h2><h3 id="3-1-定义与重要性"><a href="#3-1-定义与重要性" class="headerlink" title="3.1 定义与重要性"></a>3.1 定义与重要性</h3><p>搭配是指经常一起出现的词语组合（例如，”make a mistake”，而不是 “do a mistake”）。它们对于自然的英语表达至关重要，并且经常在CET-4中进行考查，尤其是在完形填空部分，同时也影响阅读理解中的选项选择 10。</p>
-<h3 id="3-2-段落中识别的搭配"><a href="#3-2-段落中识别的搭配" class="headerlink" title="3.2 段落中识别的搭配"></a>3.2 段落中识别的搭配</h3><ul>
-<li><strong>shows sb sth &#x2F; shows sb how…:</strong> “US agriculture <em>shows us how</em> bad…” （关于 “show” 的一般搭配可见 64；具体结构 “shows us how” 是传递信息的常见模式）。</li>
-<li><strong>be bad for sb&#x2F;sth:</strong> “…livestock-raising <em>is bad for</em> people, animals and the environment.” 66。</li>
-<li><strong>warning sign:</strong> “This should be a <em>warning sign</em>.” （这是一个强烈的，近乎固定的表达 29）。</li>
-<li><strong>demand for sth:</strong> “…global <em>demand for</em> livestock products…” 31。</li>
-<li><strong>along with sth:</strong> “…and, <em>along with it</em>, the drive…” （一个常见的连接短语 70）。</li>
-<li><strong>the drive to do sth:</strong> “…<em>the drive to intensify</em> the inputs…” （名词 “drive” 表示动机，后跟目的性不定式 39）。</li>
-<li><strong>inputs into sth:</strong> “…inputs <em>into what have been</em> traditional mixed agricultural systems.” （当指明接受投入的系统时，”inputs” 与 “into” 搭配 43）。</li>
-</ul>
-<p><strong>表2：段落中识别的搭配及其CET-4意义</strong></p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>搭配</strong></td>
-<td><strong>含义</strong></td>
-<td><strong>段落例句</strong></td>
-<td><strong>常见用法模式&#x2F;变体</strong></td>
-<td><strong>CET-4考查相关性 (例如，“完形填空常见”，“写作有用”)</strong></td>
-</tr>
-<tr>
-<td>shows sb sth &#x2F; shows sb how</td>
-<td>向某人展示某事&#x2F;向某人展示如何…</td>
-<td>US agriculture <em>shows us how</em> bad…</td>
-<td>show sb the way; show sb an example</td>
-<td>阅读理解，写作（用于引出解释或结果）</td>
-</tr>
-<tr>
-<td>be bad for sb&#x2F;sth</td>
-<td>对某人&#x2F;某事有害</td>
-<td>…livestock-raising <em>is bad for</em> people…</td>
-<td>Smoking is bad for your health.</td>
-<td>阅读理解，写作（用于表达负面影响）</td>
-</tr>
-<tr>
-<td>warning sign</td>
-<td>警告信号</td>
-<td>This should be a <em>warning sign</em>.</td>
-<td>a clear warning sign; heed the warning signs</td>
-<td>阅读理解，完形填空（作为固定表达）</td>
-</tr>
-<tr>
-<td>demand for sth</td>
-<td>对某物的需求</td>
-<td>…global <em>demand for</em> livestock products…</td>
-<td>high&#x2F;low demand for; meet the demand for</td>
-<td>阅读理解（经济、社会类文章），写作</td>
-</tr>
-<tr>
-<td>along with sth</td>
-<td>与某事物一起；伴随着某事物</td>
-<td>…and, <em>along with it</em>, the drive…</td>
-<td>He came along with his friends.</td>
-<td>写作（用于添加补充信息，增强连贯性）</td>
-</tr>
-<tr>
-<td>the drive to do sth</td>
-<td>做某事的动力&#x2F;决心&#x2F;努力</td>
-<td>…<em>the drive to intensify</em> the inputs…</td>
-<td>a drive for efficiency; a drive to succeed</td>
-<td>阅读理解，写作（表达动机或趋势）</td>
-</tr>
-<tr>
-<td>inputs into sth</td>
-<td>对某事物的投入（尤指系统、过程）</td>
-<td>…inputs <em>into what have been</em> traditional mixed agricultural systems.</td>
-<td>provide inputs into the project; increase inputs into education</td>
-<td>阅读理解（经济、技术、农业类文章）</td>
-</tr>
-</tbody></table>
-<p>此表将分离出常见的词语搭配，这些搭配通常是英语学习者的难点。通过突出这些搭配，学生可以提高其词汇的准确性和流利性，这对于CET-4的理解（阅读、完形填空 10）和产出（写作、翻译 6）部分都至关重要。</p>
-<p>段落中的许多搭配涉及介词（例如 “bad <em>for</em>,” “demand <em>for</em>,” “inputs <em>into</em>,” “along <em>with</em>“）。介词搭配是英语学习者常见的错误来源，并且在CET-4中会进行巧妙的考查。回顾已识别的搭配，有相当一部分是动词&#x2F;形容词&#x2F;名词 + 介词的组合，如 68 (“demand for”) 和 45 (“inputs into”) 所示。介词使用不当会极大地改变意义或使表达听起来不自然。CET-4的完形填空题常常设置仅介词不同的选项，直接考查这方面的知识 60。这意味着有针对性地学习介词搭配将大有裨益。</p>
-<p>此外，一些搭配更强且更固定（例如 “warning sign”），而另一些则更基于模式（例如 “the drive to do sth”）。认识到这种区别有助于学习：固定表达可以作为词块记忆，而模式则允许更灵活的应用。”Warning sign” 29 几乎像一个单独的词汇项一样运作。然而，”the drive to do sth” 72 是一个语法模式（名词 + to-不定式），其中 “drive” 与不定式结构搭配以表达目的或动机。词语搭配有强弱之分 58。理解这种差异可以指导学习策略：记忆强搭配，理解弱搭配的模式。这种细致的理解对于CET-4的接受性技能和产出性技能都很重要。</p>
-<h2 id="4-核心CET-4语法点-语法"><a href="#4-核心CET-4语法点-语法" class="headerlink" title="4. 核心CET-4语法点 (语法)"></a>4. 核心CET-4语法点 (语法)</h2><h3 id="4-1-CET-4语法考查方法概述"><a href="#4-1-CET-4语法考查方法概述" class="headerlink" title="4.1 CET-4语法考查方法概述"></a>4.1 CET-4语法考查方法概述</h3><p>语法知识通过阅读理解、完形填空、写作和翻译等部分进行间接考查。尽管在改革后专门的语法题目可能减少了 7，但坚实的语法基础对于整体表现仍然至关重要 6。</p>
-<h3 id="4-2-A-动词时态与语态"><a href="#4-2-A-动词时态与语态" class="headerlink" title="4.2 A. 动词时态与语态"></a>4.2 A. 动词时态与语态</h3><ul>
-<li><p><strong>一般现在时 (Present Simple Tense):</strong></p>
-<ul>
-<li><strong>例句:</strong> “US agriculture <em>shows</em>…”, “…livestock-raising <em>is</em>…”, “…global demand…<em>increases</em>.”</li>
-<li><strong>用法:</strong> 表达事实、普遍真理、习惯性动作。这对于CET-4中常见的描述性和议论性文本至关重要 74。</li>
-<li><strong>CET-4相关性:</strong> 一般现在时的主谓一致（尤其是第三人称单数形式动词加-s）是一个基础但关键的考点。</li>
-</ul>
-</li>
-<li><p><strong>现在完成时 (Present Perfect Tense):</strong></p>
-<ul>
-<li><strong>例句:</strong> “…into what <em>have been</em> traditional mixed agricultural systems.”</li>
-<li><strong>用法:</strong> 表示从过去开始并持续到现在的动作或状态，或与现在有联系的过去动作。此处描述的是过去是传统的系统，并暗示其性质延续至今或与当前讨论相关 74。</li>
-<li><strong>CET-4相关性:</strong> 区分一般过去时和现在完成时是一个常见的难点，也是常考点。</li>
-</ul>
-</li>
-<li><p><strong>主动语态与被动语态 (Active vs. Passive Voice):</strong></p>
-<ul>
-<li><strong>主动语态:</strong> 段落主要使用主动语态 (例如, “US agriculture shows…”)。</li>
-<li><strong>被动语态讨论:</strong> 在类似语境中，何时以及为何可能使用被动语态（例如，强调动作的承受者，或当动作的执行者未知&#x2F;不重要时）。例如：”It is shown by US agriculture that…” 74。</li>
-<li><strong>CET-4相关性:</strong> 识别和构成被动语态对于阅读理解（理解谁做了什么）以及在写作&#x2F;翻译中变换句式非常重要。</li>
-</ul>
-</li>
-</ul>
-<h3 id="4-3-B-情态动词-Modal-Verbs"><a href="#4-3-B-情态动词-Modal-Verbs" class="headerlink" title="4.3 B. 情态动词 (Modal Verbs)"></a>4.3 B. 情态动词 (Modal Verbs)</h3><ul>
-<li><strong>“should” 表建议&#x2F;警告&#x2F;期望:</strong><ul>
-<li><strong>例句:</strong> “This <em>should be</em> a warning sign…”</li>
-<li><strong>用法:</strong> 表示应该做某事，强烈的建议，或合乎逻辑的期望。此处暗示所描述的情况应当被解读为一个警告 86。</li>
-<li><strong>CET-4相关性:</strong> 情态动词常因其在语境中的细微含义而被考查。”Should” vs. “must” vs. “may” 等的区别是重点。</li>
-</ul>
-</li>
-</ul>
-<h3 id="4-4-C-从句分析-Clause-Analysis"><a href="#4-4-C-从句分析-Clause-Analysis" class="headerlink" title="4.4 C. 从句分析 (Clause Analysis)"></a>4.4 C. 从句分析 (Clause Analysis)</h3><ul>
-<li><p><strong>由 “how” 引导的宾语从句 (名词性从句作直接宾语):</strong></p>
-<ul>
-<li><strong>例句:</strong> “…shows us <em>how bad intensive livestock-raising is for people, animals and the environment</em>.”</li>
-<li><strong>解释:</strong> 该从句充当动词 “shows” 的直接宾语，回答 “shows us what?”。”How” 引导一个表示方式或程度的从句 91。</li>
-<li><strong>CET-4相关性:</strong> 理解名词性从句（尤其是作宾语时）对于解析阅读中的复杂句子以及在写作中构建复杂句子至关重要。</li>
-</ul>
-</li>
-<li><p><strong>由 “as” 引导的原因&#x2F;时间状语从句 (Adverbial Clause of Reason&#x2F;Time):</strong></p>
-<ul>
-<li><strong>例句:</strong> “…<em>as global demand for livestock products increases</em>…”</li>
-<li><strong>解释:</strong> 此处的 “as” 可能表示原因（”因为&#x2F;既然需求在增加”）或同时发生的时间（”当需求增加时”）。状语从句通过提供上下文来修饰主句 91。</li>
-<li><strong>CET-4相关性:</strong> “As” 是一个多功能连词；识别其功能（时间、原因、方式、比较）对于理解至关重要。</li>
-</ul>
-</li>
-<li><p><strong>由 “what” 引导的作介词宾语的名词性从句 (Noun Clause as Object of a Preposition):</strong></p>
-<ul>
-<li><strong>例句:</strong> “…inputs into <em>what have been traditional mixed agricultural systems</em>.”</li>
-<li><strong>解释:</strong> 从句 “what have been traditional mixed agricultural systems” 是介词 “into” 的宾语。”What” 在此意为 “那些曾经是…的事物” 91。</li>
-<li><strong>CET-4相关性:</strong> 这是一个更复杂的结构。识别 “what” 从句的功能，尤其是在介词之后，对于准确解析句子含义至关重要。</li>
-</ul>
-</li>
-</ul>
-<p><strong>表3：语法结构及其CET-4应用</strong></p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>语法点</strong></td>
-<td><strong>段落例句</strong></td>
-<td><strong>详细解释 (形式、功能、常见用法)</strong></td>
-<td><strong>CET-4相关性&#x2F;考查重点 (如何出现在不同题型中，常见错误)</strong></td>
-</tr>
-<tr>
-<td>一般现在时</td>
-<td>US agriculture <em>shows</em>…;…livestock-raising <em>is</em>…;…demand…<em>increases</em>.</td>
-<td>表述当前事实、普遍真理或习惯性动作。第三人称单数动词加-s&#x2F;es。</td>
-<td>阅读理解基础；写作和翻译中准确使用；主谓一致是常见考点。</td>
-</tr>
-<tr>
-<td>现在完成时</td>
-<td>…into <em>what have been</em> traditional mixed agricultural systems.</td>
-<td>构成: have&#x2F;has + 过去分词。表示与现在相关的过去动作或从过去持续到现在的状态。</td>
-<td>阅读理解中理解动作的持续性或与现在的关联；写作和翻译中准确表达此类时间概念；常与一般过去时混淆。</td>
-</tr>
-<tr>
-<td>主动&#x2F;被动语态</td>
-<td>主要为主动语态，如: US agriculture <em>shows</em>…</td>
-<td>主动语态：主语执行动作。被动语态：主语接受动作 (be + 过去分词)。</td>
-<td>阅读理解中判断动作执行者和承受者；写作和翻译中变换句式，使表达更客观或强调不同对象。</td>
-</tr>
-<tr>
-<td>情态动词 “should”</td>
-<td>This <em>should be</em> a warning sign…</td>
-<td>表建议、推测、责任或义务。”should be” 表推测或理应如此。</td>
-<td>阅读理解中理解作者语气和态度；完形填空中辨析不同情态动词的细微差别；写作中提出建议。</td>
-</tr>
-<tr>
-<td>“how”引导的宾语从句</td>
-<td>…shows us <em>how bad intensive livestock-raising is for people, animals and the environment</em>.</td>
-<td>作动词 “shows” 的直接宾语，说明 “shows” 的内容。”how” + 形容词&#x2F;副词 + 主语 + 谓语。</td>
-<td>阅读理解中分析复杂句结构；写作和翻译中准确表达方式、程度或状态。</td>
-</tr>
-<tr>
-<td>“as”引导的状语从句</td>
-<td>…<em>as global demand for livestock products increases</em>…</td>
-<td>表原因或时间。作原因状语从句时，相当于because&#x2F;since；作时间状语从句时，相当于when&#x2F;while。</td>
-<td>阅读理解中判断从句功能，理解句间逻辑关系；完形填空中选择合适的连词。</td>
-</tr>
-<tr>
-<td>“what”引导的作介词宾语的名词性从句</td>
-<td>…inputs into <em>what have been traditional mixed agricultural systems</em>.</td>
-<td>作介词 “into” 的宾语。”what” 相当于 “the thing(s) that&#x2F;which”，引导名词性从句，充当句子成分。</td>
-<td>阅读理解中高难度句型分析；写作中可用于使表达更简洁和地道，但需注意引导词和语序的正确性。</td>
-</tr>
-</tbody></table>
-<p>此表清晰、结构化地解释了段落中的关键语法元素。通过将语法形式与其功能和CET-4相关性联系起来，帮助学生从死记硬背规则转向更深入地理解语法在真实文本中的运作方式 6，这对于考试的所有部分都至关重要。</p>
-<p>段落展示了多种语法概念（时态、情态动词、不同类型的从句）如何在单个句子中交织以传达复杂的思想。这反映了CET-4旨在评估的学术和正式英语的现实。例如，第二句使用了情态动词 (“should be”)、状语从句 (“as…increases”)、并列连词 (“and”)、复杂的名词短语 (“the drive to intensify…”) 以及作介词宾语的名词性从句 (“into what have been…”)。这种复杂性是学生在CET-4阅读中遇到的文本的典型特征 9。这意味着孤立地教授语法单元不如展示这些元素如何在扩展语篇中结合起来创造意义有效。</p>
-<p>理解从属连词（如 “how,” “as,” 以及引导从句的 “what”）的功能对于识别从属从句，从而理解整个句子结构和意义至关重要。诸如 91 等资料强调了从属连词和关系代词在通过引入从属从句来构成复杂句子方面的作用。如果学生不能识别这些标记及其引导的从句，他们将难以解析长句中不同部分之间的关系，从而导致阅读理解失败以及写作&#x2F;翻译中的结构错误。这突出了对这些连词及其从句引导功能进行明确指导的必要性。</p>
-<h2 id="5-CET-4句式结构解构-句式结构"><a href="#5-CET-4句式结构解构-句式结构" class="headerlink" title="5. CET-4句式结构解构 (句式结构)"></a>5. CET-4句式结构解构 (句式结构)</h2><h3 id="5-1-句式结构分析的重要性"><a href="#5-1-句式结构分析的重要性" class="headerlink" title="5.1 句式结构分析的重要性"></a>5.1 句式结构分析的重要性</h3><p>句式结构分析对于CET-4阅读理解（尤其是长难句）以及在写作和翻译部分产出连贯、语法正确的句子至关重要 52。</p>
-<h3 id="5-2-句子1分析-“US-agriculture-shows-us-how-bad-intensive-livestock-raising-is-for-people-animals-and-the-environment-”"><a href="#5-2-句子1分析-“US-agriculture-shows-us-how-bad-intensive-livestock-raising-is-for-people-animals-and-the-environment-”" class="headerlink" title="5.2 句子1分析: “US agriculture shows us how bad intensive livestock-raising is for people, animals and the environment.”"></a>5.2 句子1分析: “US agriculture shows us how bad intensive livestock-raising is for people, animals and the environment.”</h3><ul>
-<li><strong>主句 (Main Clause):</strong><ul>
-<li>主语 (S): “US agriculture”</li>
-<li>谓语动词 (V): “shows”</li>
-<li>间接宾语 (IO): “us”</li>
-<li>直接宾语 (DO): 名词性从句 “how bad intensive livestock-raising is for people, animals and the environment” 96。</li>
-</ul>
-</li>
-<li><strong>名词性从句 (直接宾语) 内部结构:</strong><ul>
-<li>连接词&#x2F;引导词: “how” (作状语修饰 “bad”)</li>
-<li>从句主语: “intensive livestock-raising”</li>
-<li>从句谓语: “is”</li>
-<li>表语: “bad” (形容词)</li>
-<li>介词短语: “for people, animals and the environment” (修饰 “bad”，指出对谁&#x2F;什么有害)。</li>
-</ul>
-</li>
-</ul>
-<h3 id="5-3-句子2分析-“This-should-be-a-warning-sign-as-global-demand-for-livestock-products-increases-and-along-with-it-the-drive-to-intensify-the-inputs-into-what-have-been-traditional-mixed-agricultural-systems-”"><a href="#5-3-句子2分析-“This-should-be-a-warning-sign-as-global-demand-for-livestock-products-increases-and-along-with-it-the-drive-to-intensify-the-inputs-into-what-have-been-traditional-mixed-agricultural-systems-”" class="headerlink" title="5.3 句子2分析: “This should be a warning sign as global demand for livestock products increases, and, along with it, the drive to intensify the inputs into what have been traditional mixed agricultural systems.”"></a>5.3 句子2分析: “This should be a warning sign as global demand for livestock products increases, and, along with it, the drive to intensify the inputs into what have been traditional mixed agricultural systems.”</h3><ul>
-<li><strong>主句1 (Main Clause 1):</strong> “This should be a warning sign”<ul>
-<li>主语 (S): “This” (代词，指代第一句描述的情况)</li>
-<li>谓语动词 (V) (情态动词 + 主要动词): “should be”</li>
-<li>表语 (Predicate Nominative): “a warning sign”</li>
-</ul>
-</li>
-<li><strong>从属状语从句 (原因或时间) (Subordinate Adverbial Clause):</strong> “as global demand for livestock products increases”<ul>
-<li>从属连词 (Subordinating Conjunction): “as”</li>
-<li>主语 (S): “global demand for livestock products” (复杂名词短语)</li>
-<li>谓语动词 (V): “increases”</li>
-</ul>
-</li>
-<li><strong>并列连词 (Coordinating Conjunction):</strong> “and” – 连接第一个主句（通过延续思想而隐含）与后面阐述结果或伴随因素的复杂名词短语结构。</li>
-<li><strong>阐述性名词短语结构 (Elaborative Noun Phrase Structure) (与 “warning sign” 形成平行概念):</strong> “along with it, the drive to intensify the inputs into what have been traditional mixed agricultural systems.”<ul>
-<li>介词短语 (状语): “along with it” (“it” 指代不断增长的全球需求或总体情况)。此短语修饰 “the drive”。</li>
-<li>中心名词 (Head Noun): “the drive”</li>
-<li>不定式短语 (修饰 “drive”，表目的): “to intensify the inputs…”<ul>
-<li>动词 (不定式): “to intensify”</li>
-<li>不定式的直接宾语: “the inputs”</li>
-</ul>
-</li>
-<li>介词短语 (修饰 “inputs”): “into what have been traditional mixed agricultural systems”<ul>
-<li>介词: “into”</li>
-<li>介词宾语 (名词性从句): “what have been traditional mixed agricultural systems”<ul>
-<li>“what” (代词，名词性从句的主语，意为 “那些…”)</li>
-<li>谓语动词 (现在完成时): “have been”</li>
-<li>表语: “traditional mixed agricultural systems”</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="5-4-连接词与衔接-Connectors-and-Cohesion"><a href="#5-4-连接词与衔接-Connectors-and-Cohesion" class="headerlink" title="5.4 连接词与衔接 (Connectors and Cohesion)"></a>5.4 连接词与衔接 (Connectors and Cohesion)</h3><p>讨论 “This,” “as,” “and,” “along with it” 等词语如何在思想之间建立衔接和逻辑流程。例如，第二句中的指示代词 “This” 指代第一句的整个观点，是关键的衔接手段。识别此类指代关系对于理解CET-4阅读中段落的连贯性至关重要。如果学生未能理解这种联系，可能会误解论证的逻辑进展 10。</p>
-<p>第二句体现了学术&#x2F;正式英语的一个共同特征：在复杂名词短语中预先加载信息（例如 “global demand for livestock products,” “the drive to intensify the inputs into what have been traditional mixed agricultural systems”）。学生需要练习“解包”这些密集的短语，以识别核心元素及其关系。结构 “the drive to intensify the inputs into what have been…” 是一个名词短语，作为句子后半部分的主要组成部分。其中，”inputs” 有一个后置修饰介词短语，该短语本身包含一个名词性从句。这种密度是CET-4阅读材料的特征 9。学生常常迷失在这种嵌套结构中。因此，教他们识别中心名词（”drive,” “inputs”），然后依次分析其修饰语，是一项关键策略。</p>
-<p>短语 “along with it” 是插入语的一个例子，它增加了信息，但如果理解不当，有时会打断主要思路。学生需要能够识别主要句法线索，尽管存在此类插入语。短语 “along with it” 由逗号隔开（尽管第一个逗号在 “and” 之后是隐含的）。它修饰 “the drive”，但出于强调或文体原因置于其前。这种非线性元素可能会使试图寻找简单主谓宾结构的学生感到困惑。识别这些“旁白”或修饰语，并暂时将它们分开以找到核心句子成分，是CET-4所需的高级阅读技能。</p>
-<h2 id="6-结论与CET-4学习策略"><a href="#6-结论与CET-4学习策略" class="headerlink" title="6. 结论与CET-4学习策略"></a>6. 结论与CET-4学习策略</h2><h3 id="6-1-主要语言学要点总结"><a href="#6-1-主要语言学要点总结" class="headerlink" title="6.1 主要语言学要点总结"></a>6.1 主要语言学要点总结</h3><p>简要回顾所分析的主要词汇、搭配、语法和句式结构要点。这些语言特征共同构成了理解和有效使用英语的基础，对于CET-4的成功至关重要。</p>
-<h3 id="6-2-综合学习方法"><a href="#6-2-综合学习方法" class="headerlink" title="6.2 综合学习方法"></a>6.2 综合学习方法</h3><ul>
-<li>强调词汇、搭配、语法和句式结构是相互关联的，应以综合的方式学习，而不是作为孤立的主题 5。</li>
-<li>广泛阅读是接触语境中这些元素并加深理解的关键 38。CET-4考试从分立的语法&#x2F;词汇问题转向更综合的测试方式 7，这意味着学习方法也应转变。与其仅仅进行语法操练或背诵单词表，学生不如多进行结合技能的活动，例如阅读后写摘要，或分析文本的词汇和语法结构。</li>
-</ul>
-<h3 id="6-3-主动学习策略"><a href="#6-3-主动学习策略" class="headerlink" title="6.3 主动学习策略"></a>6.3 主动学习策略</h3><ul>
-<li>鼓励学生以类似的方式主动分析其他文本。</li>
-<li>建议保留一个词汇笔记，记录搭配和例句 38。</li>
-<li>练习释义复杂句子并进行汉英互译，以巩固对结构的理解。</li>
-</ul>
-<h3 id="6-4-CET-4特定部分建议"><a href="#6-4-CET-4特定部分建议" class="headerlink" title="6.4 CET-4特定部分建议"></a>6.4 CET-4特定部分建议</h3><ul>
-<li><strong>阅读理解:</strong> 专注于识别复杂句子中的主要思想，理解语境中的词汇，并识别衔接手段。</li>
-<li><strong>完形填空:</strong> 注意搭配、语法准确性（时态、一致性）和连词。</li>
-<li><strong>写作与翻译:</strong> 旨在运用多样的句式结构、准确的语法和恰当的搭配，以产出连贯自然的英语 6。</li>
-</ul>
-<h3 id="6-5-最终鼓励"><a href="#6-5-最终鼓励" class="headerlink" title="6.5 最终鼓励"></a>6.5 最终鼓励</h3><p>重申系统而详细的语言分析方法，如本报告所示，可以显著增强CET-4考试的准备和表现。鉴于许多CET-4考生是非英语专业学生 7，他们遇到和需要产出的英语通常涉及一般学术或社会主题，而非高度专业化的学科英语。因此，本分析中突出显示的词汇和结构（与农业&#x2F;环境相关，但使用常见的学术模式）具有代表性，学生应专注于这种类型的“通用学术英语”。</p>
-]]></content>
+    <title>YAML标签格式</title>
+    <url>/2025/01/01/YAML%E6%A0%87%E7%AD%BE%E6%A0%BC%E5%BC%8F/</url>
+    <content><![CDATA[<hr>
+<h2 id="title-Your-Post-Titledate-YYYY-MM-DD-HH-MM-SStags-Tag1-Tag2-Another-Tagcategories-Category1-SubCategoryA"><a href="#title-Your-Post-Titledate-YYYY-MM-DD-HH-MM-SStags-Tag1-Tag2-Another-Tagcategories-Category1-SubCategoryA" class="headerlink" title="title: Your Post Titledate: YYYY-MM-DD HH:MM:SStags:  - Tag1  - Tag2  - Another Tagcategories:  - Category1  - SubCategoryA "></a>title: Your Post Title<br>date: YYYY-MM-DD HH:MM:SS<br>tags:<br>  - Tag1<br>  - Tag2<br>  - Another Tag<br>categories:<br>  - Category1<br>  - SubCategoryA </h2>]]></content>
       <categories>
         <category>杂物</category>
       </categories>
       <tags>
-        <tag>大英</tag>
+        <tag>YAML</tag>
       </tags>
   </entry>
   <entry>
@@ -2226,6 +1730,502 @@
       </tags>
   </entry>
   <entry>
+    <title>大英课文</title>
+    <url>/2025/01/01/%E5%A4%A7%E8%8B%B1%E8%AF%BE%E6%96%87/</url>
+    <content><![CDATA[<h1 id="大学英语四级（CET-4）考点深度剖析：基于农业与环境文本的语言特征分析"><a href="#大学英语四级（CET-4）考点深度剖析：基于农业与环境文本的语言特征分析" class="headerlink" title="大学英语四级（CET-4）考点深度剖析：基于农业与环境文本的语言特征分析"></a>大学英语四级（CET-4）考点深度剖析：基于农业与环境文本的语言特征分析</h1><h2 id="1-引言"><a href="#1-引言" class="headerlink" title="1. 引言"></a>1. 引言</h2><h3 id="1-1-报告目的"><a href="#1-1-报告目的" class="headerlink" title="1.1 报告目的"></a>1.1 报告目的</h3><p>本报告旨在对提供的特定英文段落进行全面的语言学分析，重点关注其中与大学英语四级（CET-4）考试相关的词汇、搭配、语法及句式结构。本报告致力于为CET-4考生提供一份深度学习指南，帮助其更好地理解和掌握考试所需的语言知识点。</p>
+<h3 id="1-2-段落概述"><a href="#1-2-段落概述" class="headerlink" title="1.2 段落概述"></a>1.2 段落概述</h3><p>所分析的段落如下：</p>
+<p>“US agriculture shows us how bad intensive livestock-raising is for people, animals and the environment. This should be a warning sign as global demand for livestock products increases, and, along with it, the drive to intensify the inputs into what have been traditional mixed agricultural systems.”</p>
+<p>该段落主要讨论了美国农业中集约化畜牧业对人类、动物及环境的负面影响，并警示随着全球对畜牧产品需求的增加以及对传统混合农业系统投入集约化的推动，类似的趋势可能在全球范围内出现。农业、环境和全球趋势等主题在CET-4的材料中较为常见 1。</p>
+<h3 id="1-3-与CET-4的关联性"><a href="#1-3-与CET-4的关联性" class="headerlink" title="1.3 与CET-4的关联性"></a>1.3 与CET-4的关联性</h3><p>理解此类文本对于CET-4的多个部分至关重要，包括阅读理解、语境词汇，并可能为写作或翻译任务提供信息和思路 5。CET-4考试旨在全面评估中国大学生的英语应用能力，而此类涉及社会、经济与环境议题的文本是常见的考查材料。</p>
+<span id="more"></span>
+
+<h2 id="2-CET-4词汇分析-生词"><a href="#2-CET-4词汇分析-生词" class="headerlink" title="2. CET-4词汇分析 (生词)"></a>2. CET-4词汇分析 (生词)</h2><h3 id="2-1-CET-4词汇考查方法概述"><a href="#2-1-CET-4词汇考查方法概述" class="headerlink" title="2.1 CET-4词汇考查方法概述"></a>2.1 CET-4词汇考查方法概述</h3><p>CET-4要求考生掌握约4500至5418个基础词汇 5。然而，考试越来越侧重于在语境中考查词汇，而非孤立的词义辨析 9。这意味着理解词汇的细微差别、同义词、反义词以及词形变化至关重要。自从专门的“词汇与结构”部分被取消后 7，词汇的考查更加融入阅读理解、完形填空以及写作与翻译等部分。</p>
+<h3 id="2-2-核心词汇详解"><a href="#2-2-核心词汇详解" class="headerlink" title="2.2 核心词汇详解"></a>2.2 核心词汇详解</h3><p>以下是对段落中核心词汇的详细分析：</p>
+<ul>
+<li><p><strong>agriculture (n.)</strong></p>
+<ul>
+<li><strong>语境含义:</strong> 农业，农学；指种植农作物和饲养牲畜以提供食物、羊毛和其他产品的科学或实践。</li>
+<li><strong>CET-4相关性:</strong> 核心主题词汇，常出现在与经济、环境或社会发展相关的文章中 1。</li>
+<li><strong>段落例句:</strong> “US <em>agriculture</em> shows us…”</li>
+</ul>
+</li>
+<li><p><strong>intensive (adj.)</strong></p>
+<ul>
+<li><strong>语境含义:</strong> 集中的；密集的；加强的。在农业语境下，指在单位土地面积上投入高水平的资本、劳动力或农业化学品等以获得高产出 14。</li>
+<li><strong>CET-4相关性:</strong> 常用于讨论现代农业、工业或学习方法。理解其“高投入&#x2F;努力&#x2F;集中”的含义是关键 19。</li>
+<li><strong>段落例句:</strong> “…how bad <em>intensive</em> livestock-raising is…”</li>
+</ul>
+</li>
+<li><p><strong>livestock-raising (n. phrase)</strong></p>
+<ul>
+<li><strong>语境含义:</strong> 畜牧业；饲养牲畜（农场动物）以获取食物、纤维或劳动力的实践 12。</li>
+<li><strong>CET-4相关性:</strong> 农业领域的专门术语。“Livestock”本身是一个重要的名词 12。</li>
+<li><strong>段落例句:</strong> “…intensive <em>livestock-raising</em> is…”</li>
+</ul>
+</li>
+<li><p><strong>environment (n.)</strong></p>
+<ul>
+<li><strong>语境含义:</strong> 环境；围绕人、动物或植物生存和运作的周围事物或条件。</li>
+<li><strong>CET-4相关性:</strong> CET-4中非常常见的高频词，是污染、保护和社会问题等主题的核心词汇 2。</li>
+<li><strong>段落例句:</strong> “…is for people, animals and the <em>environment</em>.”</li>
+</ul>
+</li>
+<li><p><strong>warning sign (n. phrase)</strong></p>
+<ul>
+<li><strong>语境含义:</strong> 警告信号；危险或麻烦即将来临的迹象或指示。</li>
+<li><strong>CET-4相关性:</strong> 理解此类习语和搭配非常重要。“Sign”可以有多种含义，但在这里是固定表达的一部分 29。</li>
+<li><strong>段落例句:</strong> “This should be a <em>warning sign</em>…”</li>
+</ul>
+</li>
+<li><p><strong>global demand (n. phrase)</strong></p>
+<ul>
+<li><strong>语境含义:</strong> 全球需求；指世界各地对某一特定产品或服务的总需求 31。</li>
+<li><strong>CET-4相关性:</strong> “Global”和“demand”是常见词。该短语表示世界范围内的经济趋势，常在关于经济或国际问题的阅读文章中考查 31。</li>
+<li><strong>段落例句:</strong> “…as <em>global demand</em> for livestock products increases…”</li>
+</ul>
+</li>
+<li><p><strong>livestock products (n. phrase)</strong></p>
+<ul>
+<li><strong>语境含义:</strong> 畜产品；来源于农场动物的产品，如肉、奶、蛋、毛、皮革等 23。</li>
+<li><strong>CET-4相关性:</strong> 在“livestock”基础上构建；在此语境下理解“products”虽直接但对理解至关重要。</li>
+<li><strong>段落例句:</strong> “…global demand for <em>livestock products</em> increases…”</li>
+</ul>
+</li>
+<li><p><strong>increases (v.)</strong></p>
+<ul>
+<li><strong>语境含义:</strong> 增加；在大小、数量、强度或程度上变大或使之变大。</li>
+<li><strong>CET-4相关性:</strong> 非常常见的动词，常考查其同义词（如rise, grow）或反义词（如decrease, fall）。其语法形式（一般现在时，第三人称单数）也是基础语法点 37。</li>
+<li><strong>段落例句:</strong> “…global demand for livestock products <em>increases</em>…”</li>
+</ul>
+</li>
+<li><p><strong>drive (n.)</strong></p>
+<ul>
+<li><strong>语境含义:</strong> 此处指为达到特定目标而组织的努力或坚定的决心；内在的驱动力或动机 39。</li>
+<li><strong>CET-4相关性:</strong> 名词“drive”有多种含义（如驾车旅行、电脑驱动器），语境至关重要。CET-4可能会考查这种细微差别。</li>
+<li><strong>段落例句:</strong> “…and, along with it, the <em>drive</em> to intensify the inputs…”</li>
+</ul>
+</li>
+<li><p><strong>intensify (v.)</strong></p>
+<ul>
+<li><strong>语境含义:</strong> 加强，增强；使变得更强烈、更严重或更极端 41。</li>
+<li><strong>CET-4相关性:</strong> 较为正式的动词，常见于学术或分析性文本中。其构词法（源自“intense”）也可能相关。</li>
+<li><strong>段落例句:</strong> “…the drive to <em>intensify</em> the inputs…”</li>
+</ul>
+</li>
+<li><p><strong>inputs (n.)</strong></p>
+<ul>
+<li><strong>语境含义:</strong> 投入；任何过程或系统所投入、接纳或操作的东西，尤指生产中使用的资本、劳动力、材料或能源等资源 43。在农业中，指化肥、饲料、水、劳动力、技术等。</li>
+<li><strong>CET-4相关性:</strong> 在经济、商业或技术语境中常见。理解其复数形式和在此处的特定含义很重要。</li>
+<li><strong>段落例句:</strong> “…the inputs into what have been…”</li>
+</ul>
+</li>
+<li><p><strong>traditional (adj.)</strong></p>
+<ul>
+<li><strong>语境含义:</strong> 传统的；作为传统一部分而存在的；历史悠久的。</li>
+<li><strong>CET-4相关性:</strong> 常用形容词，常与“modern”形成对比。其在“traditional mixed agricultural systems”中的用法是关键 49。</li>
+<li><strong>段落例句:</strong> “…traditional mixed agricultural systems.”</li>
+</ul>
+</li>
+<li><p><strong>mixed agricultural systems (n. phrase)</strong></p>
+<ul>
+<li><strong>语境含义:</strong> 混合农业系统；指在同一农场结合不同类型农业的耕作制度，如种植作物和饲养牲畜，旨在实现协同效应和可持续性 53。</li>
+<li><strong>CET-4相关性:</strong> 农业领域的专门术语。在此语境下理解“mixed”至关重要。</li>
+<li><strong>段落例句:</strong> “…traditional <em>mixed agricultural systems</em>.”</li>
+</ul>
+</li>
+</ul>
+<p><strong>表1：段落中核心CET-4词汇</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>词汇</strong></td>
+<td><strong>CET-4相关性&#x2F;频率说明</strong></td>
+<td><strong>语境含义 (段落中)</strong></td>
+<td><strong>段落例句</strong></td>
+<td><strong>CET-4相关同&#x2F;反义词及词形变化</strong></td>
+</tr>
+<tr>
+<td>agriculture</td>
+<td>高频学术词汇；主题特定：农业&#x2F;环境</td>
+<td>农业，农学</td>
+<td>US <em>agriculture</em> shows us…</td>
+<td>Farming (同); 词根: agri- (田地), culture (耕作)</td>
+</tr>
+<tr>
+<td>intensive</td>
+<td>中高频学术词汇</td>
+<td>集中的，密集的</td>
+<td>…how bad <em>intensive</em> livestock-raising is…</td>
+<td>Concentrated, thorough (同); extensive (反). intense (形近词)</td>
+</tr>
+<tr>
+<td>livestock-raising</td>
+<td>主题特定：农业</td>
+<td>畜牧业</td>
+<td>…<em>intensive livestock-raising</em> is…</td>
+<td>Animal husbandry (同). livestock (核心词)</td>
+</tr>
+<tr>
+<td>environment</td>
+<td>极高频词汇；主题特定：环境，社会</td>
+<td>环境</td>
+<td>…for people, animals and the <em>environment</em>.</td>
+<td>Surroundings, atmosphere (同). environmental (adj.), environmentally (adv.)</td>
+</tr>
+<tr>
+<td>warning sign</td>
+<td>搭配，固定表达</td>
+<td>警告信号</td>
+<td>This should be a <em>warning sign</em>…</td>
+<td>Indication of danger, alarm signal (同).</td>
+</tr>
+<tr>
+<td>global demand</td>
+<td>组合词汇，常见于经济&#x2F;国际议题</td>
+<td>全球需求</td>
+<td>…as <em>global demand</em> for livestock products increases…</td>
+<td>Worldwide demand (同). global (adj.), demand (n.&#x2F;v.)</td>
+</tr>
+<tr>
+<td>livestock products</td>
+<td>主题特定：农业，经济</td>
+<td>畜产品</td>
+<td>…<em>global demand for livestock products</em> increases…</td>
+<td>Animal products (同).</td>
+</tr>
+<tr>
+<td>increases (v.)</td>
+<td>极高频动词</td>
+<td>增加</td>
+<td>…livestock products <em>increases</em>…</td>
+<td>Rises, grows, expands (同); decreases, falls, shrinks (反). increase (n.), increasing (adj.), increasingly (adv.)</td>
+</tr>
+<tr>
+<td>drive (n.)</td>
+<td>中频词汇，多义</td>
+<td>（为达到某目标的）努力，运动；驱动力</td>
+<td>…the <em>drive</em> to intensify the inputs…</td>
+<td>Urge, motivation, campaign, effort (同). driver (n.), to drive (v.)</td>
+</tr>
+<tr>
+<td>intensify (v.)</td>
+<td>中高频学术词汇</td>
+<td>加强，增强</td>
+<td>…the drive to <em>intensify</em> the inputs…</td>
+<td>Strengthen, escalate, heighten (同); weaken, lessen (反). intense (adj.), intensity (n.), intensification (n.)</td>
+</tr>
+<tr>
+<td>inputs (n.)</td>
+<td>中频词汇，常见于经济&#x2F;技术语境</td>
+<td>投入，输入（指生产过程中投入的资源）</td>
+<td>…to intensify the <em>inputs</em> into what have been…</td>
+<td>Resources, contributions (同); outputs (反). to input (v.)</td>
+</tr>
+<tr>
+<td>traditional</td>
+<td>高频形容词</td>
+<td>传统的</td>
+<td>…<em>traditional</em> mixed agricultural systems.</td>
+<td>Conventional, customary (同); modern, innovative (反). tradition (n.), traditionally (adv.)</td>
+</tr>
+<tr>
+<td>mixed agricultural systems</td>
+<td>主题特定：农业</td>
+<td>混合农业系统</td>
+<td>…traditional <em>mixed agricultural systems</em>.</td>
+<td>Integrated farming systems (同).</td>
+</tr>
+</tbody></table>
+<p>此表提供了对段落中最重要词汇的结构化、快速参考指南。它整合了关键信息（含义、语境、CET-4相关性、相关词汇），以便进行有效的学习和复习，直接满足了用户对详细“生词”分析的要求。这种格式符合有效的词汇习得策略，例如在语境中学习单词并理解它们与其他单词的关系 38。</p>
+<p>段落中的词汇呈现出通用学术词汇（如 “intensive,” “intensify,” “drive,” “inputs”）与特定主题词汇（如 “livestock-raising,” “mixed agricultural systems”）相结合的特点。CET-4文章通常展现这种混合模式，要求学生既具备广泛的学术词汇量，又对常见主题（如环境、经济、科技）的词汇有所熟悉。例如，”intensive” 或名词 “drive” 适用于许多学术领域，其通用性在词典释义中得到证实 20。相比之下，”livestock-raising” 21 和 “mixed agricultural systems” 55 则明显与农业相关。考虑到CET-4旨在测试非英语专业学生的英语水平 7，其文章内容会涉及各种大众兴趣和准学术主题。这意味着学生需要双管齐下地构建词汇：掌握通用学术词汇表（如AWL），并熟悉与CET-4常见主题相关的词汇。</p>
+<p>此外，段落中的几个关键术语是名词短语或复合名词（例如 “livestock-raising,” “warning sign,” “global demand,” “livestock products,” “mixed agricultural systems”）。将这些视为单一的概念单元对于理解至关重要，而不是试图孤立地理解每个单词。用户查询要求分析“生词”但也包括“搭配”。这些“生词”中有许多实际上是多词单元，其功能类似于单个词汇项。例如，“warning sign” 29 的含义不同于单独的“warning”或“sign”。将这些视为词块可以提高阅读速度和理解能力，这对于CET-4的阅读部分至关重要 52。这表明词汇学习应包括常见的名词短语。</p>
+<h2 id="3-CET-4搭配焦点-搭配"><a href="#3-CET-4搭配焦点-搭配" class="headerlink" title="3. CET-4搭配焦点 (搭配)"></a>3. CET-4搭配焦点 (搭配)</h2><h3 id="3-1-定义与重要性"><a href="#3-1-定义与重要性" class="headerlink" title="3.1 定义与重要性"></a>3.1 定义与重要性</h3><p>搭配是指经常一起出现的词语组合（例如，”make a mistake”，而不是 “do a mistake”）。它们对于自然的英语表达至关重要，并且经常在CET-4中进行考查，尤其是在完形填空部分，同时也影响阅读理解中的选项选择 10。</p>
+<h3 id="3-2-段落中识别的搭配"><a href="#3-2-段落中识别的搭配" class="headerlink" title="3.2 段落中识别的搭配"></a>3.2 段落中识别的搭配</h3><ul>
+<li><strong>shows sb sth &#x2F; shows sb how…:</strong> “US agriculture <em>shows us how</em> bad…” （关于 “show” 的一般搭配可见 64；具体结构 “shows us how” 是传递信息的常见模式）。</li>
+<li><strong>be bad for sb&#x2F;sth:</strong> “…livestock-raising <em>is bad for</em> people, animals and the environment.” 66。</li>
+<li><strong>warning sign:</strong> “This should be a <em>warning sign</em>.” （这是一个强烈的，近乎固定的表达 29）。</li>
+<li><strong>demand for sth:</strong> “…global <em>demand for</em> livestock products…” 31。</li>
+<li><strong>along with sth:</strong> “…and, <em>along with it</em>, the drive…” （一个常见的连接短语 70）。</li>
+<li><strong>the drive to do sth:</strong> “…<em>the drive to intensify</em> the inputs…” （名词 “drive” 表示动机，后跟目的性不定式 39）。</li>
+<li><strong>inputs into sth:</strong> “…inputs <em>into what have been</em> traditional mixed agricultural systems.” （当指明接受投入的系统时，”inputs” 与 “into” 搭配 43）。</li>
+</ul>
+<p><strong>表2：段落中识别的搭配及其CET-4意义</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>搭配</strong></td>
+<td><strong>含义</strong></td>
+<td><strong>段落例句</strong></td>
+<td><strong>常见用法模式&#x2F;变体</strong></td>
+<td><strong>CET-4考查相关性 (例如，“完形填空常见”，“写作有用”)</strong></td>
+</tr>
+<tr>
+<td>shows sb sth &#x2F; shows sb how</td>
+<td>向某人展示某事&#x2F;向某人展示如何…</td>
+<td>US agriculture <em>shows us how</em> bad…</td>
+<td>show sb the way; show sb an example</td>
+<td>阅读理解，写作（用于引出解释或结果）</td>
+</tr>
+<tr>
+<td>be bad for sb&#x2F;sth</td>
+<td>对某人&#x2F;某事有害</td>
+<td>…livestock-raising <em>is bad for</em> people…</td>
+<td>Smoking is bad for your health.</td>
+<td>阅读理解，写作（用于表达负面影响）</td>
+</tr>
+<tr>
+<td>warning sign</td>
+<td>警告信号</td>
+<td>This should be a <em>warning sign</em>.</td>
+<td>a clear warning sign; heed the warning signs</td>
+<td>阅读理解，完形填空（作为固定表达）</td>
+</tr>
+<tr>
+<td>demand for sth</td>
+<td>对某物的需求</td>
+<td>…global <em>demand for</em> livestock products…</td>
+<td>high&#x2F;low demand for; meet the demand for</td>
+<td>阅读理解（经济、社会类文章），写作</td>
+</tr>
+<tr>
+<td>along with sth</td>
+<td>与某事物一起；伴随着某事物</td>
+<td>…and, <em>along with it</em>, the drive…</td>
+<td>He came along with his friends.</td>
+<td>写作（用于添加补充信息，增强连贯性）</td>
+</tr>
+<tr>
+<td>the drive to do sth</td>
+<td>做某事的动力&#x2F;决心&#x2F;努力</td>
+<td>…<em>the drive to intensify</em> the inputs…</td>
+<td>a drive for efficiency; a drive to succeed</td>
+<td>阅读理解，写作（表达动机或趋势）</td>
+</tr>
+<tr>
+<td>inputs into sth</td>
+<td>对某事物的投入（尤指系统、过程）</td>
+<td>…inputs <em>into what have been</em> traditional mixed agricultural systems.</td>
+<td>provide inputs into the project; increase inputs into education</td>
+<td>阅读理解（经济、技术、农业类文章）</td>
+</tr>
+</tbody></table>
+<p>此表将分离出常见的词语搭配，这些搭配通常是英语学习者的难点。通过突出这些搭配，学生可以提高其词汇的准确性和流利性，这对于CET-4的理解（阅读、完形填空 10）和产出（写作、翻译 6）部分都至关重要。</p>
+<p>段落中的许多搭配涉及介词（例如 “bad <em>for</em>,” “demand <em>for</em>,” “inputs <em>into</em>,” “along <em>with</em>“）。介词搭配是英语学习者常见的错误来源，并且在CET-4中会进行巧妙的考查。回顾已识别的搭配，有相当一部分是动词&#x2F;形容词&#x2F;名词 + 介词的组合，如 68 (“demand for”) 和 45 (“inputs into”) 所示。介词使用不当会极大地改变意义或使表达听起来不自然。CET-4的完形填空题常常设置仅介词不同的选项，直接考查这方面的知识 60。这意味着有针对性地学习介词搭配将大有裨益。</p>
+<p>此外，一些搭配更强且更固定（例如 “warning sign”），而另一些则更基于模式（例如 “the drive to do sth”）。认识到这种区别有助于学习：固定表达可以作为词块记忆，而模式则允许更灵活的应用。”Warning sign” 29 几乎像一个单独的词汇项一样运作。然而，”the drive to do sth” 72 是一个语法模式（名词 + to-不定式），其中 “drive” 与不定式结构搭配以表达目的或动机。词语搭配有强弱之分 58。理解这种差异可以指导学习策略：记忆强搭配，理解弱搭配的模式。这种细致的理解对于CET-4的接受性技能和产出性技能都很重要。</p>
+<h2 id="4-核心CET-4语法点-语法"><a href="#4-核心CET-4语法点-语法" class="headerlink" title="4. 核心CET-4语法点 (语法)"></a>4. 核心CET-4语法点 (语法)</h2><h3 id="4-1-CET-4语法考查方法概述"><a href="#4-1-CET-4语法考查方法概述" class="headerlink" title="4.1 CET-4语法考查方法概述"></a>4.1 CET-4语法考查方法概述</h3><p>语法知识通过阅读理解、完形填空、写作和翻译等部分进行间接考查。尽管在改革后专门的语法题目可能减少了 7，但坚实的语法基础对于整体表现仍然至关重要 6。</p>
+<h3 id="4-2-A-动词时态与语态"><a href="#4-2-A-动词时态与语态" class="headerlink" title="4.2 A. 动词时态与语态"></a>4.2 A. 动词时态与语态</h3><ul>
+<li><p><strong>一般现在时 (Present Simple Tense):</strong></p>
+<ul>
+<li><strong>例句:</strong> “US agriculture <em>shows</em>…”, “…livestock-raising <em>is</em>…”, “…global demand…<em>increases</em>.”</li>
+<li><strong>用法:</strong> 表达事实、普遍真理、习惯性动作。这对于CET-4中常见的描述性和议论性文本至关重要 74。</li>
+<li><strong>CET-4相关性:</strong> 一般现在时的主谓一致（尤其是第三人称单数形式动词加-s）是一个基础但关键的考点。</li>
+</ul>
+</li>
+<li><p><strong>现在完成时 (Present Perfect Tense):</strong></p>
+<ul>
+<li><strong>例句:</strong> “…into what <em>have been</em> traditional mixed agricultural systems.”</li>
+<li><strong>用法:</strong> 表示从过去开始并持续到现在的动作或状态，或与现在有联系的过去动作。此处描述的是过去是传统的系统，并暗示其性质延续至今或与当前讨论相关 74。</li>
+<li><strong>CET-4相关性:</strong> 区分一般过去时和现在完成时是一个常见的难点，也是常考点。</li>
+</ul>
+</li>
+<li><p><strong>主动语态与被动语态 (Active vs. Passive Voice):</strong></p>
+<ul>
+<li><strong>主动语态:</strong> 段落主要使用主动语态 (例如, “US agriculture shows…”)。</li>
+<li><strong>被动语态讨论:</strong> 在类似语境中，何时以及为何可能使用被动语态（例如，强调动作的承受者，或当动作的执行者未知&#x2F;不重要时）。例如：”It is shown by US agriculture that…” 74。</li>
+<li><strong>CET-4相关性:</strong> 识别和构成被动语态对于阅读理解（理解谁做了什么）以及在写作&#x2F;翻译中变换句式非常重要。</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-3-B-情态动词-Modal-Verbs"><a href="#4-3-B-情态动词-Modal-Verbs" class="headerlink" title="4.3 B. 情态动词 (Modal Verbs)"></a>4.3 B. 情态动词 (Modal Verbs)</h3><ul>
+<li><strong>“should” 表建议&#x2F;警告&#x2F;期望:</strong><ul>
+<li><strong>例句:</strong> “This <em>should be</em> a warning sign…”</li>
+<li><strong>用法:</strong> 表示应该做某事，强烈的建议，或合乎逻辑的期望。此处暗示所描述的情况应当被解读为一个警告 86。</li>
+<li><strong>CET-4相关性:</strong> 情态动词常因其在语境中的细微含义而被考查。”Should” vs. “must” vs. “may” 等的区别是重点。</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-4-C-从句分析-Clause-Analysis"><a href="#4-4-C-从句分析-Clause-Analysis" class="headerlink" title="4.4 C. 从句分析 (Clause Analysis)"></a>4.4 C. 从句分析 (Clause Analysis)</h3><ul>
+<li><p><strong>由 “how” 引导的宾语从句 (名词性从句作直接宾语):</strong></p>
+<ul>
+<li><strong>例句:</strong> “…shows us <em>how bad intensive livestock-raising is for people, animals and the environment</em>.”</li>
+<li><strong>解释:</strong> 该从句充当动词 “shows” 的直接宾语，回答 “shows us what?”。”How” 引导一个表示方式或程度的从句 91。</li>
+<li><strong>CET-4相关性:</strong> 理解名词性从句（尤其是作宾语时）对于解析阅读中的复杂句子以及在写作中构建复杂句子至关重要。</li>
+</ul>
+</li>
+<li><p><strong>由 “as” 引导的原因&#x2F;时间状语从句 (Adverbial Clause of Reason&#x2F;Time):</strong></p>
+<ul>
+<li><strong>例句:</strong> “…<em>as global demand for livestock products increases</em>…”</li>
+<li><strong>解释:</strong> 此处的 “as” 可能表示原因（”因为&#x2F;既然需求在增加”）或同时发生的时间（”当需求增加时”）。状语从句通过提供上下文来修饰主句 91。</li>
+<li><strong>CET-4相关性:</strong> “As” 是一个多功能连词；识别其功能（时间、原因、方式、比较）对于理解至关重要。</li>
+</ul>
+</li>
+<li><p><strong>由 “what” 引导的作介词宾语的名词性从句 (Noun Clause as Object of a Preposition):</strong></p>
+<ul>
+<li><strong>例句:</strong> “…inputs into <em>what have been traditional mixed agricultural systems</em>.”</li>
+<li><strong>解释:</strong> 从句 “what have been traditional mixed agricultural systems” 是介词 “into” 的宾语。”What” 在此意为 “那些曾经是…的事物” 91。</li>
+<li><strong>CET-4相关性:</strong> 这是一个更复杂的结构。识别 “what” 从句的功能，尤其是在介词之后，对于准确解析句子含义至关重要。</li>
+</ul>
+</li>
+</ul>
+<p><strong>表3：语法结构及其CET-4应用</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>语法点</strong></td>
+<td><strong>段落例句</strong></td>
+<td><strong>详细解释 (形式、功能、常见用法)</strong></td>
+<td><strong>CET-4相关性&#x2F;考查重点 (如何出现在不同题型中，常见错误)</strong></td>
+</tr>
+<tr>
+<td>一般现在时</td>
+<td>US agriculture <em>shows</em>…;…livestock-raising <em>is</em>…;…demand…<em>increases</em>.</td>
+<td>表述当前事实、普遍真理或习惯性动作。第三人称单数动词加-s&#x2F;es。</td>
+<td>阅读理解基础；写作和翻译中准确使用；主谓一致是常见考点。</td>
+</tr>
+<tr>
+<td>现在完成时</td>
+<td>…into <em>what have been</em> traditional mixed agricultural systems.</td>
+<td>构成: have&#x2F;has + 过去分词。表示与现在相关的过去动作或从过去持续到现在的状态。</td>
+<td>阅读理解中理解动作的持续性或与现在的关联；写作和翻译中准确表达此类时间概念；常与一般过去时混淆。</td>
+</tr>
+<tr>
+<td>主动&#x2F;被动语态</td>
+<td>主要为主动语态，如: US agriculture <em>shows</em>…</td>
+<td>主动语态：主语执行动作。被动语态：主语接受动作 (be + 过去分词)。</td>
+<td>阅读理解中判断动作执行者和承受者；写作和翻译中变换句式，使表达更客观或强调不同对象。</td>
+</tr>
+<tr>
+<td>情态动词 “should”</td>
+<td>This <em>should be</em> a warning sign…</td>
+<td>表建议、推测、责任或义务。”should be” 表推测或理应如此。</td>
+<td>阅读理解中理解作者语气和态度；完形填空中辨析不同情态动词的细微差别；写作中提出建议。</td>
+</tr>
+<tr>
+<td>“how”引导的宾语从句</td>
+<td>…shows us <em>how bad intensive livestock-raising is for people, animals and the environment</em>.</td>
+<td>作动词 “shows” 的直接宾语，说明 “shows” 的内容。”how” + 形容词&#x2F;副词 + 主语 + 谓语。</td>
+<td>阅读理解中分析复杂句结构；写作和翻译中准确表达方式、程度或状态。</td>
+</tr>
+<tr>
+<td>“as”引导的状语从句</td>
+<td>…<em>as global demand for livestock products increases</em>…</td>
+<td>表原因或时间。作原因状语从句时，相当于because&#x2F;since；作时间状语从句时，相当于when&#x2F;while。</td>
+<td>阅读理解中判断从句功能，理解句间逻辑关系；完形填空中选择合适的连词。</td>
+</tr>
+<tr>
+<td>“what”引导的作介词宾语的名词性从句</td>
+<td>…inputs into <em>what have been traditional mixed agricultural systems</em>.</td>
+<td>作介词 “into” 的宾语。”what” 相当于 “the thing(s) that&#x2F;which”，引导名词性从句，充当句子成分。</td>
+<td>阅读理解中高难度句型分析；写作中可用于使表达更简洁和地道，但需注意引导词和语序的正确性。</td>
+</tr>
+</tbody></table>
+<p>此表清晰、结构化地解释了段落中的关键语法元素。通过将语法形式与其功能和CET-4相关性联系起来，帮助学生从死记硬背规则转向更深入地理解语法在真实文本中的运作方式 6，这对于考试的所有部分都至关重要。</p>
+<p>段落展示了多种语法概念（时态、情态动词、不同类型的从句）如何在单个句子中交织以传达复杂的思想。这反映了CET-4旨在评估的学术和正式英语的现实。例如，第二句使用了情态动词 (“should be”)、状语从句 (“as…increases”)、并列连词 (“and”)、复杂的名词短语 (“the drive to intensify…”) 以及作介词宾语的名词性从句 (“into what have been…”)。这种复杂性是学生在CET-4阅读中遇到的文本的典型特征 9。这意味着孤立地教授语法单元不如展示这些元素如何在扩展语篇中结合起来创造意义有效。</p>
+<p>理解从属连词（如 “how,” “as,” 以及引导从句的 “what”）的功能对于识别从属从句，从而理解整个句子结构和意义至关重要。诸如 91 等资料强调了从属连词和关系代词在通过引入从属从句来构成复杂句子方面的作用。如果学生不能识别这些标记及其引导的从句，他们将难以解析长句中不同部分之间的关系，从而导致阅读理解失败以及写作&#x2F;翻译中的结构错误。这突出了对这些连词及其从句引导功能进行明确指导的必要性。</p>
+<h2 id="5-CET-4句式结构解构-句式结构"><a href="#5-CET-4句式结构解构-句式结构" class="headerlink" title="5. CET-4句式结构解构 (句式结构)"></a>5. CET-4句式结构解构 (句式结构)</h2><h3 id="5-1-句式结构分析的重要性"><a href="#5-1-句式结构分析的重要性" class="headerlink" title="5.1 句式结构分析的重要性"></a>5.1 句式结构分析的重要性</h3><p>句式结构分析对于CET-4阅读理解（尤其是长难句）以及在写作和翻译部分产出连贯、语法正确的句子至关重要 52。</p>
+<h3 id="5-2-句子1分析-“US-agriculture-shows-us-how-bad-intensive-livestock-raising-is-for-people-animals-and-the-environment-”"><a href="#5-2-句子1分析-“US-agriculture-shows-us-how-bad-intensive-livestock-raising-is-for-people-animals-and-the-environment-”" class="headerlink" title="5.2 句子1分析: “US agriculture shows us how bad intensive livestock-raising is for people, animals and the environment.”"></a>5.2 句子1分析: “US agriculture shows us how bad intensive livestock-raising is for people, animals and the environment.”</h3><ul>
+<li><strong>主句 (Main Clause):</strong><ul>
+<li>主语 (S): “US agriculture”</li>
+<li>谓语动词 (V): “shows”</li>
+<li>间接宾语 (IO): “us”</li>
+<li>直接宾语 (DO): 名词性从句 “how bad intensive livestock-raising is for people, animals and the environment” 96。</li>
+</ul>
+</li>
+<li><strong>名词性从句 (直接宾语) 内部结构:</strong><ul>
+<li>连接词&#x2F;引导词: “how” (作状语修饰 “bad”)</li>
+<li>从句主语: “intensive livestock-raising”</li>
+<li>从句谓语: “is”</li>
+<li>表语: “bad” (形容词)</li>
+<li>介词短语: “for people, animals and the environment” (修饰 “bad”，指出对谁&#x2F;什么有害)。</li>
+</ul>
+</li>
+</ul>
+<h3 id="5-3-句子2分析-“This-should-be-a-warning-sign-as-global-demand-for-livestock-products-increases-and-along-with-it-the-drive-to-intensify-the-inputs-into-what-have-been-traditional-mixed-agricultural-systems-”"><a href="#5-3-句子2分析-“This-should-be-a-warning-sign-as-global-demand-for-livestock-products-increases-and-along-with-it-the-drive-to-intensify-the-inputs-into-what-have-been-traditional-mixed-agricultural-systems-”" class="headerlink" title="5.3 句子2分析: “This should be a warning sign as global demand for livestock products increases, and, along with it, the drive to intensify the inputs into what have been traditional mixed agricultural systems.”"></a>5.3 句子2分析: “This should be a warning sign as global demand for livestock products increases, and, along with it, the drive to intensify the inputs into what have been traditional mixed agricultural systems.”</h3><ul>
+<li><strong>主句1 (Main Clause 1):</strong> “This should be a warning sign”<ul>
+<li>主语 (S): “This” (代词，指代第一句描述的情况)</li>
+<li>谓语动词 (V) (情态动词 + 主要动词): “should be”</li>
+<li>表语 (Predicate Nominative): “a warning sign”</li>
+</ul>
+</li>
+<li><strong>从属状语从句 (原因或时间) (Subordinate Adverbial Clause):</strong> “as global demand for livestock products increases”<ul>
+<li>从属连词 (Subordinating Conjunction): “as”</li>
+<li>主语 (S): “global demand for livestock products” (复杂名词短语)</li>
+<li>谓语动词 (V): “increases”</li>
+</ul>
+</li>
+<li><strong>并列连词 (Coordinating Conjunction):</strong> “and” – 连接第一个主句（通过延续思想而隐含）与后面阐述结果或伴随因素的复杂名词短语结构。</li>
+<li><strong>阐述性名词短语结构 (Elaborative Noun Phrase Structure) (与 “warning sign” 形成平行概念):</strong> “along with it, the drive to intensify the inputs into what have been traditional mixed agricultural systems.”<ul>
+<li>介词短语 (状语): “along with it” (“it” 指代不断增长的全球需求或总体情况)。此短语修饰 “the drive”。</li>
+<li>中心名词 (Head Noun): “the drive”</li>
+<li>不定式短语 (修饰 “drive”，表目的): “to intensify the inputs…”<ul>
+<li>动词 (不定式): “to intensify”</li>
+<li>不定式的直接宾语: “the inputs”</li>
+</ul>
+</li>
+<li>介词短语 (修饰 “inputs”): “into what have been traditional mixed agricultural systems”<ul>
+<li>介词: “into”</li>
+<li>介词宾语 (名词性从句): “what have been traditional mixed agricultural systems”<ul>
+<li>“what” (代词，名词性从句的主语，意为 “那些…”)</li>
+<li>谓语动词 (现在完成时): “have been”</li>
+<li>表语: “traditional mixed agricultural systems”</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="5-4-连接词与衔接-Connectors-and-Cohesion"><a href="#5-4-连接词与衔接-Connectors-and-Cohesion" class="headerlink" title="5.4 连接词与衔接 (Connectors and Cohesion)"></a>5.4 连接词与衔接 (Connectors and Cohesion)</h3><p>讨论 “This,” “as,” “and,” “along with it” 等词语如何在思想之间建立衔接和逻辑流程。例如，第二句中的指示代词 “This” 指代第一句的整个观点，是关键的衔接手段。识别此类指代关系对于理解CET-4阅读中段落的连贯性至关重要。如果学生未能理解这种联系，可能会误解论证的逻辑进展 10。</p>
+<p>第二句体现了学术&#x2F;正式英语的一个共同特征：在复杂名词短语中预先加载信息（例如 “global demand for livestock products,” “the drive to intensify the inputs into what have been traditional mixed agricultural systems”）。学生需要练习“解包”这些密集的短语，以识别核心元素及其关系。结构 “the drive to intensify the inputs into what have been…” 是一个名词短语，作为句子后半部分的主要组成部分。其中，”inputs” 有一个后置修饰介词短语，该短语本身包含一个名词性从句。这种密度是CET-4阅读材料的特征 9。学生常常迷失在这种嵌套结构中。因此，教他们识别中心名词（”drive,” “inputs”），然后依次分析其修饰语，是一项关键策略。</p>
+<p>短语 “along with it” 是插入语的一个例子，它增加了信息，但如果理解不当，有时会打断主要思路。学生需要能够识别主要句法线索，尽管存在此类插入语。短语 “along with it” 由逗号隔开（尽管第一个逗号在 “and” 之后是隐含的）。它修饰 “the drive”，但出于强调或文体原因置于其前。这种非线性元素可能会使试图寻找简单主谓宾结构的学生感到困惑。识别这些“旁白”或修饰语，并暂时将它们分开以找到核心句子成分，是CET-4所需的高级阅读技能。</p>
+<h2 id="6-结论与CET-4学习策略"><a href="#6-结论与CET-4学习策略" class="headerlink" title="6. 结论与CET-4学习策略"></a>6. 结论与CET-4学习策略</h2><h3 id="6-1-主要语言学要点总结"><a href="#6-1-主要语言学要点总结" class="headerlink" title="6.1 主要语言学要点总结"></a>6.1 主要语言学要点总结</h3><p>简要回顾所分析的主要词汇、搭配、语法和句式结构要点。这些语言特征共同构成了理解和有效使用英语的基础，对于CET-4的成功至关重要。</p>
+<h3 id="6-2-综合学习方法"><a href="#6-2-综合学习方法" class="headerlink" title="6.2 综合学习方法"></a>6.2 综合学习方法</h3><ul>
+<li>强调词汇、搭配、语法和句式结构是相互关联的，应以综合的方式学习，而不是作为孤立的主题 5。</li>
+<li>广泛阅读是接触语境中这些元素并加深理解的关键 38。CET-4考试从分立的语法&#x2F;词汇问题转向更综合的测试方式 7，这意味着学习方法也应转变。与其仅仅进行语法操练或背诵单词表，学生不如多进行结合技能的活动，例如阅读后写摘要，或分析文本的词汇和语法结构。</li>
+</ul>
+<h3 id="6-3-主动学习策略"><a href="#6-3-主动学习策略" class="headerlink" title="6.3 主动学习策略"></a>6.3 主动学习策略</h3><ul>
+<li>鼓励学生以类似的方式主动分析其他文本。</li>
+<li>建议保留一个词汇笔记，记录搭配和例句 38。</li>
+<li>练习释义复杂句子并进行汉英互译，以巩固对结构的理解。</li>
+</ul>
+<h3 id="6-4-CET-4特定部分建议"><a href="#6-4-CET-4特定部分建议" class="headerlink" title="6.4 CET-4特定部分建议"></a>6.4 CET-4特定部分建议</h3><ul>
+<li><strong>阅读理解:</strong> 专注于识别复杂句子中的主要思想，理解语境中的词汇，并识别衔接手段。</li>
+<li><strong>完形填空:</strong> 注意搭配、语法准确性（时态、一致性）和连词。</li>
+<li><strong>写作与翻译:</strong> 旨在运用多样的句式结构、准确的语法和恰当的搭配，以产出连贯自然的英语 6。</li>
+</ul>
+<h3 id="6-5-最终鼓励"><a href="#6-5-最终鼓励" class="headerlink" title="6.5 最终鼓励"></a>6.5 最终鼓励</h3><p>重申系统而详细的语言分析方法，如本报告所示，可以显著增强CET-4考试的准备和表现。鉴于许多CET-4考生是非英语专业学生 7，他们遇到和需要产出的英语通常涉及一般学术或社会主题，而非高度专业化的学科英语。因此，本分析中突出显示的词汇和结构（与农业&#x2F;环境相关，但使用常见的学术模式）具有代表性，学生应专注于这种类型的“通用学术英语”。</p>
+]]></content>
+      <categories>
+        <category>杂物</category>
+      </categories>
+      <tags>
+        <tag>大英</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>电机驱动</title>
     <url>/2025/01/01/%E7%94%B5%E6%9C%BA%E9%A9%B1%E5%8A%A8/</url>
     <content><![CDATA[<h1 id="基于STM32F103C8T6的机器人小车电机驱动与PID控制设计"><a href="#基于STM32F103C8T6的机器人小车电机驱动与PID控制设计" class="headerlink" title="基于STM32F103C8T6的机器人小车电机驱动与PID控制设计"></a>基于STM32F103C8T6的机器人小车电机驱动与PID控制设计</h1><h2 id="第1节：STM32F103C8T6与机器人小车电机控制概述"><a href="#第1节：STM32F103C8T6与机器人小车电机控制概述" class="headerlink" title="第1节：STM32F103C8T6与机器人小车电机控制概述"></a>第1节：STM32F103C8T6与机器人小车电机控制概述</h2><h3 id="1-1-STM32F103C8T6微控制器概览"><a href="#1-1-STM32F103C8T6微控制器概览" class="headerlink" title="1.1. STM32F103C8T6微控制器概览"></a>1.1. STM32F103C8T6微控制器概览</h3><p>STM32F103C8T6是一款基于ARM Cortex-M3内核的32位微控制器，由意法半导体（STMicroelectronics）生产。其核心特性包括高达72 MHz的工作频率、64KB的Flash程序存储器和20KB的SRAM 1。这些特性使其成为各种嵌入式控制应用的理想选择，尤其是在机器人技术领域。</p>
@@ -3036,17 +3036,6 @@
       </tags>
   </entry>
   <entry>
-    <title>大物笔记</title>
-    <url>/2025/05/31/%E7%AC%94%E8%AE%B0/%E5%A4%A7%E7%89%A9%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<div class="pdfobject-container" data-target="/pdfs/大学物理.pdf" data-height="800px"></div>]]></content>
-      <categories>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>物理</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>模电笔记</title>
     <url>/2025/05/31/%E7%AC%94%E8%AE%B0/%E6%A8%A1%E7%94%B5%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<div class="pdfobject-container" data-target="/pdfs/模电.pdf" data-height="800px"></div>]]></content>
@@ -3056,6 +3045,17 @@
       <tags>
         <tag>电路</tag>
         <tag>电子</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高数笔记</title>
+    <url>/2025/05/31/%E7%AC%94%E8%AE%B0/%E9%AB%98%E6%95%B0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<div class="pdfobject-container" data-target="/pdfs/高等数学.pdf" data-height="800px"></div>]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
       </tags>
   </entry>
   <entry>
@@ -3070,14 +3070,76 @@
       </tags>
   </entry>
   <entry>
-    <title>高数笔记</title>
-    <url>/2025/05/31/%E7%AC%94%E8%AE%B0/%E9%AB%98%E6%95%B0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<div class="pdfobject-container" data-target="/pdfs/高等数学.pdf" data-height="800px"></div>]]></content>
+    <title>大物笔记</title>
+    <url>/2025/05/31/%E7%AC%94%E8%AE%B0/%E5%A4%A7%E7%89%A9%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<div class="pdfobject-container" data-target="/pdfs/大学物理.pdf" data-height="800px"></div>]]></content>
       <categories>
         <category>笔记</category>
       </categories>
       <tags>
-        <tag>math</tag>
+        <tag>物理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GPIO</title>
+    <url>/2025/01/01/RM__PRIME/RM%E7%94%B5%E6%8E%A7/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/STM32/GPIO/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>RM_PRIME</category>
+        <category>RM电控</category>
+        <category>学习记录</category>
+        <category>STM32</category>
+      </categories>
+      <tags>
+        <tag>STM32</tag>
+        <tag>GPIO</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>基本设置</title>
+    <url>/2025/01/01/RM__PRIME/RM%E7%94%B5%E6%8E%A7/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/STM32/%E5%9F%BA%E6%9C%AC%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<h1 id="1-开启时钟以及初始化GPIO口"><a href="#1-开启时钟以及初始化GPIO口" class="headerlink" title="1.开启时钟以及初始化GPIO口"></a>1.开启时钟以及初始化GPIO口</h1><hr>
+<h2 id="开启时钟"><a href="#开启时钟" class="headerlink" title="开启时钟"></a>开启时钟</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOX,ENABLE);</span><br></pre></td></tr></table></figure>
+<p><strong>具体代码解释：</strong><br>	因为GPIO挂载在APB2总线上，所以此函数是用于开启GPIO_x上的时钟信号</p>
+<p><strong>参数：</strong><br>	1.<em>RCC_APB2Periph_GPIOx</em><br>		其中，x代表数字，这个参数用于控制开启时钟的GPIO端口号<br>	2.<em>ENABLE</em><br>		这个参数表示开启或关闭时钟，对应<em>ENABLE</em>和<em>DISABLE</em></p>
+<hr>
+<h2 id="初始化GPIO口"><a href="#初始化GPIO口" class="headerlink" title="初始化GPIO口"></a>初始化GPIO口</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">GPIO_InitTypeDef GPIO_InitStructure;</span><br><span class="line"></span><br><span class="line">GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;</span><br><span class="line">GPIO_InitStructure.GPIO_Pin = GPIO_Pin_x;</span><br><span class="line">GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;</span><br><span class="line"></span><br><span class="line">GPIO_Init(GPIOX,&amp;GPIO_InitStructure);</span><br></pre></td></tr></table></figure>
+<p><strong>具体代码解释：</strong></p>
+]]></content>
+      <categories>
+        <category>RM_PRIME</category>
+        <category>RM电控</category>
+        <category>学习记录</category>
+        <category>STM32</category>
+      </categories>
+      <tags>
+        <tag>STM32</tag>
+        <tag>GPIO</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C语言函数作业</title>
+    <url>/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E4%BD%9C%E4%B8%9A/</url>
+    <content><![CDATA[<h1 id="题目一：求和"><a href="#题目一：求和" class="headerlink" title="题目一：求和"></a>题目一：求和</h1><h2 id="程序如下："><a href="#程序如下：" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">float</span> <span class="title function_">sum</span><span class="params">(<span class="type">float</span> data[], <span class="type">int</span> N)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">float</span> sum=<span class="number">0.0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;N;i++)</span><br><span class="line">        sum += data[i];</span><br><span class="line">    <span class="keyword">return</span> sum;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>简单的for循环即可实现功能</p>
+<hr>
+<span id="more"></span>
+
+<h1 id="题目二：求均方差"><a href="#题目二：求均方差" class="headerlink" title="题目二：求均方差"></a>题目二：求均方差</h1><h2 id="程序如下：-1"><a href="#程序如下：-1" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;math.h&gt;</span></span></span><br><span class="line"><span class="type">double</span> <span class="title function_">Avg</span><span class="params">(<span class="type">int</span> N, <span class="type">int</span> data[])</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">double</span> avg=<span class="number">0.0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;N;i++)</span><br><span class="line">        avg += data[i];</span><br><span class="line">    <span class="keyword">return</span> avg/N;</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">double</span> <span class="title function_">StdDev</span><span class="params">(<span class="type">int</span> N, <span class="type">int</span> data[])</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">double</span> dev=<span class="number">0.0</span>,avg=<span class="number">0.0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;N;i++)</span><br><span class="line">        avg += data[i];</span><br><span class="line">    avg /= N;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;N;i++)</span><br><span class="line">        dev += <span class="built_in">pow</span>(data[i]-avg,<span class="number">2</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">pow</span>(dev/N,<span class="number">0.5</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<hr>
+<h1 id="题目三：字符串加密"><a href="#题目三：字符串加密" class="headerlink" title="题目三：字符串加密"></a>题目三：字符串加密</h1><h2 id="程序如下：-2"><a href="#程序如下：-2" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;ctype.h&gt;</span></span></span><br><span class="line"><span class="type">void</span> <span class="title function_">cryptograp</span><span class="params">(<span class="type">char</span> ch[], <span class="type">int</span> n)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (<span class="built_in">islower</span>(ch[i]))</span><br><span class="line">            ch[i] = (ch[i]-<span class="string">&#x27;a&#x27;</span>+<span class="number">5</span>)%<span class="number">26</span>+<span class="string">&#x27;a&#x27;</span>;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span> (<span class="built_in">isupper</span>(ch[i]))</span><br><span class="line">            ch[i] = (ch[i]-<span class="string">&#x27;A&#x27;</span>+<span class="number">5</span>)%<span class="number">26</span>+<span class="string">&#x27;A&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>类似于循环队列的操作方式</p>
+<hr>
+<h1 id="题目四：万年历"><a href="#题目四：万年历" class="headerlink" title="题目四：万年历"></a>题目四：万年历</h1><h2 id="程序如下：-3"><a href="#程序如下：-3" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">ShowDate</span><span class="params">(<span class="type">int</span> y, <span class="type">int</span> m)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> daysInMonth = GetDaysofMonth(y, m);</span><br><span class="line">	<span class="type">int</span> firstDay = GetFirstDayInTable(y, m); </span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;***********************************\n&quot;</span>);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;Sun Mon Tue Wen Thur Fri Sta\n&quot;</span>); </span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; firstDay; i++)</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;    &quot;</span>);</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> day = <span class="number">1</span>; day &lt;= daysInMonth; day++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%2d &quot;</span>, day);</span><br><span class="line">		<span class="keyword">if</span> ((day + firstDay) % <span class="number">7</span> == <span class="number">0</span>)</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;\n***********************************\n&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>RM_PRIME</category>
+        <category>RM算法</category>
+        <category>作业文件</category>
+        <category>C语言</category>
+      </categories>
+      <tags>
+        <tag>基础语法</tag>
+        <tag>C</tag>
       </tags>
   </entry>
   <entry>
@@ -3843,209 +3905,6 @@
       </tags>
   </entry>
   <entry>
-    <title>GPIO</title>
-    <url>/2025/01/01/RM__PRIME/RM%E7%94%B5%E6%8E%A7/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/STM32/GPIO/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>RM_PRIME</category>
-        <category>RM电控</category>
-        <category>学习记录</category>
-        <category>STM32</category>
-      </categories>
-      <tags>
-        <tag>STM32</tag>
-        <tag>GPIO</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>基本设置</title>
-    <url>/2025/01/01/RM__PRIME/RM%E7%94%B5%E6%8E%A7/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/STM32/%E5%9F%BA%E6%9C%AC%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<h1 id="1-开启时钟以及初始化GPIO口"><a href="#1-开启时钟以及初始化GPIO口" class="headerlink" title="1.开启时钟以及初始化GPIO口"></a>1.开启时钟以及初始化GPIO口</h1><hr>
-<h2 id="开启时钟"><a href="#开启时钟" class="headerlink" title="开启时钟"></a>开启时钟</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOX,ENABLE);</span><br></pre></td></tr></table></figure>
-<p><strong>具体代码解释：</strong><br>	因为GPIO挂载在APB2总线上，所以此函数是用于开启GPIO_x上的时钟信号</p>
-<p><strong>参数：</strong><br>	1.<em>RCC_APB2Periph_GPIOx</em><br>		其中，x代表数字，这个参数用于控制开启时钟的GPIO端口号<br>	2.<em>ENABLE</em><br>		这个参数表示开启或关闭时钟，对应<em>ENABLE</em>和<em>DISABLE</em></p>
-<hr>
-<h2 id="初始化GPIO口"><a href="#初始化GPIO口" class="headerlink" title="初始化GPIO口"></a>初始化GPIO口</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">GPIO_InitTypeDef GPIO_InitStructure;</span><br><span class="line"></span><br><span class="line">GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;</span><br><span class="line">GPIO_InitStructure.GPIO_Pin = GPIO_Pin_x;</span><br><span class="line">GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;</span><br><span class="line"></span><br><span class="line">GPIO_Init(GPIOX,&amp;GPIO_InitStructure);</span><br></pre></td></tr></table></figure>
-<p><strong>具体代码解释：</strong></p>
-]]></content>
-      <categories>
-        <category>RM_PRIME</category>
-        <category>RM电控</category>
-        <category>学习记录</category>
-        <category>STM32</category>
-      </categories>
-      <tags>
-        <tag>STM32</tag>
-        <tag>GPIO</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>泛型指针与通用性</title>
-    <url>/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/C/%E6%B3%9B%E5%9E%8B%E6%8C%87%E9%92%88%E4%B8%8E%E9%80%9A%E7%94%A8%E6%80%A7/</url>
-    <content><![CDATA[<h1 id="1-泛型指针的定义"><a href="#1-泛型指针的定义" class="headerlink" title="1.泛型指针的定义"></a>1.泛型指针的定义</h1><h2 id="类型声明："><a href="#类型声明：" class="headerlink" title="类型声明："></a>类型声明：</h2><h3 id="void-是一个无类型指针，可以指向任意类型的数据的地址"><a href="#void-是一个无类型指针，可以指向任意类型的数据的地址" class="headerlink" title="void * 是一个无类型指针，可以指向任意类型的数据的地址"></a>void * 是一个<em>无类型指针</em>，可以指向任意类型的数据的地址</h3><h3 id="eg"><a href="#eg" class="headerlink" title="eg."></a>eg.</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> a = <span class="number">10</span>;</span><br><span class="line"><span class="type">char</span> c = <span class="string">&#x27;x&#x27;</span>;</span><br><span class="line"><span class="type">void</span> *p = &amp;a;  <span class="comment">// 正确：指向 int</span></span><br><span class="line">p = &amp;c;        <span class="comment">// 正确：指向 char</span></span><br></pre></td></tr></table></figure>
-
-<hr>
-<span id="more"></span>
-
-<h1 id="2-核心特点"><a href="#2-核心特点" class="headerlink" title="2.核心特点"></a>2.核心特点</h1><h2 id="1-通用型"><a href="#1-通用型" class="headerlink" title="(1)通用型"></a>(1)通用型</h2><h3 id="可以接受任何数据类型的地址"><a href="#可以接受任何数据类型的地址" class="headerlink" title="可以接受任何数据类型的地址"></a>可以接受任何数据类型的地址</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> *p;</span><br><span class="line"><span class="type">int</span> num = <span class="number">5</span>;</span><br><span class="line">p = &amp;num;     <span class="comment">// 指向 int</span></span><br><span class="line">p = <span class="string">&quot;hello&quot;</span>;   <span class="comment">// 指向字符串</span></span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="2-不能直接解引用"><a href="#2-不能直接解引用" class="headerlink" title="(2)不能直接解引用"></a>(2)不能直接解引用</h2><h3 id="void-指针没有类型信息，直接引用可能会导致编译错误"><a href="#void-指针没有类型信息，直接引用可能会导致编译错误" class="headerlink" title="void* 指针没有类型信息，直接引用可能会导致编译错误"></a>void* 指针没有类型信息，直接引用可能会导致编译错误</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> x = <span class="number">10</span>;</span><br><span class="line"><span class="type">void</span> *p = &amp;x;</span><br><span class="line"><span class="comment">// *p = 20;    // 错误：无法解引用 void*</span></span><br><span class="line"><span class="type">int</span> *q = (<span class="type">int</span>*)p; <span class="comment">// 必须转为具体类型的指针</span></span><br><span class="line">*q = <span class="number">20</span>;          <span class="comment">// 正确</span></span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="3-指针运算限制"><a href="#3-指针运算限制" class="headerlink" title="(3)指针运算限制"></a>(3)指针运算限制</h2><h3 id="void-指针不能直接进行算术运算（如-p-），因为编译器不知道步长："><a href="#void-指针不能直接进行算术运算（如-p-），因为编译器不知道步长：" class="headerlink" title="void* 指针不能直接进行算术运算（如 p++），因为编译器不知道步长："></a>void* 指针不能直接进行算术运算（如 <code>p++</code>），因为编译器不知道步长：</h3>  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> arr[<span class="number">3</span>] = &#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>&#125;;</span><br><span class="line"><span class="type">void</span> *p = arr;</span><br><span class="line"><span class="comment">// p++;        // 错误：未知步长</span></span><br></pre></td></tr></table></figure>
-
-<hr>
-<h1 id="3-使用场景"><a href="#3-使用场景" class="headerlink" title="3. 使用场景"></a>3. 使用场景</h1><h2 id="1-通用函数设计"><a href="#1-通用函数设计" class="headerlink" title="(1) 通用函数设计"></a>(1) 通用函数设计</h2><h3 id="示例：实现一个遍历数组的通用函数（如问题中的-ForEach）："><a href="#示例：实现一个遍历数组的通用函数（如问题中的-ForEach）：" class="headerlink" title="示例：实现一个遍历数组的通用函数（如问题中的 ForEach）："></a><strong>示例</strong>：实现一个遍历数组的通用函数（如问题中的 <code>ForEach</code>）：</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">ForEach</span><span class="params">(<span class="type">void</span> *arr, <span class="type">int</span> elem_size, <span class="type">int</span> num, <span class="type">void</span> (*func)(<span class="type">void</span>*))</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; num; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">// 通过 char* 指针按字节步进（因为 char 大小为 1 字节）</span></span><br><span class="line">        func((<span class="type">char</span>*)arr + i * elem_size);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<hr>
-<h2 id="2-内存操作函数"><a href="#2-内存操作函数" class="headerlink" title="(2) 内存操作函数"></a>(2) 内存操作函数</h2><h3 id="C-标准库中的-memcpy-和-memset-使用-void-实现通用内存操作："><a href="#C-标准库中的-memcpy-和-memset-使用-void-实现通用内存操作：" class="headerlink" title="C 标准库中的 memcpy 和 memset 使用 void* 实现通用内存操作："></a>C 标准库中的 <code>memcpy</code> 和 <code>memset</code> 使用 <code>void*</code> 实现通用内存操作：</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span>* <span class="title function_">memcpy</span><span class="params">(<span class="type">void</span> *dest, <span class="type">const</span> <span class="type">void</span> *src, <span class="type">size_t</span> n)</span>;</span><br></pre></td></tr></table></figure>
-<hr>
-<h2 id="3-动态数据结构"><a href="#3-动态数据结构" class="headerlink" title="(3) 动态数据结构"></a>(3) 动态数据结构</h2><h3 id="在链表、树等数据结构中，void-可存储任意类型的数据："><a href="#在链表、树等数据结构中，void-可存储任意类型的数据：" class="headerlink" title="在链表、树等数据结构中，void* 可存储任意类型的数据："></a>在链表、树等数据结构中，<code>void*</code> 可存储任意类型的数据：</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Node</span>&#123;</span></span><br><span class="line">	<span class="type">void</span> *data;     <span class="comment">// 泛型数据</span></span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">next</span>;</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-<hr>
-]]></content>
-      <categories>
-        <category>RM_PRIME</category>
-        <category>RM算法</category>
-        <category>学习记录</category>
-        <category>C</category>
-      </categories>
-      <tags>
-        <tag>指针</tag>
-        <tag>C</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C语言函数作业</title>
-    <url>/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E4%BD%9C%E4%B8%9A/</url>
-    <content><![CDATA[<h1 id="题目一：求和"><a href="#题目一：求和" class="headerlink" title="题目一：求和"></a>题目一：求和</h1><h2 id="程序如下："><a href="#程序如下：" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">float</span> <span class="title function_">sum</span><span class="params">(<span class="type">float</span> data[], <span class="type">int</span> N)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">float</span> sum=<span class="number">0.0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;N;i++)</span><br><span class="line">        sum += data[i];</span><br><span class="line">    <span class="keyword">return</span> sum;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>简单的for循环即可实现功能</p>
-<hr>
-<span id="more"></span>
-
-<h1 id="题目二：求均方差"><a href="#题目二：求均方差" class="headerlink" title="题目二：求均方差"></a>题目二：求均方差</h1><h2 id="程序如下：-1"><a href="#程序如下：-1" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;math.h&gt;</span></span></span><br><span class="line"><span class="type">double</span> <span class="title function_">Avg</span><span class="params">(<span class="type">int</span> N, <span class="type">int</span> data[])</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">double</span> avg=<span class="number">0.0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;N;i++)</span><br><span class="line">        avg += data[i];</span><br><span class="line">    <span class="keyword">return</span> avg/N;</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">double</span> <span class="title function_">StdDev</span><span class="params">(<span class="type">int</span> N, <span class="type">int</span> data[])</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">double</span> dev=<span class="number">0.0</span>,avg=<span class="number">0.0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;N;i++)</span><br><span class="line">        avg += data[i];</span><br><span class="line">    avg /= N;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;N;i++)</span><br><span class="line">        dev += <span class="built_in">pow</span>(data[i]-avg,<span class="number">2</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">pow</span>(dev/N,<span class="number">0.5</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<hr>
-<h1 id="题目三：字符串加密"><a href="#题目三：字符串加密" class="headerlink" title="题目三：字符串加密"></a>题目三：字符串加密</h1><h2 id="程序如下：-2"><a href="#程序如下：-2" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;ctype.h&gt;</span></span></span><br><span class="line"><span class="type">void</span> <span class="title function_">cryptograp</span><span class="params">(<span class="type">char</span> ch[], <span class="type">int</span> n)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (<span class="built_in">islower</span>(ch[i]))</span><br><span class="line">            ch[i] = (ch[i]-<span class="string">&#x27;a&#x27;</span>+<span class="number">5</span>)%<span class="number">26</span>+<span class="string">&#x27;a&#x27;</span>;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span> (<span class="built_in">isupper</span>(ch[i]))</span><br><span class="line">            ch[i] = (ch[i]-<span class="string">&#x27;A&#x27;</span>+<span class="number">5</span>)%<span class="number">26</span>+<span class="string">&#x27;A&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>类似于循环队列的操作方式</p>
-<hr>
-<h1 id="题目四：万年历"><a href="#题目四：万年历" class="headerlink" title="题目四：万年历"></a>题目四：万年历</h1><h2 id="程序如下：-3"><a href="#程序如下：-3" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">ShowDate</span><span class="params">(<span class="type">int</span> y, <span class="type">int</span> m)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> daysInMonth = GetDaysofMonth(y, m);</span><br><span class="line">	<span class="type">int</span> firstDay = GetFirstDayInTable(y, m); </span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;***********************************\n&quot;</span>);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;Sun Mon Tue Wen Thur Fri Sta\n&quot;</span>); </span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; firstDay; i++)</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;    &quot;</span>);</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> day = <span class="number">1</span>; day &lt;= daysInMonth; day++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%2d &quot;</span>, day);</span><br><span class="line">		<span class="keyword">if</span> ((day + firstDay) % <span class="number">7</span> == <span class="number">0</span>)</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;\n***********************************\n&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>RM_PRIME</category>
-        <category>RM算法</category>
-        <category>作业文件</category>
-        <category>C语言</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>基础语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C语言数据类型编程题目</title>
-    <url>/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E7%BC%96%E7%A8%8B%E9%A2%98%E7%9B%AE/</url>
-    <content><![CDATA[<hr>
-<h1 id="题目一：输出对应的数据类型"><a href="#题目一：输出对应的数据类型" class="headerlink" title="题目一：输出对应的数据类型"></a>题目一：输出对应的数据类型<br></h1><h2 id="程序如下："><a href="#程序如下：" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;ctype.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">char</span> input[<span class="number">100</span>];</span><br><span class="line">    fgets(input, <span class="keyword">sizeof</span>(input), <span class="built_in">stdin</span>);</span><br><span class="line">    input[<span class="built_in">strcspn</span>(input, <span class="string">&quot;\n&quot;</span>)] = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">if</span> (<span class="built_in">strlen</span>(input) == <span class="number">1</span> &amp;&amp; <span class="built_in">isprint</span>(input[<span class="number">0</span>]))</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;Data type: char, ASCII value: %d\n&quot;</span>, (<span class="type">int</span>)input[<span class="number">0</span>]);</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="type">char</span> *endptr;</span><br><span class="line">        <span class="type">long</span> intValue = strtol(input, &amp;endptr, <span class="number">10</span>);</span><br><span class="line">        <span class="keyword">if</span> (endptr != input &amp;&amp; *endptr == <span class="string">&#x27;\0&#x27;</span>)</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">&quot;Data type: int\n&quot;</span>);</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="type">float</span> floatValue = strtof(input, &amp;endptr);</span><br><span class="line">            <span class="keyword">if</span> (endptr != input &amp;&amp; *endptr == <span class="string">&#x27;\0&#x27;</span>)</span><br><span class="line">                <span class="built_in">printf</span>(<span class="string">&quot;Data type: float\n&quot;</span>);</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            &#123;</span><br><span class="line">                <span class="type">double</span> doubleValue = strtod(input, &amp;endptr);</span><br><span class="line">                <span class="keyword">if</span> (endptr != input &amp;&amp; *endptr == <span class="string">&#x27;\0&#x27;</span>)</span><br><span class="line">                    <span class="built_in">printf</span>(<span class="string">&quot;Data type: double\n&quot;</span>);</span><br><span class="line">                <span class="keyword">else</span></span><br><span class="line">                    <span class="built_in">printf</span>(<span class="string">&quot;Error\n&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>由于C语言把char类型视为特殊的int来处理，所以上述代码只能区分int，char和float。<br>对于数字的char类型（例如字符‘1’），以及double和float并不能很好地区分开来（目前也是没有想到什么好办法）</p>
-<hr>
-<span id="more"></span>
-
-<h1 id="题目二：显示身高"><a href="#题目二：显示身高" class="headerlink" title="题目二：显示身高"></a>题目二：显示身高</h1><h2 id="代码如下"><a href="#代码如下" class="headerlink" title="代码如下"></a>代码如下</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> INCH 2.54</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> height;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;请输入身高（英尺）：\n&quot;</span>);</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;height);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%.3f&quot;</span>,INCH*height);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h1 id="题目三：舍罕王的失算"><a href="#题目三：舍罕王的失算" class="headerlink" title="题目三：舍罕王的失算"></a>题目三：舍罕王的失算</h1><h2 id="代码如下-1"><a href="#代码如下-1" class="headerlink" title="代码如下"></a>代码如下</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;math.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> SEED 25000.0</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">double</span> sum=<span class="number">0.0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;<span class="number">64</span>;i++)</span><br><span class="line">        sum += <span class="built_in">pow</span>(<span class="number">2</span>,i);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%.2lf Kg&quot;</span>,sum/SEED);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>算法效率最高的估计就是循环了，递归写法稍微简单一点但是空间复杂度会很大</p>
-]]></content>
-      <categories>
-        <category>RM_PRIME</category>
-        <category>RM算法</category>
-        <category>作业文件</category>
-        <category>C语言</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>基础语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>循环与判断</title>
-    <url>/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/%E5%88%A4%E6%96%AD%E5%92%8C%E5%BE%AA%E7%8E%AF/</url>
-    <content><![CDATA[<hr>
-<h1 id="题目一：将三个整数从大到小输出"><a href="#题目一：将三个整数从大到小输出" class="headerlink" title="题目一：将三个整数从大到小输出"></a>题目一：将三个整数从大到小输出<br></h1><h2 id="程序如下："><a href="#程序如下：" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> a,b,c,n;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">&quot;%d %d %d&quot;</span>,&amp;a,&amp;b,&amp;c);</span><br><span class="line">	<span class="keyword">if</span> (a&lt;(b&lt;c?b:c))<span class="comment">//a是最小值</span></span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d %d %d&quot;</span>,(b&gt;c?b:c),(b&gt;c?c:b),a);</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">if</span> (a&gt;(b&gt;c?b:c))</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d %d %d&quot;</span>,a,(b&gt;c?b:c),(b&gt;c?c:b));</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d %d %d&quot;</span>,(b&gt;c?b:c),a,(b&gt;c?c:b));</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>用三元表达式替换了一下if else语句<del>（单纯懒得写而已）</del></p>
-<hr>
-<span id="more"></span>
-
-<h1 id="题目2：判断100-200的素数，并输出所有素数"><a href="#题目2：判断100-200的素数，并输出所有素数" class="headerlink" title="题目2：判断100-200的素数，并输出所有素数"></a>题目2：判断100-200的素数，并输出所有素数</h1><h2 id="程序如下：-1"><a href="#程序如下：-1" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;math.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> N=<span class="number">200</span>,i,flag,count=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (i=<span class="number">100</span>;i &lt;= N;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        flag = <span class="number">1</span>;</span><br><span class="line">        <span class="type">int</span> n = (<span class="type">int</span>)<span class="built_in">sqrt</span>(i);</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> k=<span class="number">2</span>;k&lt;=n;k++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span> (i%k == <span class="number">0</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                flag = <span class="number">0</span>;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (flag)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">&quot;%5d&quot;</span>,i);</span><br><span class="line">            count +=<span class="number">1</span>;</span><br><span class="line">            <span class="keyword">if</span> (count==<span class="number">8</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">                count = <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>为了美观，八个为一行输出<br>（其实判断是否为素数完全可以写成一个函数，这样主程序就不会这么臃肿）</p>
-<hr>
-<h1 id="题目3：输入一个正整数，将其分解质因数"><a href="#题目3：输入一个正整数，将其分解质因数" class="headerlink" title="题目3：输入一个正整数，将其分解质因数"></a>题目3：输入一个正整数，将其分解质因数</h1><h2 id="程序如下：-2"><a href="#程序如下：-2" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;math.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">isprime</span><span class="params">(<span class="type">int</span>)</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> n, i = <span class="number">2</span>;</span><br><span class="line">    <span class="type">int</span> N = <span class="number">0</span>, p = <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> a[<span class="number">101</span>];</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line">    N = n;</span><br><span class="line">    <span class="keyword">while</span> (N &gt; <span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">while</span> (N % i == <span class="number">0</span> &amp;&amp; isprime(i))</span><br><span class="line">        &#123;</span><br><span class="line">            N /= i;</span><br><span class="line">            a[p++] = i;</span><br><span class="line">        &#125;</span><br><span class="line">        i++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d=&quot;</span>, n);</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; p; j++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (j&lt;p<span class="number">-1</span>)</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">&quot;%d*&quot;</span>, a[j]);</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>, a[j]);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (p == <span class="number">0</span>)</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>, n);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">isprime</span><span class="params">(<span class="type">int</span> n)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">if</span> (n &lt; <span class="number">2</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> k = <span class="number">2</span>; k &lt;= (<span class="type">int</span>)<span class="built_in">sqrt</span>(n); k++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (n % k == <span class="number">0</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>对上一题说的这题实现了：）</p>
-<p>Date: 24.12.1</p>
-]]></content>
-      <categories>
-        <category>RM_PRIME</category>
-        <category>RM算法</category>
-        <category>作业文件</category>
-        <category>C语言</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>基础语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>环境配置</title>
-    <url>/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<hr>
-<h1 id="1-目前使用的编译器"><a href="#1-目前使用的编译器" class="headerlink" title="1.目前使用的编译器"></a>1.目前使用的编译器</h1><h2 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python<br></h2><p>用原生的<em>IDLE</em>,主要是方便<del>（懒）</del></p>
-<h2 id="C语言"><a href="#C语言" class="headerlink" title="C语言"></a>C语言<br></h2><p>因为<em>VScode</em>并不内置编译器或集成开发环境，<br>所以使用的是<em><strong>MinGW-w64</strong></em>(也就是<em><strong>GCC</strong></em>的<em>windows</em>版本)<br></p>
-<hr>
-<span id="more"></span>
-
-<h1 id="2-之前用的软件"><a href="#2-之前用的软件" class="headerlink" title="2.之前用的软件"></a>2.之前用的软件<br></h1><p><em><strong>Code::Blocks</strong></em>，基本就是C语言入门标配，然后就是VScode了</p>
-<p>至于Python的话，<em><strong>Anaconda</strong></em>转<em><strong>Spyder</strong></em>最后回归<em><strong>IDLE</strong></em></p>
-<hr>
-<h1 id="3编译并测试代码"><a href="#3编译并测试代码" class="headerlink" title="3编译并测试代码"></a>3编译并测试代码</h1><p>编译基本没什么问题，Linux下的环境搭建和编译测试明显优于windows下的VScode<br>两个系统下运行代码都没有问题</p>
-<p>「此处为Linux下运行测试的图片」<br>![[Linux-VScode-test.png]]<br>如果看不见的话就是同一个目录下的那张</p>
-<hr>
-]]></content>
-      <categories>
-        <category>RM_PRIME</category>
-        <category>RM算法</category>
-        <category>作业文件</category>
-        <category>C语言</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>环境配置</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C语言数组作业</title>
-    <url>/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E4%BD%9C%E4%B8%9A/</url>
-    <content><![CDATA[<hr>
-<h1 id="题目一：计算总和"><a href="#题目一：计算总和" class="headerlink" title="题目一：计算总和"></a>题目一：计算总和</h1><h2 id="程序如下："><a href="#程序如下：" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> n,sum=<span class="number">0</span>;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;n);</span><br><span class="line">    <span class="type">int</span> num[n];</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;num[i]);</span><br><span class="line">        sum += num[i];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>,sum);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<hr>
-<span id="more"></span>
-
-<h1 id="题目二：反转字符串"><a href="#题目二：反转字符串" class="headerlink" title="题目二：反转字符串"></a>题目二：反转字符串</h1><h2 id="程序如下：-1"><a href="#程序如下：-1" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">char</span> str[<span class="number">99</span>];</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">&quot;%s&quot;</span>,str);</span><br><span class="line">	<span class="type">int</span> len = <span class="built_in">strlen</span>(str);</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;len;i++)</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%c&quot;</span>,str[len-i<span class="number">-1</span>]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<hr>
-<h1 id="题目三：最大最小元素"><a href="#题目三：最大最小元素" class="headerlink" title="题目三：最大最小元素"></a>题目三：最大最小元素</h1><h2 id="程序如下：-2"><a href="#程序如下：-2" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> n,max;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;n);</span><br><span class="line">    <span class="type">int</span> num[n];</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;num[i]);</span><br><span class="line">    <span class="type">int</span> min=max=num[<span class="number">0</span>];</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (num[i]&gt;max)</span><br><span class="line">            max = num[i];</span><br><span class="line">        <span class="keyword">if</span> (num[i]&lt;min)</span><br><span class="line">            min = num[i];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;min=%d,max=%d&quot;</span>,min,max);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>RM_PRIME</category>
-        <category>RM算法</category>
-        <category>作业文件</category>
-        <category>C语言</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>基础语法</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>C语言指针作业</title>
     <url>/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E6%8C%87%E9%92%88%E4%BD%9C%E4%B8%9A/</url>
     <content><![CDATA[<hr>
@@ -4084,8 +3943,149 @@
         <category>C语言</category>
       </categories>
       <tags>
-        <tag>C</tag>
         <tag>基础语法</tag>
+        <tag>C</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C语言数据类型编程题目</title>
+    <url>/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E7%BC%96%E7%A8%8B%E9%A2%98%E7%9B%AE/</url>
+    <content><![CDATA[<hr>
+<h1 id="题目一：输出对应的数据类型"><a href="#题目一：输出对应的数据类型" class="headerlink" title="题目一：输出对应的数据类型"></a>题目一：输出对应的数据类型<br></h1><h2 id="程序如下："><a href="#程序如下：" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;ctype.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">char</span> input[<span class="number">100</span>];</span><br><span class="line">    fgets(input, <span class="keyword">sizeof</span>(input), <span class="built_in">stdin</span>);</span><br><span class="line">    input[<span class="built_in">strcspn</span>(input, <span class="string">&quot;\n&quot;</span>)] = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">if</span> (<span class="built_in">strlen</span>(input) == <span class="number">1</span> &amp;&amp; <span class="built_in">isprint</span>(input[<span class="number">0</span>]))</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;Data type: char, ASCII value: %d\n&quot;</span>, (<span class="type">int</span>)input[<span class="number">0</span>]);</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="type">char</span> *endptr;</span><br><span class="line">        <span class="type">long</span> intValue = strtol(input, &amp;endptr, <span class="number">10</span>);</span><br><span class="line">        <span class="keyword">if</span> (endptr != input &amp;&amp; *endptr == <span class="string">&#x27;\0&#x27;</span>)</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">&quot;Data type: int\n&quot;</span>);</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="type">float</span> floatValue = strtof(input, &amp;endptr);</span><br><span class="line">            <span class="keyword">if</span> (endptr != input &amp;&amp; *endptr == <span class="string">&#x27;\0&#x27;</span>)</span><br><span class="line">                <span class="built_in">printf</span>(<span class="string">&quot;Data type: float\n&quot;</span>);</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            &#123;</span><br><span class="line">                <span class="type">double</span> doubleValue = strtod(input, &amp;endptr);</span><br><span class="line">                <span class="keyword">if</span> (endptr != input &amp;&amp; *endptr == <span class="string">&#x27;\0&#x27;</span>)</span><br><span class="line">                    <span class="built_in">printf</span>(<span class="string">&quot;Data type: double\n&quot;</span>);</span><br><span class="line">                <span class="keyword">else</span></span><br><span class="line">                    <span class="built_in">printf</span>(<span class="string">&quot;Error\n&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>由于C语言把char类型视为特殊的int来处理，所以上述代码只能区分int，char和float。<br>对于数字的char类型（例如字符‘1’），以及double和float并不能很好地区分开来（目前也是没有想到什么好办法）</p>
+<hr>
+<span id="more"></span>
+
+<h1 id="题目二：显示身高"><a href="#题目二：显示身高" class="headerlink" title="题目二：显示身高"></a>题目二：显示身高</h1><h2 id="代码如下"><a href="#代码如下" class="headerlink" title="代码如下"></a>代码如下</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> INCH 2.54</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> height;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;请输入身高（英尺）：\n&quot;</span>);</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;height);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%.3f&quot;</span>,INCH*height);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h1 id="题目三：舍罕王的失算"><a href="#题目三：舍罕王的失算" class="headerlink" title="题目三：舍罕王的失算"></a>题目三：舍罕王的失算</h1><h2 id="代码如下-1"><a href="#代码如下-1" class="headerlink" title="代码如下"></a>代码如下</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;math.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> SEED 25000.0</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">double</span> sum=<span class="number">0.0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;<span class="number">64</span>;i++)</span><br><span class="line">        sum += <span class="built_in">pow</span>(<span class="number">2</span>,i);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%.2lf Kg&quot;</span>,sum/SEED);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>算法效率最高的估计就是循环了，递归写法稍微简单一点但是空间复杂度会很大</p>
+]]></content>
+      <categories>
+        <category>RM_PRIME</category>
+        <category>RM算法</category>
+        <category>作业文件</category>
+        <category>C语言</category>
+      </categories>
+      <tags>
+        <tag>基础语法</tag>
+        <tag>C</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>循环与判断</title>
+    <url>/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/%E5%88%A4%E6%96%AD%E5%92%8C%E5%BE%AA%E7%8E%AF/</url>
+    <content><![CDATA[<hr>
+<h1 id="题目一：将三个整数从大到小输出"><a href="#题目一：将三个整数从大到小输出" class="headerlink" title="题目一：将三个整数从大到小输出"></a>题目一：将三个整数从大到小输出<br></h1><h2 id="程序如下："><a href="#程序如下：" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> a,b,c,n;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">&quot;%d %d %d&quot;</span>,&amp;a,&amp;b,&amp;c);</span><br><span class="line">	<span class="keyword">if</span> (a&lt;(b&lt;c?b:c))<span class="comment">//a是最小值</span></span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d %d %d&quot;</span>,(b&gt;c?b:c),(b&gt;c?c:b),a);</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">if</span> (a&gt;(b&gt;c?b:c))</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d %d %d&quot;</span>,a,(b&gt;c?b:c),(b&gt;c?c:b));</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d %d %d&quot;</span>,(b&gt;c?b:c),a,(b&gt;c?c:b));</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>用三元表达式替换了一下if else语句<del>（单纯懒得写而已）</del></p>
+<hr>
+<span id="more"></span>
+
+<h1 id="题目2：判断100-200的素数，并输出所有素数"><a href="#题目2：判断100-200的素数，并输出所有素数" class="headerlink" title="题目2：判断100-200的素数，并输出所有素数"></a>题目2：判断100-200的素数，并输出所有素数</h1><h2 id="程序如下：-1"><a href="#程序如下：-1" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;math.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> N=<span class="number">200</span>,i,flag,count=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (i=<span class="number">100</span>;i &lt;= N;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        flag = <span class="number">1</span>;</span><br><span class="line">        <span class="type">int</span> n = (<span class="type">int</span>)<span class="built_in">sqrt</span>(i);</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> k=<span class="number">2</span>;k&lt;=n;k++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span> (i%k == <span class="number">0</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                flag = <span class="number">0</span>;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (flag)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">&quot;%5d&quot;</span>,i);</span><br><span class="line">            count +=<span class="number">1</span>;</span><br><span class="line">            <span class="keyword">if</span> (count==<span class="number">8</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">                count = <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>为了美观，八个为一行输出<br>（其实判断是否为素数完全可以写成一个函数，这样主程序就不会这么臃肿）</p>
+<hr>
+<h1 id="题目3：输入一个正整数，将其分解质因数"><a href="#题目3：输入一个正整数，将其分解质因数" class="headerlink" title="题目3：输入一个正整数，将其分解质因数"></a>题目3：输入一个正整数，将其分解质因数</h1><h2 id="程序如下：-2"><a href="#程序如下：-2" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;math.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">isprime</span><span class="params">(<span class="type">int</span>)</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> n, i = <span class="number">2</span>;</span><br><span class="line">    <span class="type">int</span> N = <span class="number">0</span>, p = <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> a[<span class="number">101</span>];</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line">    N = n;</span><br><span class="line">    <span class="keyword">while</span> (N &gt; <span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">while</span> (N % i == <span class="number">0</span> &amp;&amp; isprime(i))</span><br><span class="line">        &#123;</span><br><span class="line">            N /= i;</span><br><span class="line">            a[p++] = i;</span><br><span class="line">        &#125;</span><br><span class="line">        i++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d=&quot;</span>, n);</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; p; j++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (j&lt;p<span class="number">-1</span>)</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">&quot;%d*&quot;</span>, a[j]);</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>, a[j]);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (p == <span class="number">0</span>)</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>, n);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">isprime</span><span class="params">(<span class="type">int</span> n)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">if</span> (n &lt; <span class="number">2</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> k = <span class="number">2</span>; k &lt;= (<span class="type">int</span>)<span class="built_in">sqrt</span>(n); k++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (n % k == <span class="number">0</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>对上一题说的这题实现了：）</p>
+<p>Date: 24.12.1</p>
+]]></content>
+      <categories>
+        <category>RM_PRIME</category>
+        <category>RM算法</category>
+        <category>作业文件</category>
+        <category>C语言</category>
+      </categories>
+      <tags>
+        <tag>基础语法</tag>
+        <tag>C</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C语言数组作业</title>
+    <url>/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E6%95%B0%E7%BB%84%E4%BD%9C%E4%B8%9A/</url>
+    <content><![CDATA[<hr>
+<h1 id="题目一：计算总和"><a href="#题目一：计算总和" class="headerlink" title="题目一：计算总和"></a>题目一：计算总和</h1><h2 id="程序如下："><a href="#程序如下：" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> n,sum=<span class="number">0</span>;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;n);</span><br><span class="line">    <span class="type">int</span> num[n];</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;num[i]);</span><br><span class="line">        sum += num[i];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>,sum);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<hr>
+<span id="more"></span>
+
+<h1 id="题目二：反转字符串"><a href="#题目二：反转字符串" class="headerlink" title="题目二：反转字符串"></a>题目二：反转字符串</h1><h2 id="程序如下：-1"><a href="#程序如下：-1" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">char</span> str[<span class="number">99</span>];</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">&quot;%s&quot;</span>,str);</span><br><span class="line">	<span class="type">int</span> len = <span class="built_in">strlen</span>(str);</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;len;i++)</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%c&quot;</span>,str[len-i<span class="number">-1</span>]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<hr>
+<h1 id="题目三：最大最小元素"><a href="#题目三：最大最小元素" class="headerlink" title="题目三：最大最小元素"></a>题目三：最大最小元素</h1><h2 id="程序如下：-2"><a href="#程序如下：-2" class="headerlink" title="程序如下："></a>程序如下：</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> n,max;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;n);</span><br><span class="line">    <span class="type">int</span> num[n];</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;num[i]);</span><br><span class="line">    <span class="type">int</span> min=max=num[<span class="number">0</span>];</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (num[i]&gt;max)</span><br><span class="line">            max = num[i];</span><br><span class="line">        <span class="keyword">if</span> (num[i]&lt;min)</span><br><span class="line">            min = num[i];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;min=%d,max=%d&quot;</span>,min,max);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>RM_PRIME</category>
+        <category>RM算法</category>
+        <category>作业文件</category>
+        <category>C语言</category>
+      </categories>
+      <tags>
+        <tag>基础语法</tag>
+        <tag>C</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>环境配置</title>
+    <url>/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E4%BD%9C%E4%B8%9A%E6%96%87%E4%BB%B6/C%E8%AF%AD%E8%A8%80/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<hr>
+<h1 id="1-目前使用的编译器"><a href="#1-目前使用的编译器" class="headerlink" title="1.目前使用的编译器"></a>1.目前使用的编译器</h1><h2 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python<br></h2><p>用原生的<em>IDLE</em>,主要是方便<del>（懒）</del></p>
+<h2 id="C语言"><a href="#C语言" class="headerlink" title="C语言"></a>C语言<br></h2><p>因为<em>VScode</em>并不内置编译器或集成开发环境，<br>所以使用的是<em><strong>MinGW-w64</strong></em>(也就是<em><strong>GCC</strong></em>的<em>windows</em>版本)<br></p>
+<hr>
+<span id="more"></span>
+
+<h1 id="2-之前用的软件"><a href="#2-之前用的软件" class="headerlink" title="2.之前用的软件"></a>2.之前用的软件<br></h1><p><em><strong>Code::Blocks</strong></em>，基本就是C语言入门标配，然后就是VScode了</p>
+<p>至于Python的话，<em><strong>Anaconda</strong></em>转<em><strong>Spyder</strong></em>最后回归<em><strong>IDLE</strong></em></p>
+<hr>
+<h1 id="3编译并测试代码"><a href="#3编译并测试代码" class="headerlink" title="3编译并测试代码"></a>3编译并测试代码</h1><p>编译基本没什么问题，Linux下的环境搭建和编译测试明显优于windows下的VScode<br>两个系统下运行代码都没有问题</p>
+<p>「此处为Linux下运行测试的图片」<br>![[Linux-VScode-test.png]]<br>如果看不见的话就是同一个目录下的那张</p>
+<hr>
+]]></content>
+      <categories>
+        <category>RM_PRIME</category>
+        <category>RM算法</category>
+        <category>作业文件</category>
+        <category>C语言</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+        <tag>环境配置</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>泛型指针与通用性</title>
+    <url>/2025/01/01/RM__PRIME/RM%E7%AE%97%E6%B3%95/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/C/%E6%B3%9B%E5%9E%8B%E6%8C%87%E9%92%88%E4%B8%8E%E9%80%9A%E7%94%A8%E6%80%A7/</url>
+    <content><![CDATA[<h1 id="1-泛型指针的定义"><a href="#1-泛型指针的定义" class="headerlink" title="1.泛型指针的定义"></a>1.泛型指针的定义</h1><h2 id="类型声明："><a href="#类型声明：" class="headerlink" title="类型声明："></a>类型声明：</h2><h3 id="void-是一个无类型指针，可以指向任意类型的数据的地址"><a href="#void-是一个无类型指针，可以指向任意类型的数据的地址" class="headerlink" title="void * 是一个无类型指针，可以指向任意类型的数据的地址"></a>void * 是一个<em>无类型指针</em>，可以指向任意类型的数据的地址</h3><h3 id="eg"><a href="#eg" class="headerlink" title="eg."></a>eg.</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> a = <span class="number">10</span>;</span><br><span class="line"><span class="type">char</span> c = <span class="string">&#x27;x&#x27;</span>;</span><br><span class="line"><span class="type">void</span> *p = &amp;a;  <span class="comment">// 正确：指向 int</span></span><br><span class="line">p = &amp;c;        <span class="comment">// 正确：指向 char</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<span id="more"></span>
+
+<h1 id="2-核心特点"><a href="#2-核心特点" class="headerlink" title="2.核心特点"></a>2.核心特点</h1><h2 id="1-通用型"><a href="#1-通用型" class="headerlink" title="(1)通用型"></a>(1)通用型</h2><h3 id="可以接受任何数据类型的地址"><a href="#可以接受任何数据类型的地址" class="headerlink" title="可以接受任何数据类型的地址"></a>可以接受任何数据类型的地址</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> *p;</span><br><span class="line"><span class="type">int</span> num = <span class="number">5</span>;</span><br><span class="line">p = &amp;num;     <span class="comment">// 指向 int</span></span><br><span class="line">p = <span class="string">&quot;hello&quot;</span>;   <span class="comment">// 指向字符串</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="2-不能直接解引用"><a href="#2-不能直接解引用" class="headerlink" title="(2)不能直接解引用"></a>(2)不能直接解引用</h2><h3 id="void-指针没有类型信息，直接引用可能会导致编译错误"><a href="#void-指针没有类型信息，直接引用可能会导致编译错误" class="headerlink" title="void* 指针没有类型信息，直接引用可能会导致编译错误"></a>void* 指针没有类型信息，直接引用可能会导致编译错误</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> x = <span class="number">10</span>;</span><br><span class="line"><span class="type">void</span> *p = &amp;x;</span><br><span class="line"><span class="comment">// *p = 20;    // 错误：无法解引用 void*</span></span><br><span class="line"><span class="type">int</span> *q = (<span class="type">int</span>*)p; <span class="comment">// 必须转为具体类型的指针</span></span><br><span class="line">*q = <span class="number">20</span>;          <span class="comment">// 正确</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="3-指针运算限制"><a href="#3-指针运算限制" class="headerlink" title="(3)指针运算限制"></a>(3)指针运算限制</h2><h3 id="void-指针不能直接进行算术运算（如-p-），因为编译器不知道步长："><a href="#void-指针不能直接进行算术运算（如-p-），因为编译器不知道步长：" class="headerlink" title="void* 指针不能直接进行算术运算（如 p++），因为编译器不知道步长："></a>void* 指针不能直接进行算术运算（如 <code>p++</code>），因为编译器不知道步长：</h3>  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> arr[<span class="number">3</span>] = &#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>&#125;;</span><br><span class="line"><span class="type">void</span> *p = arr;</span><br><span class="line"><span class="comment">// p++;        // 错误：未知步长</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h1 id="3-使用场景"><a href="#3-使用场景" class="headerlink" title="3. 使用场景"></a>3. 使用场景</h1><h2 id="1-通用函数设计"><a href="#1-通用函数设计" class="headerlink" title="(1) 通用函数设计"></a>(1) 通用函数设计</h2><h3 id="示例：实现一个遍历数组的通用函数（如问题中的-ForEach）："><a href="#示例：实现一个遍历数组的通用函数（如问题中的-ForEach）：" class="headerlink" title="示例：实现一个遍历数组的通用函数（如问题中的 ForEach）："></a><strong>示例</strong>：实现一个遍历数组的通用函数（如问题中的 <code>ForEach</code>）：</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">ForEach</span><span class="params">(<span class="type">void</span> *arr, <span class="type">int</span> elem_size, <span class="type">int</span> num, <span class="type">void</span> (*func)(<span class="type">void</span>*))</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; num; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">// 通过 char* 指针按字节步进（因为 char 大小为 1 字节）</span></span><br><span class="line">        func((<span class="type">char</span>*)arr + i * elem_size);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="2-内存操作函数"><a href="#2-内存操作函数" class="headerlink" title="(2) 内存操作函数"></a>(2) 内存操作函数</h2><h3 id="C-标准库中的-memcpy-和-memset-使用-void-实现通用内存操作："><a href="#C-标准库中的-memcpy-和-memset-使用-void-实现通用内存操作：" class="headerlink" title="C 标准库中的 memcpy 和 memset 使用 void* 实现通用内存操作："></a>C 标准库中的 <code>memcpy</code> 和 <code>memset</code> 使用 <code>void*</code> 实现通用内存操作：</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span>* <span class="title function_">memcpy</span><span class="params">(<span class="type">void</span> *dest, <span class="type">const</span> <span class="type">void</span> *src, <span class="type">size_t</span> n)</span>;</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="3-动态数据结构"><a href="#3-动态数据结构" class="headerlink" title="(3) 动态数据结构"></a>(3) 动态数据结构</h2><h3 id="在链表、树等数据结构中，void-可存储任意类型的数据："><a href="#在链表、树等数据结构中，void-可存储任意类型的数据：" class="headerlink" title="在链表、树等数据结构中，void* 可存储任意类型的数据："></a>在链表、树等数据结构中，<code>void*</code> 可存储任意类型的数据：</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Node</span>&#123;</span></span><br><span class="line">	<span class="type">void</span> *data;     <span class="comment">// 泛型数据</span></span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">next</span>;</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<hr>
+]]></content>
+      <categories>
+        <category>RM_PRIME</category>
+        <category>RM算法</category>
+        <category>学习记录</category>
+        <category>C</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+        <tag>指针</tag>
       </tags>
   </entry>
 </search>
