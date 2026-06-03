@@ -1,0 +1,11 @@
+---
+import ArchivePanel from "@components/ArchivePanel.svelte";
+import MainGridLayout from "@layouts/MainGridLayout.astro";
+import { getSortedPostsList } from "@utils/content-utils";
+
+const sortedPostsList = await getSortedPostsList();
+---
+
+<MainGridLayout title="归档">
+	<ArchivePanel sortedPosts={sortedPostsList} client:only="svelte" />
+</MainGridLayout>

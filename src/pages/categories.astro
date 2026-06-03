@@ -1,0 +1,30 @@
+---
+import MainGridLayout from "@layouts/MainGridLayout.astro";
+import { getCategoryList } from "@utils/content-utils";
+
+const categories = await getCategoryList();
+---
+
+<MainGridLayout title="分类" description="按分类浏览文章">
+	<section class="card-base px-8 py-7">
+		<div class="mb-6">
+			<h1 class="text-3xl font-bold text-90 mb-3">分类</h1>
+			<p class="text-75 leading-7">按主题查看文章集合。</p>
+		</div>
+
+		<div class="grid gap-3 sm:grid-cols-2">
+			{categories.map((category) => (
+				<a
+					href={category.url}
+					class="btn-plain !h-auto !block rounded-xl px-5 py-4"
+					aria-label={`查看分类：${category.name}`}
+				>
+					<div class="flex items-center justify-between gap-4">
+						<span class="font-bold text-90">{category.name}</span>
+						<span class="text-sm text-50">{category.count} 篇</span>
+					</div>
+				</a>
+			))}
+		</div>
+	</section>
+</MainGridLayout>

@@ -1,0 +1,40 @@
+---
+import MainGridLayout from "@layouts/MainGridLayout.astro";
+import { getSortedPostsList } from "@utils/content-utils";
+import { getPostUrlBySlug } from "@utils/url-utils";
+
+const posts = (await getSortedPostsList()).filter(
+	(post) => post.data.category === "笔记",
+);
+---
+
+<MainGridLayout title="学习笔记" description="Stellato 的课程笔记与学习地图">
+	<section class="card-base px-8 py-7">
+		<div class="mb-6">
+			<h1 class="text-3xl font-bold text-90 mb-3">学习笔记</h1>
+			<p class="text-75 leading-7">
+				这里整理数学、物理、电路和模电等课程笔记。长文仍在文章系统中维护，这一页作为更快进入笔记内容的索引。
+			</p>
+		</div>
+
+		<div class="grid gap-3">
+			{posts.map((post) => (
+				<a
+					href={getPostUrlBySlug(post.slug)}
+					class="btn-plain !h-auto !block rounded-xl px-5 py-4"
+					aria-label={`打开笔记：${post.data.title}`}
+				>
+					<div class="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
+						<div>
+							<h2 class="text-xl font-bold text-90">{post.data.title}</h2>
+							<p class="text-50 text-sm mt-1">{post.data.description}</p>
+						</div>
+						<div class="text-sm text-50">
+							{post.data.published.toLocaleDateString("zh-CN")}
+						</div>
+					</div>
+				</a>
+			))}
+		</div>
+	</section>
+</MainGridLayout>

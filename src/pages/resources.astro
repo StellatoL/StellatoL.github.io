@@ -1,0 +1,51 @@
+---
+import MainGridLayout from "@layouts/MainGridLayout.astro";
+
+const resources = [
+	{
+		title: "高等数学",
+		description: "高等数学课程 PDF 笔记",
+		href: "/pdfs/高等数学.pdf",
+	},
+	{
+		title: "大学物理",
+		description: "大学物理课程 PDF 笔记",
+		href: "/pdfs/大学物理.pdf",
+	},
+	{
+		title: "电路原理",
+		description: "电路原理课程 PDF 笔记",
+		href: "/pdfs/电路原理.pdf",
+	},
+	{
+		title: "模电",
+		description: "模拟电子技术 PDF 笔记",
+		href: "/pdfs/模电.pdf",
+	},
+];
+---
+
+<MainGridLayout title="资源" description="课程 PDF 与可下载资料">
+	<section class="card-base px-8 py-7">
+		<div class="mb-6">
+			<h1 class="text-3xl font-bold text-90 mb-3">资源</h1>
+			<p class="text-75 leading-7">
+				这里集中放置 PDF 资料入口。列表页只提供下载与打开入口，避免在索引页直接嵌入大文件。
+			</p>
+		</div>
+
+		<div class="grid gap-3 sm:grid-cols-2">
+			{resources.map((resource) => (
+				<a
+					href={resource.href}
+					class="btn-plain !h-auto !block rounded-xl px-5 py-4"
+					aria-label={`打开资源：${resource.title}`}
+					target="_blank"
+				>
+					<h2 class="text-xl font-bold text-90 mb-2">{resource.title}</h2>
+					<p class="text-50 text-sm">{resource.description}</p>
+				</a>
+			))}
+		</div>
+	</section>
+</MainGridLayout>
